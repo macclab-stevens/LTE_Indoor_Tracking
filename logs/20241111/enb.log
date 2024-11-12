@@ -1,0 +1,134 @@
+2024-11-11T12:38:12.477680 [ENB    ] [I] Using binary srsenb with arguments: 
+2024-11-11T12:38:12.520023 [ENB    ] [I] Built in Release mode using commit ec29b0c1f on branch master.
+2024-11-11T12:38:12.563106 [COMN   ] [D] [    0] Opened SCTP socket=7
+2024-11-11T12:38:12.563111 [COMN   ] [D] [    0] Setting RTO_INFO options on SCTP socket. Association 0, Initial RTO 3000, Minimum RTO 1000, Maximum RTO 6000
+2024-11-11T12:38:12.563113 [COMN   ] [D] [    0] Setting SCTP_INITMSG options on SCTP socket. Max attempts 3, Max init attempts timeout 5000
+2024-11-11T12:38:12.563114 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:2152
+2024-11-11T12:38:12.563120 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:0
+2024-11-11T12:38:12.563123 [COMN   ] [D] [    0] RxSockets: socket fd=6 has been registered.
+2024-11-11T12:38:12.568531 [COMN   ] [D] [    0] RxSockets: socket fd=7 has been registered.
+2024-11-11T12:38:42.571885 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=4
+2024-11-11T12:38:43.802852 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:38:43.802853 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:38:47.666996 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T12:38:53.873811 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=4
+2024-11-11T12:38:55.121835 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:38:55.121836 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:38:58.946873 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T12:39:01.051779 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T12:39:02.321841 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:39:02.321842 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:39:05.910922 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T12:39:11.291850 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T12:39:12.522817 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:39:12.522818 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:39:16.145942 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T12:39:19.470814 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T12:39:20.741816 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:39:20.741817 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T12:39:24.469941 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T13:53:04.160472 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T13:55:09.905383 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=127
+2024-11-11T14:30:37.550173 [S1AP   ] [W] UE context for RNTI:0x64 is in zombie state. Releasing...
+2024-11-11T14:31:02.560148 [S1AP   ] [W] UE context for RNTI:0x65 is in zombie state. Releasing...
+2024-11-11T14:31:50.004142 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=4
+2024-11-11T14:31:54.857098 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:33:25.482939 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T14:33:27.823196 [STCK   ] [W] Can't deliver SDU for EPS bearer 5. Dropping it.
+2024-11-11T14:33:27.853037 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:33:28.438928 [MAC    ] [W] [ 1801] UE buffers: Removing old buffer tti=1796, interval=13
+2024-11-11T14:33:28.492017 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:33:29.076911 [MAC    ] [W] [ 2439] UE buffers: Removing old buffer tti=2434, interval=13
+2024-11-11T14:33:29.078926 [MAC    ] [W] [ 2441] UE buffers: Removing old buffer tti=2436, interval=13
+2024-11-11T14:33:29.157013 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:33:29.338999 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-11T14:33:31.316914 [MAC    ] [W] [ 4679] UE buffers: Removing old buffer tti=4674, interval=13
+2024-11-11T14:33:31.404963 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:33:31.585896 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-11T14:33:32.677971 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:33:32.858939 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-11T14:33:37.139985 [MAC    ] [W] [  262] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.230006 [MAC    ] [W] [  352] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.319991 [MAC    ] [W] [  442] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.398917 [MAC    ] [W] [  521] UE buffers: Removing old buffer tti=516, interval=13
+2024-11-11T14:33:37.409952 [MAC    ] [W] [  532] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.500019 [MAC    ] [W] [  622] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.589952 [MAC    ] [W] [  712] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.679982 [MAC    ] [W] [  802] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.752896 [MAC    ] [W] [  875] UE buffers: Removing old buffer tti=870, interval=13
+2024-11-11T14:33:37.769946 [MAC    ] [W] [  892] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.859975 [MAC    ] [W] [  982] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:37.950002 [MAC    ] [W] [ 1072] Updating user C-RNTI: rnti=0x8c already released.
+2024-11-11T14:33:38.028929 [MAC    ] [W] [ 1151] UE buffers: Removing old buffer tti=1146, interval=13
+2024-11-11T14:33:41.660006 [MAC    ] [W] [ 4782] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:41.734943 [MAC    ] [W] [ 4857] UE buffers: Removing old buffer tti=4852, interval=13
+2024-11-11T14:33:41.735980 [MAC    ] [W] [ 4858] UE buffers: Removing old buffer tti=4853, interval=13
+2024-11-11T14:33:41.736907 [MAC    ] [W] [ 4859] UE buffers: Removing old buffer tti=4854, interval=13
+2024-11-11T14:33:41.749915 [MAC    ] [W] [ 4872] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:41.822968 [MAC    ] [W] [ 4945] UE buffers: Removing old buffer tti=4940, interval=13
+2024-11-11T14:33:41.824936 [MAC    ] [W] [ 4947] UE buffers: Removing old buffer tti=4942, interval=13
+2024-11-11T14:33:41.825907 [MAC    ] [W] [ 4948] UE buffers: Removing old buffer tti=4943, interval=13
+2024-11-11T14:33:41.826934 [MAC    ] [W] [ 4949] UE buffers: Removing old buffer tti=4944, interval=13
+2024-11-11T14:33:41.839948 [MAC    ] [W] [ 4962] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:41.912933 [MAC    ] [W] [ 5035] UE buffers: Removing old buffer tti=5030, interval=13
+2024-11-11T14:33:41.914912 [MAC    ] [W] [ 5037] UE buffers: Removing old buffer tti=5032, interval=13
+2024-11-11T14:33:41.915935 [MAC    ] [W] [ 5038] UE buffers: Removing old buffer tti=5033, interval=13
+2024-11-11T14:33:41.916901 [MAC    ] [W] [ 5039] UE buffers: Removing old buffer tti=5034, interval=13
+2024-11-11T14:33:41.929978 [MAC    ] [W] [ 5052] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:42.002959 [MAC    ] [W] [ 5125] UE buffers: Removing old buffer tti=5120, interval=13
+2024-11-11T14:33:42.005000 [MAC    ] [W] [ 5127] UE buffers: Removing old buffer tti=5122, interval=13
+2024-11-11T14:33:42.005895 [MAC    ] [W] [ 5128] UE buffers: Removing old buffer tti=5123, interval=13
+2024-11-11T14:33:42.006962 [MAC    ] [W] [ 5129] UE buffers: Removing old buffer tti=5124, interval=13
+2024-11-11T14:33:42.019988 [MAC    ] [W] [ 5142] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:42.094930 [MAC    ] [W] [ 5217] UE buffers: Removing old buffer tti=5212, interval=13
+2024-11-11T14:33:42.095973 [MAC    ] [W] [ 5218] UE buffers: Removing old buffer tti=5213, interval=13
+2024-11-11T14:33:42.096932 [MAC    ] [W] [ 5219] UE buffers: Removing old buffer tti=5214, interval=13
+2024-11-11T14:33:42.098906 [MAC    ] [W] [ 5221] UE buffers: Removing old buffer tti=5216, interval=13
+2024-11-11T14:33:42.109971 [MAC    ] [W] [ 5232] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:42.181923 [MAC    ] [W] [ 5304] UE buffers: Removing old buffer tti=5299, interval=13
+2024-11-11T14:33:42.182918 [MAC    ] [W] [ 5305] UE buffers: Removing old buffer tti=5300, interval=13
+2024-11-11T14:33:42.184921 [MAC    ] [W] [ 5307] UE buffers: Removing old buffer tti=5302, interval=13
+2024-11-11T14:33:42.185889 [MAC    ] [W] [ 5308] UE buffers: Removing old buffer tti=5303, interval=13
+2024-11-11T14:33:42.186921 [MAC    ] [W] [ 5309] UE buffers: Removing old buffer tti=5304, interval=13
+2024-11-11T14:33:42.199928 [MAC    ] [W] [ 5322] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:42.274925 [MAC    ] [W] [ 5397] UE buffers: Removing old buffer tti=5392, interval=13
+2024-11-11T14:33:42.275958 [MAC    ] [W] [ 5398] UE buffers: Removing old buffer tti=5393, interval=13
+2024-11-11T14:33:42.276887 [MAC    ] [W] [ 5399] UE buffers: Removing old buffer tti=5394, interval=13
+2024-11-11T14:33:42.289977 [MAC    ] [W] [ 5412] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:42.364914 [MAC    ] [W] [ 5487] UE buffers: Removing old buffer tti=5482, interval=13
+2024-11-11T14:33:42.365921 [MAC    ] [W] [ 5488] UE buffers: Removing old buffer tti=5483, interval=13
+2024-11-11T14:33:42.366916 [MAC    ] [W] [ 5489] UE buffers: Removing old buffer tti=5484, interval=13
+2024-11-11T14:33:42.379925 [MAC    ] [W] [ 5502] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:42.454918 [MAC    ] [W] [ 5577] UE buffers: Removing old buffer tti=5572, interval=13
+2024-11-11T14:33:42.455952 [MAC    ] [W] [ 5578] UE buffers: Removing old buffer tti=5573, interval=13
+2024-11-11T14:33:42.456882 [MAC    ] [W] [ 5579] UE buffers: Removing old buffer tti=5574, interval=13
+2024-11-11T14:33:42.470000 [MAC    ] [W] [ 5592] Updating user C-RNTI: rnti=0x98 already released.
+2024-11-11T14:33:42.544950 [MAC    ] [W] [ 5667] UE buffers: Removing old buffer tti=5662, interval=13
+2024-11-11T14:33:42.545924 [MAC    ] [W] [ 5668] UE buffers: Removing old buffer tti=5663, interval=13
+2024-11-11T14:33:42.546914 [MAC    ] [W] [ 5669] UE buffers: Removing old buffer tti=5664, interval=13
+2024-11-11T14:33:52.557909 [MAC    ] [W] [ 5440] SCHED: Could not transmit RAR within the window (RA=5431, Window=[5434, 5444), RAR=5444
+2024-11-11T14:34:02.915363 [RRC    ] [W] Unrecognised rnti: 0x8c
+2024-11-11T14:34:02.915942 [RRC    ] [W] Ignoring rnti=0x8c command -65534 arg 0. Cause: unknown rnti
+2024-11-11T14:34:12.709893 [S1AP   ] [W] UE context for RNTI:0xa5 is in zombie state. Releasing...
+2024-11-11T14:34:36.920900 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=4
+2024-11-11T14:34:37.719891 [S1AP   ] [W] UE context for RNTI:0xa6 is in zombie state. Releasing...
+2024-11-11T14:34:41.895939 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:36:51.103768 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T14:36:52.368712 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T14:36:52.368713 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T14:36:55.976804 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:36:58.220734 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T14:37:03.303783 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:43:09.442264 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T14:43:13.937269 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:43:24.321271 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T14:43:29.486272 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-11T14:43:36.600177 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-11T14:43:37.887208 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T14:43:37.887210 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-11T14:43:43.047273 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-12T00:18:36.414008 [COMN   ] [D] [    0] RxSockets: Closing rx socket handler thread
+2024-11-12T00:18:36.414992 [COMN   ] [D] [    0] RxSockets: closed.
+2024-11-12T00:18:36.415036 [COMN   ] [D] [    0] Socket=7 was closed.
+2024-11-12T00:18:36.417969 [COMN   ] [D] [    0] Socket=-1 could not be closed.
+2024-11-12T00:18:36.418347 [COMN   ] [D] [    0] Socket=-1 could not be closed.
