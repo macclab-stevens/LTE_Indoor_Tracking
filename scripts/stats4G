@@ -1,0 +1,54 @@
+#!/bin/bash
+<< 'Notes'
+To kill a session: $tmux kill-server 
+Notes
+
+#sudo Check!
+if [ $(id -u) -ne 0 ]
+    then echo "Please run as sudo..." 
+    exit
+fi
+
+session=stats
+tmuxstart() {
+    tmux ls | grep $session && {
+        echo "Tmux:$session exists. Attaching Now.."
+        tmux a -t $session;
+        return 0;
+        }
+
+    #setup if no exisiting session
+    tmux new-session -d -s $session -x- -y-
+
+    #make initial panes
+    tmux select-pane -t $session:0.0
+    tmux split-window -v
+
+    tmux select-pane -t $session:0.0
+    tmux split-window -h
+
+    tmux select-pane -t $session:0.1
+    tmux split-window -v
+
+    #move the panes around
+    tmux select-pane -t $session:0.3
+    tmux resize-pane -D 15
+
+    tmux select-pane -t $session:0.2
+    tmux resize-pane -D 10
+
+
+    #run codes in each pane
+    tmux send-keys -t $session:$window.0 'cd ~/.config/srsran' C-m
+    tmux send-keys -t $session:$window.0 'srsenb' C-m
+    tmux send-keys -t $session:$window.1 'srsepc' C-m
+    tmux send-keys -t $session:$window.2 'ping 172.16.0.11' C-m
+    tmux send-keys -t $session:$window.3 'htop -F "blah"' C-m  
+
+
+
+
+    #attach when done
+    tmux attach-session -t $session
+}
+tmuxstart
