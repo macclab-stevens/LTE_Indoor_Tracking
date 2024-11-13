@@ -1,0 +1,52 @@
+2024-11-12T13:03:00.871458 [ENB    ] [I] Using binary srsenb with arguments: 
+2024-11-12T13:03:00.913790 [ENB    ] [I] Built in Release mode using commit ec29b0c1f on branch master.
+2024-11-12T13:03:00.957416 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:2152
+2024-11-12T13:03:00.957416 [COMN   ] [D] [    0] Opened SCTP socket=7
+2024-11-12T13:03:00.957423 [COMN   ] [D] [    0] Setting RTO_INFO options on SCTP socket. Association 0, Initial RTO 3000, Minimum RTO 1000, Maximum RTO 6000
+2024-11-12T13:03:00.957424 [COMN   ] [D] [    0] RxSockets: socket fd=6 has been registered.
+2024-11-12T13:03:00.957426 [COMN   ] [D] [    0] Setting SCTP_INITMSG options on SCTP socket. Max attempts 3, Max init attempts timeout 5000
+2024-11-12T13:03:00.957433 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:0
+2024-11-12T13:03:00.988122 [COMN   ] [D] [    0] RxSockets: socket fd=7 has been registered.
+2024-11-12T13:04:08.607285 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-12T13:04:09.836242 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-12T13:04:09.836243 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-12T13:04:10.065192 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=4
+2024-11-12T13:04:14.503264 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-12T13:04:36.668184 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-12T13:04:38.053176 [RLC    ] [W] DRB1: Resetting ACK_SN and N_nack to initial state
+2024-11-12T13:04:40.724139 [MAC    ] [W] [ 5522] UE buffers: Removing old buffer tti=5517, interval=13
+2024-11-12T13:04:40.725164 [MAC    ] [W] [ 5523] UE buffers: Removing old buffer tti=5518, interval=13
+2024-11-12T13:04:41.305226 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-12T13:12:10.704591 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-12T13:12:11.936560 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-12T13:12:11.936561 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-12T13:12:15.706561 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-12T16:36:03.105380 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-12T16:37:12.913242 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=101
+2024-11-12T16:40:59.606921 [MAC    ] [W] [  102] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:40:59.697016 [MAC    ] [W] [  192] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:40:59.786934 [MAC    ] [W] [  282] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:40:59.877011 [MAC    ] [W] [  372] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:40:59.966980 [MAC    ] [W] [  462] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:41:00.056942 [MAC    ] [W] [  552] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:41:00.146976 [MAC    ] [W] [  642] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:41:00.236954 [MAC    ] [W] [  732] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:41:00.326954 [MAC    ] [W] [  822] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:41:00.416996 [MAC    ] [W] [  912] Updating user C-RNTI: rnti=0x59 already released.
+2024-11-12T16:41:20.916929 [S1AP   ] [W] UE context for RNTI:0x65 is in zombie state. Releasing...
+2024-11-12T16:41:45.916849 [S1AP   ] [W] UE context for RNTI:0x66 is in zombie state. Releasing...
+2024-11-12T17:08:09.168344 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=547
+2024-11-12T17:10:32.574056 [S1AP   ] [W] UE context for RNTI:0x69 is in zombie state. Releasing...
+2024-11-12T17:10:57.615132 [S1AP   ] [W] UE context for RNTI:0x6a is in zombie state. Releasing...
+2024-11-12T17:12:37.994950 [S1AP   ] [W] UE context for RNTI:0x6f is in zombie state. Releasing...
+2024-11-12T17:13:03.003872 [S1AP   ] [W] UE context for RNTI:0x70 is in zombie state. Releasing...
+2024-11-12T17:40:49.109114 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=644
+2024-11-12T18:36:03.368627 [S1AP   ] [W] UE context for RNTI:0x82 is in zombie state. Releasing...
+2024-11-12T18:36:28.379553 [S1AP   ] [W] UE context for RNTI:0x83 is in zombie state. Releasing...
+2024-11-12T19:18:37.011800 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-12T19:20:34.129568 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-13T02:01:41.831242 [COMN   ] [D] [    0] RxSockets: Closing rx socket handler thread
+2024-11-13T02:01:41.832212 [COMN   ] [D] [    0] RxSockets: closed.
+2024-11-13T02:01:41.832254 [COMN   ] [D] [    0] Socket=7 was closed.
+2024-11-13T02:01:41.835136 [COMN   ] [D] [    0] Socket=-1 could not be closed.
+2024-11-13T02:01:41.835530 [COMN   ] [D] [    0] Socket=-1 could not be closed.
