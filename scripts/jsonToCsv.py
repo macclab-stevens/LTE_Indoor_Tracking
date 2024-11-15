@@ -16,6 +16,7 @@ data = json.loads(formatted_data)
 def flatten_json(data):
     records = []
     for entry in data:
+        unix_ms_timestamp = int(entry["timestamp"] * 1000)
         base_info = {
             "type": entry["type"],
             "timestamp": entry["timestamp"]
