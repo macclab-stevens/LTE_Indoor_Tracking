@@ -1,12 +1,15 @@
+#! /usr/bin/python3
 import json
 import pandas as pd
 import os
+import sys
 
-
+targetFolder = sys.argv[1]
+print(targetFolder)
 
 # Load the improperly formatted JSON data
-folder = os.path.join("..","logs","20241112")
-read_file = os.path.join(folder,'enb_report.json')
+targetFolder = os.path.join("..","logs","20241115")
+read_file = os.path.join(targetFolder,'enb_report.json')
 with open(read_file, 'r') as file:
     raw_data = file.read()
 
@@ -49,6 +52,6 @@ print(df)
 
 # Save the DataFrame to a CSV file
 outputName = "flattened_json_data.csv"
-outputFile = os.path.join(folder,outputName)
+outputFile = os.path.join(targetFolder,outputName)
 df.to_csv(outputFile, index=False)
 # df.to_json("flattened_json_data.json")

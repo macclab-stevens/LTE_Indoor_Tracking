@@ -106,6 +106,12 @@
                 </div>
             </div>
         </div>
+        <!-- Column labels under the image -->
+        <div class="col-labels">
+            {% for col in columns %}
+                <div>{{ col }}</div>
+            {% endfor %}
+        </div>
         <div class="click-history" id="click-history">
             <strong>Click History:</strong>
         </div>

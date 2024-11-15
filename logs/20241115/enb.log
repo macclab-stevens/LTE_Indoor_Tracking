@@ -1,0 +1,1254 @@
+2024-11-15T14:45:15.210549 [ENB    ] [I] Using binary srsenb with arguments: 
+2024-11-15T14:45:15.251324 [ENB    ] [I] Built in Release mode using commit ec29b0c1f on branch master.
+2024-11-15T14:45:15.295114 [COMN   ] [D] [    0] Opened SCTP socket=7
+2024-11-15T14:45:15.295116 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:2152
+2024-11-15T14:45:15.295119 [COMN   ] [D] [    0] Setting RTO_INFO options on SCTP socket. Association 0, Initial RTO 3000, Minimum RTO 1000, Maximum RTO 6000
+2024-11-15T14:45:15.295121 [COMN   ] [D] [    0] Setting SCTP_INITMSG options on SCTP socket. Max attempts 3, Max init attempts timeout 5000
+2024-11-15T14:45:15.295125 [COMN   ] [D] [    0] RxSockets: socket fd=6 has been registered.
+2024-11-15T14:45:15.295129 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:0
+2024-11-15T14:45:15.298053 [COMN   ] [D] [    0] RxSockets: socket fd=7 has been registered.
+2024-11-15T14:47:19.606349 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=7
+2024-11-15T14:47:23.992450 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T14:50:29.137924 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-15T14:50:30.387954 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T14:50:30.387964 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T14:50:30.551990 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T14:50:33.632092 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T14:50:37.738010 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=4
+2024-11-15T14:50:42.120030 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T14:51:23.146877 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=7
+2024-11-15T14:51:24.424856 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T14:51:24.424857 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T14:51:24.678838 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=8
+2024-11-15T14:51:28.535951 [MAC    ] [W] [ 2522] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:28.614889 [MAC    ] [W] [ 2601] UE buffers: Removing old buffer tti=2596, interval=13
+2024-11-15T14:51:28.625914 [MAC    ] [W] [ 2612] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:28.715926 [MAC    ] [W] [ 2702] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:28.794880 [MAC    ] [W] [ 2781] UE buffers: Removing old buffer tti=2776, interval=13
+2024-11-15T14:51:28.805909 [MAC    ] [W] [ 2792] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:28.877847 [MAC    ] [W] [ 2864] UE buffers: Removing old buffer tti=2859, interval=13
+2024-11-15T14:51:28.895909 [MAC    ] [W] [ 2882] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:28.974857 [MAC    ] [W] [ 2961] UE buffers: Removing old buffer tti=2956, interval=13
+2024-11-15T14:51:28.985890 [MAC    ] [W] [ 2972] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:29.057838 [MAC    ] [W] [ 3044] UE buffers: Removing old buffer tti=3039, interval=13
+2024-11-15T14:51:29.075893 [MAC    ] [W] [ 3062] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:29.154849 [MAC    ] [W] [ 3141] UE buffers: Removing old buffer tti=3136, interval=13
+2024-11-15T14:51:29.165927 [MAC    ] [W] [ 3152] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:29.255945 [MAC    ] [W] [ 3242] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:29.334842 [MAC    ] [W] [ 3321] UE buffers: Removing old buffer tti=3316, interval=13
+2024-11-15T14:51:29.345895 [MAC    ] [W] [ 3332] Updating user C-RNTI: rnti=0x67 already released.
+2024-11-15T14:51:29.418864 [MAC    ] [W] [ 3405] UE buffers: Removing old buffer tti=3400, interval=13
+2024-11-15T14:51:40.563129 [RRC    ] [W] Unrecognised rnti: 0x67
+2024-11-15T14:51:40.563807 [RRC    ] [W] Ignoring rnti=0x67 command -65534 arg 0. Cause: unknown rnti
+2024-11-15T14:51:49.965885 [S1AP   ] [W] UE context for RNTI:0x73 is in zombie state. Releasing...
+2024-11-15T14:52:14.966797 [S1AP   ] [W] UE context for RNTI:0x74 is in zombie state. Releasing...
+2024-11-15T14:52:15.035820 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T14:52:15.220776 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T14:52:16.367773 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T14:52:16.367774 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T14:52:19.453739 [MAC    ] [W] [ 2240] SCHED: Could not transmit RAR within the window (RA=2231, Window=[2234, 2244), RAR=2244
+2024-11-15T14:52:19.574848 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T15:34:08.169795 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T15:36:04.847859 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T15:39:31.809701 [MAC    ] [W] [ 8360] SCHED: Could not transmit RAR within the window (RA=8351, Window=[8354, 8364), RAR=8364
+2024-11-15T15:39:31.839659 [MAC    ] [W] [ 8390] SCHED: Could not transmit RAR within the window (RA=8381, Window=[8384, 8394), RAR=8394
+2024-11-15T15:39:31.859681 [MAC    ] [W] [ 8410] SCHED: Could not transmit RAR within the window (RA=8401, Window=[8404, 8414), RAR=8414
+2024-11-15T15:39:31.879700 [MAC    ] [W] [ 8430] SCHED: Could not transmit RAR within the window (RA=8421, Window=[8424, 8434), RAR=8434
+2024-11-15T15:39:31.899652 [MAC    ] [W] [ 8450] SCHED: Could not transmit RAR within the window (RA=8441, Window=[8444, 8454), RAR=8454
+2024-11-15T15:39:48.279653 [MAC    ] [W] [ 4350] SCHED: Could not transmit RAR within the window (RA=4341, Window=[4344, 4354), RAR=4354
+2024-11-15T15:39:48.319692 [MAC    ] [W] [ 4390] SCHED: Could not transmit RAR within the window (RA=4381, Window=[4384, 4394), RAR=4394
+2024-11-15T15:39:58.341673 [S1AP   ] [W] UE context for RNTI:0x91 is in zombie state. Releasing...
+2024-11-15T15:40:28.386671 [S1AP   ] [W] UE context for RNTI:0x97 is in zombie state. Releasing...
+2024-11-15T15:47:56.781187 [MAC    ] [W] [ 1332] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:56.871153 [MAC    ] [W] [ 1422] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:56.961170 [MAC    ] [W] [ 1512] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:57.051205 [MAC    ] [W] [ 1602] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:57.124073 [MAC    ] [W] [ 1675] UE buffers: Removing old buffer tti=1670, interval=13
+2024-11-15T15:47:57.141083 [MAC    ] [W] [ 1692] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:57.231175 [MAC    ] [W] [ 1782] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:57.321176 [MAC    ] [W] [ 1872] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:57.411137 [MAC    ] [W] [ 1962] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:57.501132 [MAC    ] [W] [ 2052] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T15:47:57.580105 [MAC    ] [W] [ 2131] UE buffers: Removing old buffer tti=2126, interval=13
+2024-11-15T15:47:57.591160 [MAC    ] [W] [ 2142] Updating user C-RNTI: rnti=0x1c2 already released.
+2024-11-15T16:24:06.246032 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T16:24:53.649005 [MAC    ] [W] [ 6362] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:53.727884 [MAC    ] [W] [ 6441] UE buffers: Removing old buffer tti=6436, interval=13
+2024-11-15T16:24:53.738960 [MAC    ] [W] [ 6452] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:53.810921 [MAC    ] [W] [ 6524] UE buffers: Removing old buffer tti=6519, interval=13
+2024-11-15T16:24:53.828937 [MAC    ] [W] [ 6542] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:53.907956 [MAC    ] [W] [ 6621] UE buffers: Removing old buffer tti=6616, interval=13
+2024-11-15T16:24:53.919022 [MAC    ] [W] [ 6632] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:53.990915 [MAC    ] [W] [ 6704] UE buffers: Removing old buffer tti=6699, interval=13
+2024-11-15T16:24:54.008921 [MAC    ] [W] [ 6722] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:54.081909 [MAC    ] [W] [ 6795] UE buffers: Removing old buffer tti=6790, interval=13
+2024-11-15T16:24:54.099000 [MAC    ] [W] [ 6812] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:54.189024 [MAC    ] [W] [ 6902] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:54.278984 [MAC    ] [W] [ 6992] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:54.368941 [MAC    ] [W] [ 7082] Updating user C-RNTI: rnti=0x1db already released.
+2024-11-15T16:24:58.208960 [MAC    ] [W] [  682] Updating user C-RNTI: rnti=0x1e6 already released.
+2024-11-15T16:24:58.283962 [MAC    ] [W] [  757] UE buffers: Removing old buffer tti=752, interval=13
+2024-11-15T16:24:58.284909 [MAC    ] [W] [  758] UE buffers: Removing old buffer tti=753, interval=13
+2024-11-15T16:24:58.285965 [MAC    ] [W] [  759] UE buffers: Removing old buffer tti=754, interval=13
+2024-11-15T16:24:58.287928 [MAC    ] [W] [  761] UE buffers: Removing old buffer tti=756, interval=13
+2024-11-15T16:24:58.298916 [MAC    ] [W] [  772] Updating user C-RNTI: rnti=0x1e6 already released.
+2024-11-15T16:24:58.371989 [MAC    ] [W] [  845] UE buffers: Removing old buffer tti=840, interval=13
+2024-11-15T16:24:58.373948 [MAC    ] [W] [  847] UE buffers: Removing old buffer tti=842, interval=13
+2024-11-15T16:24:58.374890 [MAC    ] [W] [  848] UE buffers: Removing old buffer tti=843, interval=13
+2024-11-15T16:24:58.375951 [MAC    ] [W] [  849] UE buffers: Removing old buffer tti=844, interval=13
+2024-11-15T16:24:58.388952 [MAC    ] [W] [  862] Updating user C-RNTI: rnti=0x1e6 already released.
+2024-11-15T16:24:58.463957 [MAC    ] [W] [  937] UE buffers: Removing old buffer tti=932, interval=13
+2024-11-15T16:24:58.464955 [MAC    ] [W] [  938] UE buffers: Removing old buffer tti=933, interval=13
+2024-11-15T16:24:58.465913 [MAC    ] [W] [  939] UE buffers: Removing old buffer tti=934, interval=13
+2024-11-15T16:24:58.478894 [MAC    ] [W] [  952] Updating user C-RNTI: rnti=0x1e6 already released.
+2024-11-15T16:24:58.553983 [MAC    ] [W] [ 1027] UE buffers: Removing old buffer tti=1022, interval=13
+2024-11-15T16:24:58.554917 [MAC    ] [W] [ 1028] UE buffers: Removing old buffer tti=1023, interval=13
+2024-11-15T16:24:58.555944 [MAC    ] [W] [ 1029] UE buffers: Removing old buffer tti=1024, interval=13
+2024-11-15T16:24:58.557949 [MAC    ] [W] [ 1031] UE buffers: Removing old buffer tti=1026, interval=13
+2024-11-15T16:24:58.568922 [MAC    ] [W] [ 1042] Updating user C-RNTI: rnti=0x1e6 already released.
+2024-11-15T16:24:58.641903 [MAC    ] [W] [ 1115] UE buffers: Removing old buffer tti=1110, interval=13
+2024-11-15T16:24:58.643948 [MAC    ] [W] [ 1117] UE buffers: Removing old buffer tti=1112, interval=13
+2024-11-15T16:24:58.644911 [MAC    ] [W] [ 1118] UE buffers: Removing old buffer tti=1113, interval=13
+2024-11-15T16:24:58.645910 [MAC    ] [W] [ 1119] UE buffers: Removing old buffer tti=1114, interval=13
+2024-11-15T16:24:58.658935 [MAC    ] [W] [ 1132] Updating user C-RNTI: rnti=0x1e6 already released.
+2024-11-15T16:24:58.733906 [MAC    ] [W] [ 1207] UE buffers: Removing old buffer tti=1202, interval=13
+2024-11-15T16:24:58.734912 [MAC    ] [W] [ 1208] UE buffers: Removing old buffer tti=1203, interval=13
+2024-11-15T16:24:58.735905 [MAC    ] [W] [ 1209] UE buffers: Removing old buffer tti=1204, interval=13
+2024-11-15T16:24:58.736876 [MAC    ] [W] [ 1210] UE buffers: Removing old buffer tti=1205, interval=13
+2024-11-15T16:24:58.737918 [MAC    ] [W] [ 1211] UE buffers: Removing old buffer tti=1206, interval=13
+2024-11-15T16:24:58.748920 [MAC    ] [W] [ 1222] Updating user C-RNTI: rnti=0x1e6 already released.
+2024-11-15T16:24:58.821872 [MAC    ] [W] [ 1295] UE buffers: Removing old buffer tti=1290, interval=13
+2024-11-15T16:24:58.823917 [MAC    ] [W] [ 1297] UE buffers: Removing old buffer tti=1292, interval=13
+2024-11-15T16:24:58.824906 [MAC    ] [W] [ 1298] UE buffers: Removing old buffer tti=1293, interval=13
+2024-11-15T16:24:58.825873 [MAC    ] [W] [ 1299] UE buffers: Removing old buffer tti=1294, interval=13
+2024-11-15T16:24:58.838945 [MAC    ] [W] [ 1312] Updating user C-RNTI: rnti=0x1e6 already released.
+2024-11-15T16:24:58.913940 [MAC    ] [W] [ 1387] UE buffers: Removing old buffer tti=1382, interval=13
+2024-11-15T16:24:58.914916 [MAC    ] [W] [ 1388] UE buffers: Removing old buffer tti=1383, interval=13
+2024-11-15T16:24:58.915901 [MAC    ] [W] [ 1389] UE buffers: Removing old buffer tti=1384, interval=13
+2024-11-15T16:25:22.548968 [MAC    ] [W] [ 4542] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:22.623910 [MAC    ] [W] [ 4617] UE buffers: Removing old buffer tti=4612, interval=13
+2024-11-15T16:25:22.624912 [MAC    ] [W] [ 4618] UE buffers: Removing old buffer tti=4613, interval=13
+2024-11-15T16:25:22.625843 [MAC    ] [W] [ 4619] UE buffers: Removing old buffer tti=4614, interval=13
+2024-11-15T16:25:22.638957 [MAC    ] [W] [ 4632] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:22.711908 [MAC    ] [W] [ 4705] UE buffers: Removing old buffer tti=4700, interval=13
+2024-11-15T16:25:22.713911 [MAC    ] [W] [ 4707] UE buffers: Removing old buffer tti=4702, interval=13
+2024-11-15T16:25:22.714841 [MAC    ] [W] [ 4708] UE buffers: Removing old buffer tti=4703, interval=13
+2024-11-15T16:25:22.715871 [MAC    ] [W] [ 4709] UE buffers: Removing old buffer tti=4704, interval=13
+2024-11-15T16:25:22.728960 [MAC    ] [W] [ 4722] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:22.803971 [MAC    ] [W] [ 4797] UE buffers: Removing old buffer tti=4792, interval=13
+2024-11-15T16:25:22.804906 [MAC    ] [W] [ 4798] UE buffers: Removing old buffer tti=4793, interval=13
+2024-11-15T16:25:22.805900 [MAC    ] [W] [ 4799] UE buffers: Removing old buffer tti=4794, interval=13
+2024-11-15T16:25:22.818938 [MAC    ] [W] [ 4812] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:22.893935 [MAC    ] [W] [ 4887] UE buffers: Removing old buffer tti=4882, interval=13
+2024-11-15T16:25:22.894931 [MAC    ] [W] [ 4888] UE buffers: Removing old buffer tti=4883, interval=13
+2024-11-15T16:25:22.895891 [MAC    ] [W] [ 4889] UE buffers: Removing old buffer tti=4884, interval=13
+2024-11-15T16:25:22.896900 [MAC    ] [W] [ 4890] UE buffers: Removing old buffer tti=4885, interval=13
+2024-11-15T16:25:22.897899 [MAC    ] [W] [ 4891] UE buffers: Removing old buffer tti=4886, interval=13
+2024-11-15T16:25:22.908868 [MAC    ] [W] [ 4902] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:22.981963 [MAC    ] [W] [ 4975] UE buffers: Removing old buffer tti=4970, interval=13
+2024-11-15T16:25:22.983962 [MAC    ] [W] [ 4977] UE buffers: Removing old buffer tti=4972, interval=13
+2024-11-15T16:25:22.984859 [MAC    ] [W] [ 4978] UE buffers: Removing old buffer tti=4973, interval=13
+2024-11-15T16:25:22.985923 [MAC    ] [W] [ 4979] UE buffers: Removing old buffer tti=4974, interval=13
+2024-11-15T16:25:22.998981 [MAC    ] [W] [ 4992] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:23.073892 [MAC    ] [W] [ 5067] UE buffers: Removing old buffer tti=5062, interval=13
+2024-11-15T16:25:23.074930 [MAC    ] [W] [ 5068] UE buffers: Removing old buffer tti=5063, interval=13
+2024-11-15T16:25:23.075858 [MAC    ] [W] [ 5069] UE buffers: Removing old buffer tti=5064, interval=13
+2024-11-15T16:25:23.076892 [MAC    ] [W] [ 5070] UE buffers: Removing old buffer tti=5065, interval=13
+2024-11-15T16:25:23.077866 [MAC    ] [W] [ 5071] UE buffers: Removing old buffer tti=5066, interval=13
+2024-11-15T16:25:23.088955 [MAC    ] [W] [ 5082] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:23.161923 [MAC    ] [W] [ 5155] UE buffers: Removing old buffer tti=5150, interval=13
+2024-11-15T16:25:23.163925 [MAC    ] [W] [ 5157] UE buffers: Removing old buffer tti=5152, interval=13
+2024-11-15T16:25:23.164857 [MAC    ] [W] [ 5158] UE buffers: Removing old buffer tti=5153, interval=13
+2024-11-15T16:25:23.165883 [MAC    ] [W] [ 5159] UE buffers: Removing old buffer tti=5154, interval=13
+2024-11-15T16:25:23.178918 [MAC    ] [W] [ 5172] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:23.253885 [MAC    ] [W] [ 5247] UE buffers: Removing old buffer tti=5242, interval=13
+2024-11-15T16:25:23.254920 [MAC    ] [W] [ 5248] UE buffers: Removing old buffer tti=5243, interval=13
+2024-11-15T16:25:23.255847 [MAC    ] [W] [ 5249] UE buffers: Removing old buffer tti=5244, interval=13
+2024-11-15T16:25:23.256885 [MAC    ] [W] [ 5250] UE buffers: Removing old buffer tti=5245, interval=13
+2024-11-15T16:25:23.257859 [MAC    ] [W] [ 5251] UE buffers: Removing old buffer tti=5246, interval=13
+2024-11-15T16:25:23.269013 [MAC    ] [W] [ 5262] Updating user C-RNTI: rnti=0x1f0 already released.
+2024-11-15T16:25:23.341950 [MAC    ] [W] [ 5335] UE buffers: Removing old buffer tti=5330, interval=13
+2024-11-15T16:25:23.343951 [MAC    ] [W] [ 5337] UE buffers: Removing old buffer tti=5332, interval=13
+2024-11-15T16:25:23.344846 [MAC    ] [W] [ 5338] UE buffers: Removing old buffer tti=5333, interval=13
+2024-11-15T16:25:23.345911 [MAC    ] [W] [ 5339] UE buffers: Removing old buffer tti=5334, interval=13
+2024-11-15T16:25:29.158891 [S1AP   ] [W] UE context for RNTI:0x1ef is in zombie state. Releasing...
+2024-11-15T16:25:35.628961 [MAC    ] [W] [ 7382] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:35.718956 [MAC    ] [W] [ 7472] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:35.808945 [MAC    ] [W] [ 7562] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:35.898943 [MAC    ] [W] [ 7652] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:35.977851 [MAC    ] [W] [ 7731] UE buffers: Removing old buffer tti=7726, interval=13
+2024-11-15T16:25:35.988943 [MAC    ] [W] [ 7742] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:36.078939 [MAC    ] [W] [ 7832] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:36.168849 [MAC    ] [W] [ 7922] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:36.258960 [MAC    ] [W] [ 8012] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:36.348921 [MAC    ] [W] [ 8102] Updating user C-RNTI: rnti=0x1fa already released.
+2024-11-15T16:25:49.128875 [MAC    ] [W] [  402] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.218865 [MAC    ] [W] [  492] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.291817 [MAC    ] [W] [  565] UE buffers: Removing old buffer tti=560, interval=13
+2024-11-15T16:25:49.308925 [MAC    ] [W] [  582] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.398852 [MAC    ] [W] [  672] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.488929 [MAC    ] [W] [  762] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.561836 [MAC    ] [W] [  835] UE buffers: Removing old buffer tti=830, interval=13
+2024-11-15T16:25:49.578849 [MAC    ] [W] [  852] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.668921 [MAC    ] [W] [  942] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.758896 [MAC    ] [W] [ 1032] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.848922 [MAC    ] [W] [ 1122] Updating user C-RNTI: rnti=0x204 already released.
+2024-11-15T16:25:49.927872 [MAC    ] [W] [ 1201] UE buffers: Removing old buffer tti=1196, interval=13
+2024-11-15T16:26:02.388886 [MAC    ] [W] [ 3422] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:02.463863 [MAC    ] [W] [ 3497] UE buffers: Removing old buffer tti=3492, interval=13
+2024-11-15T16:26:02.464834 [MAC    ] [W] [ 3498] UE buffers: Removing old buffer tti=3493, interval=13
+2024-11-15T16:26:02.465867 [MAC    ] [W] [ 3499] UE buffers: Removing old buffer tti=3494, interval=13
+2024-11-15T16:26:02.466797 [MAC    ] [W] [ 3500] UE buffers: Removing old buffer tti=3495, interval=13
+2024-11-15T16:26:02.467841 [MAC    ] [W] [ 3501] UE buffers: Removing old buffer tti=3496, interval=13
+2024-11-15T16:26:02.478920 [MAC    ] [W] [ 3512] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:02.550859 [MAC    ] [W] [ 3584] UE buffers: Removing old buffer tti=3579, interval=13
+2024-11-15T16:26:02.551861 [MAC    ] [W] [ 3585] UE buffers: Removing old buffer tti=3580, interval=13
+2024-11-15T16:26:02.553821 [MAC    ] [W] [ 3587] UE buffers: Removing old buffer tti=3582, interval=13
+2024-11-15T16:26:02.554822 [MAC    ] [W] [ 3588] UE buffers: Removing old buffer tti=3583, interval=13
+2024-11-15T16:26:02.555797 [MAC    ] [W] [ 3589] UE buffers: Removing old buffer tti=3584, interval=13
+2024-11-15T16:26:02.568949 [MAC    ] [W] [ 3602] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:02.641858 [MAC    ] [W] [ 3675] UE buffers: Removing old buffer tti=3670, interval=13
+2024-11-15T16:26:02.643861 [MAC    ] [W] [ 3677] UE buffers: Removing old buffer tti=3672, interval=13
+2024-11-15T16:26:02.644820 [MAC    ] [W] [ 3678] UE buffers: Removing old buffer tti=3673, interval=13
+2024-11-15T16:26:02.645823 [MAC    ] [W] [ 3679] UE buffers: Removing old buffer tti=3674, interval=13
+2024-11-15T16:26:02.658834 [MAC    ] [W] [ 3692] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:02.733834 [MAC    ] [W] [ 3767] UE buffers: Removing old buffer tti=3762, interval=13
+2024-11-15T16:26:02.734890 [MAC    ] [W] [ 3768] UE buffers: Removing old buffer tti=3763, interval=13
+2024-11-15T16:26:02.735785 [MAC    ] [W] [ 3769] UE buffers: Removing old buffer tti=3764, interval=13
+2024-11-15T16:26:02.736852 [MAC    ] [W] [ 3770] UE buffers: Removing old buffer tti=3765, interval=13
+2024-11-15T16:26:02.737812 [MAC    ] [W] [ 3771] UE buffers: Removing old buffer tti=3766, interval=13
+2024-11-15T16:26:02.748889 [MAC    ] [W] [ 3782] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:02.821855 [MAC    ] [W] [ 3855] UE buffers: Removing old buffer tti=3850, interval=13
+2024-11-15T16:26:02.823854 [MAC    ] [W] [ 3857] UE buffers: Removing old buffer tti=3852, interval=13
+2024-11-15T16:26:02.824873 [MAC    ] [W] [ 3858] UE buffers: Removing old buffer tti=3853, interval=13
+2024-11-15T16:26:02.825819 [MAC    ] [W] [ 3859] UE buffers: Removing old buffer tti=3854, interval=13
+2024-11-15T16:26:02.838899 [MAC    ] [W] [ 3872] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:02.913884 [MAC    ] [W] [ 3947] UE buffers: Removing old buffer tti=3942, interval=13
+2024-11-15T16:26:02.914853 [MAC    ] [W] [ 3948] UE buffers: Removing old buffer tti=3943, interval=13
+2024-11-15T16:26:02.915847 [MAC    ] [W] [ 3949] UE buffers: Removing old buffer tti=3944, interval=13
+2024-11-15T16:26:02.916817 [MAC    ] [W] [ 3950] UE buffers: Removing old buffer tti=3945, interval=13
+2024-11-15T16:26:02.917854 [MAC    ] [W] [ 3951] UE buffers: Removing old buffer tti=3946, interval=13
+2024-11-15T16:26:02.928857 [MAC    ] [W] [ 3962] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:03.001851 [MAC    ] [W] [ 4035] UE buffers: Removing old buffer tti=4030, interval=13
+2024-11-15T16:26:03.003850 [MAC    ] [W] [ 4037] UE buffers: Removing old buffer tti=4032, interval=13
+2024-11-15T16:26:03.004845 [MAC    ] [W] [ 4038] UE buffers: Removing old buffer tti=4033, interval=13
+2024-11-15T16:26:03.005816 [MAC    ] [W] [ 4039] UE buffers: Removing old buffer tti=4034, interval=13
+2024-11-15T16:26:03.018918 [MAC    ] [W] [ 4052] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:03.091878 [MAC    ] [W] [ 4125] UE buffers: Removing old buffer tti=4120, interval=13
+2024-11-15T16:26:03.093879 [MAC    ] [W] [ 4127] UE buffers: Removing old buffer tti=4122, interval=13
+2024-11-15T16:26:03.094811 [MAC    ] [W] [ 4128] UE buffers: Removing old buffer tti=4123, interval=13
+2024-11-15T16:26:03.095836 [MAC    ] [W] [ 4129] UE buffers: Removing old buffer tti=4124, interval=13
+2024-11-15T16:26:03.108912 [MAC    ] [W] [ 4142] Updating user C-RNTI: rnti=0x20e already released.
+2024-11-15T16:26:03.183874 [MAC    ] [W] [ 4217] UE buffers: Removing old buffer tti=4212, interval=13
+2024-11-15T16:26:03.184871 [MAC    ] [W] [ 4218] UE buffers: Removing old buffer tti=4213, interval=13
+2024-11-15T16:26:03.185833 [MAC    ] [W] [ 4219] UE buffers: Removing old buffer tti=4214, interval=13
+2024-11-15T16:26:15.308907 [MAC    ] [W] [ 6102] Updating user C-RNTI: rnti=0x218 already released.
+2024-11-15T16:26:15.398936 [MAC    ] [W] [ 6192] Updating user C-RNTI: rnti=0x218 already released.
+2024-11-15T16:26:15.488862 [MAC    ] [W] [ 6282] Updating user C-RNTI: rnti=0x218 already released.
+2024-11-15T16:26:15.578842 [MAC    ] [W] [ 6372] Updating user C-RNTI: rnti=0x218 already released.
+2024-11-15T16:26:15.668866 [MAC    ] [W] [ 6462] Updating user C-RNTI: rnti=0x218 already released.
+2024-11-15T16:26:15.758907 [MAC    ] [W] [ 6552] Updating user C-RNTI: rnti=0x218 already released.
+2024-11-15T16:26:29.468853 [MAC    ] [W] [10022] Updating user C-RNTI: rnti=0x223 already released.
+2024-11-15T16:26:29.543818 [MAC    ] [W] [10097] UE buffers: Removing old buffer tti=10092, interval=13
+2024-11-15T16:26:29.544848 [MAC    ] [W] [10098] UE buffers: Removing old buffer tti=10093, interval=13
+2024-11-15T16:26:29.558833 [MAC    ] [W] [10112] Updating user C-RNTI: rnti=0x223 already released.
+2024-11-15T16:26:29.633847 [MAC    ] [W] [10187] UE buffers: Removing old buffer tti=10182, interval=13
+2024-11-15T16:26:29.634812 [MAC    ] [W] [10188] UE buffers: Removing old buffer tti=10183, interval=13
+2024-11-15T16:26:29.637817 [MAC    ] [W] [10191] UE buffers: Removing old buffer tti=10186, interval=13
+2024-11-15T16:26:29.648826 [MAC    ] [W] [10202] Updating user C-RNTI: rnti=0x223 already released.
+2024-11-15T16:26:29.721775 [MAC    ] [W] [   35] UE buffers: Removing old buffer tti=30, interval=13
+2024-11-15T16:26:29.723775 [MAC    ] [W] [   37] UE buffers: Removing old buffer tti=32, interval=13
+2024-11-15T16:26:29.724813 [MAC    ] [W] [   38] UE buffers: Removing old buffer tti=33, interval=13
+2024-11-15T16:26:29.725776 [MAC    ] [W] [   39] UE buffers: Removing old buffer tti=34, interval=13
+2024-11-15T16:26:29.738831 [MAC    ] [W] [   52] Updating user C-RNTI: rnti=0x223 already released.
+2024-11-15T16:26:29.813843 [MAC    ] [W] [  127] UE buffers: Removing old buffer tti=122, interval=13
+2024-11-15T16:26:29.814812 [MAC    ] [W] [  128] UE buffers: Removing old buffer tti=123, interval=13
+2024-11-15T16:26:29.828870 [MAC    ] [W] [  142] Updating user C-RNTI: rnti=0x223 already released.
+2024-11-15T16:26:29.901769 [MAC    ] [W] [  215] UE buffers: Removing old buffer tti=210, interval=13
+2024-11-15T16:26:29.903810 [MAC    ] [W] [  217] UE buffers: Removing old buffer tti=212, interval=13
+2024-11-15T16:26:29.904801 [MAC    ] [W] [  218] UE buffers: Removing old buffer tti=213, interval=13
+2024-11-15T16:26:29.918926 [MAC    ] [W] [  232] Updating user C-RNTI: rnti=0x223 already released.
+2024-11-15T16:26:29.991798 [MAC    ] [W] [  305] UE buffers: Removing old buffer tti=300, interval=13
+2024-11-15T16:26:29.993837 [MAC    ] [W] [  307] UE buffers: Removing old buffer tti=302, interval=13
+2024-11-15T16:26:29.994766 [MAC    ] [W] [  308] UE buffers: Removing old buffer tti=303, interval=13
+2024-11-15T16:26:30.008881 [MAC    ] [W] [  322] Updating user C-RNTI: rnti=0x223 already released.
+2024-11-15T16:26:30.083771 [MAC    ] [W] [  397] UE buffers: Removing old buffer tti=392, interval=13
+2024-11-15T16:26:30.084839 [MAC    ] [W] [  398] UE buffers: Removing old buffer tti=393, interval=13
+2024-11-15T16:26:30.085770 [MAC    ] [W] [  399] UE buffers: Removing old buffer tti=394, interval=13
+2024-11-15T16:26:30.098920 [MAC    ] [W] [  412] Updating user C-RNTI: rnti=0x223 already released.
+2024-11-15T16:26:30.173833 [MAC    ] [W] [  487] UE buffers: Removing old buffer tti=482, interval=13
+2024-11-15T16:26:30.174800 [MAC    ] [W] [  488] UE buffers: Removing old buffer tti=483, interval=13
+2024-11-15T16:26:42.258796 [MAC    ] [W] [ 2332] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:42.348893 [MAC    ] [W] [ 2422] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:42.427788 [MAC    ] [W] [ 2501] UE buffers: Removing old buffer tti=2496, interval=13
+2024-11-15T16:26:42.438917 [MAC    ] [W] [ 2512] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:42.510745 [MAC    ] [W] [ 2584] UE buffers: Removing old buffer tti=2579, interval=13
+2024-11-15T16:26:42.528836 [MAC    ] [W] [ 2602] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:42.618884 [MAC    ] [W] [ 2692] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:42.691774 [MAC    ] [W] [ 2765] UE buffers: Removing old buffer tti=2760, interval=13
+2024-11-15T16:26:42.708827 [MAC    ] [W] [ 2782] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:42.798852 [MAC    ] [W] [ 2872] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:42.888843 [MAC    ] [W] [ 2962] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:42.978861 [MAC    ] [W] [ 3052] Updating user C-RNTI: rnti=0x22c already released.
+2024-11-15T16:26:43.057794 [MAC    ] [W] [ 3131] UE buffers: Removing old buffer tti=3126, interval=13
+2024-11-15T16:26:53.188198 [RRC    ] [W] Unrecognised rnti: 0x1db
+2024-11-15T16:26:53.188769 [RRC    ] [W] Ignoring rnti=0x1db command -65534 arg 0. Cause: unknown rnti
+2024-11-15T16:27:28.118806 [S1AP   ] [W] UE context for RNTI:0x239 is in zombie state. Releasing...
+2024-11-15T16:31:27.493444 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=5
+2024-11-15T16:31:29.410446 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=6
+2024-11-15T16:31:32.224435 [STCK   ] [W] Can't deliver SDU for EPS bearer 5. Dropping it.
+2024-11-15T16:31:32.244388 [MAC    ] [W] [ 5598] UE buffers: Removing old buffer tti=5593, interval=13
+2024-11-15T16:31:32.245415 [MAC    ] [W] [ 5599] UE buffers: Removing old buffer tti=5594, interval=13
+2024-11-15T16:31:33.588463 [MAC    ] [W] [ 6942] Updating user C-RNTI: rnti=0x248 already released.
+2024-11-15T16:31:33.667417 [MAC    ] [W] [ 7021] UE buffers: Removing old buffer tti=7016, interval=13
+2024-11-15T16:31:33.668466 [MAC    ] [W] [ 7022] Updating user C-RNTI: rnti=0x248 already released.
+2024-11-15T16:31:33.747434 [MAC    ] [W] [ 7101] UE buffers: Removing old buffer tti=7096, interval=13
+2024-11-15T16:31:33.758509 [MAC    ] [W] [ 7112] Updating user C-RNTI: rnti=0x248 already released.
+2024-11-15T16:31:33.838463 [MAC    ] [W] [ 7192] Updating user C-RNTI: rnti=0x248 already released.
+2024-11-15T16:31:33.917415 [MAC    ] [W] [ 7271] UE buffers: Removing old buffer tti=7266, interval=13
+2024-11-15T16:31:33.928441 [MAC    ] [W] [ 7282] Updating user C-RNTI: rnti=0x248 already released.
+2024-11-15T16:31:34.018495 [MAC    ] [W] [ 7372] Updating user C-RNTI: rnti=0x248 already released.
+2024-11-15T16:31:34.097412 [MAC    ] [W] [ 7451] UE buffers: Removing old buffer tti=7446, interval=13
+2024-11-15T16:31:34.098436 [MAC    ] [W] [ 7452] Updating user C-RNTI: rnti=0x248 already released.
+2024-11-15T16:31:34.188454 [MAC    ] [W] [ 7542] Updating user C-RNTI: rnti=0x248 already released.
+2024-11-15T16:31:45.040632 [RRC    ] [W] Unrecognised rnti: 0x248
+2024-11-15T16:31:45.041433 [RRC    ] [W] Ignoring rnti=0x248 command -65534 arg 0. Cause: unknown rnti
+2024-11-15T16:31:54.838405 [S1AP   ] [W] UE context for RNTI:0x252 is in zombie state. Releasing...
+2024-11-15T16:32:19.849406 [S1AP   ] [W] UE context for RNTI:0x253 is in zombie state. Releasing...
+2024-11-15T16:32:39.311315 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=4
+2024-11-15T16:32:46.068373 [MAC    ] [W] [ 7742] Updating user C-RNTI: rnti=0x259 already released.
+2024-11-15T16:32:46.158331 [MAC    ] [W] [ 7832] Updating user C-RNTI: rnti=0x259 already released.
+2024-11-15T16:32:46.248388 [MAC    ] [W] [ 7922] Updating user C-RNTI: rnti=0x259 already released.
+2024-11-15T16:32:46.338343 [MAC    ] [W] [ 8012] Updating user C-RNTI: rnti=0x259 already released.
+2024-11-15T16:32:46.411336 [MAC    ] [W] [ 8085] UE buffers: Removing old buffer tti=8080, interval=13
+2024-11-15T16:32:46.428435 [MAC    ] [W] [ 8102] Updating user C-RNTI: rnti=0x259 already released.
+2024-11-15T16:32:46.518312 [MAC    ] [W] [ 8192] Updating user C-RNTI: rnti=0x259 already released.
+2024-11-15T16:32:46.608428 [MAC    ] [W] [ 8282] Updating user C-RNTI: rnti=0x259 already released.
+2024-11-15T16:32:46.681291 [MAC    ] [W] [ 8355] UE buffers: Removing old buffer tti=8350, interval=13
+2024-11-15T16:32:46.698385 [MAC    ] [W] [ 8372] Updating user C-RNTI: rnti=0x259 already released.
+2024-11-15T16:32:49.152401 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T16:32:51.589287 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=6
+2024-11-15T16:32:56.984417 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T17:11:47.812372 [S1AP   ] [E] Cannot send UE context release request without a MME-UE-S1AP-Id allocated.
+2024-11-15T18:16:58.397077 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T18:17:52.710931 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=54
+2024-11-15T18:29:10.896896 [MAC    ] [W] [ 8899] UE buffers: Removing old buffer tti=8894, interval=13
+2024-11-15T18:29:18.889931 [S1AP   ] [W] UE context for RNTI:0x271 is in zombie state. Releasing...
+2024-11-15T18:29:55.770014 [S1AP   ] [W] UE context for RNTI:0x277 is in zombie state. Releasing...
+2024-11-15T18:44:27.072916 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=865
+2024-11-15T18:56:43.320356 [MAC    ] [W] [ 2443] UE buffers: Removing old buffer tti=2438, interval=13
+2024-11-15T18:56:43.369421 [MAC    ] [W] [ 2492] Updating user C-RNTI: rnti=0x27b already released.
+2024-11-15T18:56:43.459438 [MAC    ] [W] [ 2582] Updating user C-RNTI: rnti=0x27b already released.
+2024-11-15T18:56:43.538371 [MAC    ] [W] [ 2661] UE buffers: Removing old buffer tti=2656, interval=13
+2024-11-15T18:56:43.549420 [MAC    ] [W] [ 2672] Updating user C-RNTI: rnti=0x27b already released.
+2024-11-15T18:56:43.621355 [MAC    ] [W] [ 2744] UE buffers: Removing old buffer tti=2739, interval=13
+2024-11-15T18:56:50.819462 [MAC    ] [W] [ 9942] Updating user C-RNTI: rnti=0x288 already released.
+2024-11-15T18:56:50.899450 [MAC    ] [W] [10022] Updating user C-RNTI: rnti=0x288 already released.
+2024-11-15T18:56:50.989369 [MAC    ] [W] [10112] Updating user C-RNTI: rnti=0x288 already released.
+2024-11-15T18:56:51.079461 [MAC    ] [W] [10202] Updating user C-RNTI: rnti=0x288 already released.
+2024-11-15T18:56:51.169367 [MAC    ] [W] [   52] Updating user C-RNTI: rnti=0x288 already released.
+2024-11-15T18:56:51.259445 [MAC    ] [W] [  142] Updating user C-RNTI: rnti=0x288 already released.
+2024-11-15T18:56:51.349400 [MAC    ] [W] [  232] Updating user C-RNTI: rnti=0x288 already released.
+2024-11-15T18:56:52.909384 [S1AP   ] [W] Released UE with rnti=0x294 not found
+2024-11-15T18:56:53.550407 [S1AP   ] [W] Released UE with rnti=0x295 not found
+2024-11-15T18:56:53.556332 [MAC    ] [W] [ 2439] UE buffers: Removing old buffer tti=2434, interval=13
+2024-11-15T18:56:54.670411 [S1AP   ] [W] Released UE with rnti=0x296 not found
+2024-11-15T18:56:57.042500 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T18:57:06.759477 [MAC    ] [W] [ 5402] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:06.838337 [MAC    ] [W] [ 5481] UE buffers: Removing old buffer tti=5476, interval=13
+2024-11-15T18:57:06.849358 [MAC    ] [W] [ 5492] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:06.921318 [MAC    ] [W] [ 5564] UE buffers: Removing old buffer tti=5559, interval=13
+2024-11-15T18:57:06.939435 [MAC    ] [W] [ 5582] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:07.029485 [MAC    ] [W] [ 5672] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:07.119439 [MAC    ] [W] [ 5762] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:07.209395 [MAC    ] [W] [ 5852] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:07.299368 [MAC    ] [W] [ 5942] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:07.389412 [MAC    ] [W] [ 6032] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:07.479436 [MAC    ] [W] [ 6122] Updating user C-RNTI: rnti=0x299 already released.
+2024-11-15T18:57:07.558321 [MAC    ] [W] [ 6201] UE buffers: Removing old buffer tti=6196, interval=13
+2024-11-15T18:57:12.859422 [MAC    ] [W] [ 1262] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:12.934418 [MAC    ] [W] [ 1337] UE buffers: Removing old buffer tti=1332, interval=13
+2024-11-15T18:57:12.935363 [MAC    ] [W] [ 1338] UE buffers: Removing old buffer tti=1333, interval=13
+2024-11-15T18:57:12.936461 [MAC    ] [W] [ 1339] UE buffers: Removing old buffer tti=1334, interval=13
+2024-11-15T18:57:12.937317 [MAC    ] [W] [ 1340] UE buffers: Removing old buffer tti=1335, interval=13
+2024-11-15T18:57:12.938377 [MAC    ] [W] [ 1341] UE buffers: Removing old buffer tti=1336, interval=13
+2024-11-15T18:57:12.949392 [MAC    ] [W] [ 1352] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.021383 [MAC    ] [W] [ 1424] UE buffers: Removing old buffer tti=1419, interval=13
+2024-11-15T18:57:13.022352 [MAC    ] [W] [ 1425] UE buffers: Removing old buffer tti=1420, interval=13
+2024-11-15T18:57:13.024311 [MAC    ] [W] [ 1427] UE buffers: Removing old buffer tti=1422, interval=13
+2024-11-15T18:57:13.025343 [MAC    ] [W] [ 1428] UE buffers: Removing old buffer tti=1423, interval=13
+2024-11-15T18:57:13.026317 [MAC    ] [W] [ 1429] UE buffers: Removing old buffer tti=1424, interval=13
+2024-11-15T18:57:13.039442 [MAC    ] [W] [ 1442] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.114378 [MAC    ] [W] [ 1517] UE buffers: Removing old buffer tti=1512, interval=13
+2024-11-15T18:57:13.115350 [MAC    ] [W] [ 1518] UE buffers: Removing old buffer tti=1513, interval=13
+2024-11-15T18:57:13.116417 [MAC    ] [W] [ 1519] UE buffers: Removing old buffer tti=1514, interval=13
+2024-11-15T18:57:13.117310 [MAC    ] [W] [ 1520] UE buffers: Removing old buffer tti=1515, interval=13
+2024-11-15T18:57:13.118345 [MAC    ] [W] [ 1521] UE buffers: Removing old buffer tti=1516, interval=13
+2024-11-15T18:57:13.129350 [MAC    ] [W] [ 1532] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.201378 [MAC    ] [W] [ 1604] UE buffers: Removing old buffer tti=1599, interval=13
+2024-11-15T18:57:13.202375 [MAC    ] [W] [ 1605] UE buffers: Removing old buffer tti=1600, interval=13
+2024-11-15T18:57:13.204338 [MAC    ] [W] [ 1607] UE buffers: Removing old buffer tti=1602, interval=13
+2024-11-15T18:57:13.205336 [MAC    ] [W] [ 1608] UE buffers: Removing old buffer tti=1603, interval=13
+2024-11-15T18:57:13.206330 [MAC    ] [W] [ 1609] UE buffers: Removing old buffer tti=1604, interval=13
+2024-11-15T18:57:13.219421 [MAC    ] [W] [ 1622] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.294373 [MAC    ] [W] [ 1697] UE buffers: Removing old buffer tti=1692, interval=13
+2024-11-15T18:57:13.295346 [MAC    ] [W] [ 1698] UE buffers: Removing old buffer tti=1693, interval=13
+2024-11-15T18:57:13.296385 [MAC    ] [W] [ 1699] UE buffers: Removing old buffer tti=1694, interval=13
+2024-11-15T18:57:13.297304 [MAC    ] [W] [ 1700] UE buffers: Removing old buffer tti=1695, interval=13
+2024-11-15T18:57:13.298339 [MAC    ] [W] [ 1701] UE buffers: Removing old buffer tti=1696, interval=13
+2024-11-15T18:57:13.309404 [MAC    ] [W] [ 1712] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.381369 [MAC    ] [W] [ 1784] UE buffers: Removing old buffer tti=1779, interval=13
+2024-11-15T18:57:13.382401 [MAC    ] [W] [ 1785] UE buffers: Removing old buffer tti=1780, interval=13
+2024-11-15T18:57:13.384361 [MAC    ] [W] [ 1787] UE buffers: Removing old buffer tti=1782, interval=13
+2024-11-15T18:57:13.385329 [MAC    ] [W] [ 1788] UE buffers: Removing old buffer tti=1783, interval=13
+2024-11-15T18:57:13.386306 [MAC    ] [W] [ 1789] UE buffers: Removing old buffer tti=1784, interval=13
+2024-11-15T18:57:13.399415 [MAC    ] [W] [ 1802] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.472406 [MAC    ] [W] [ 1875] UE buffers: Removing old buffer tti=1870, interval=13
+2024-11-15T18:57:13.474397 [MAC    ] [W] [ 1877] UE buffers: Removing old buffer tti=1872, interval=13
+2024-11-15T18:57:13.475356 [MAC    ] [W] [ 1878] UE buffers: Removing old buffer tti=1873, interval=13
+2024-11-15T18:57:13.476356 [MAC    ] [W] [ 1879] UE buffers: Removing old buffer tti=1874, interval=13
+2024-11-15T18:57:13.489431 [MAC    ] [W] [ 1892] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.564420 [MAC    ] [W] [ 1967] UE buffers: Removing old buffer tti=1962, interval=13
+2024-11-15T18:57:13.565360 [MAC    ] [W] [ 1968] UE buffers: Removing old buffer tti=1963, interval=13
+2024-11-15T18:57:13.566383 [MAC    ] [W] [ 1969] UE buffers: Removing old buffer tti=1964, interval=13
+2024-11-15T18:57:13.567323 [MAC    ] [W] [ 1970] UE buffers: Removing old buffer tti=1965, interval=13
+2024-11-15T18:57:13.568372 [MAC    ] [W] [ 1971] UE buffers: Removing old buffer tti=1966, interval=13
+2024-11-15T18:57:13.579447 [MAC    ] [W] [ 1982] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.652365 [MAC    ] [W] [ 2055] UE buffers: Removing old buffer tti=2050, interval=13
+2024-11-15T18:57:13.654359 [MAC    ] [W] [ 2057] UE buffers: Removing old buffer tti=2052, interval=13
+2024-11-15T18:57:13.655356 [MAC    ] [W] [ 2058] UE buffers: Removing old buffer tti=2053, interval=13
+2024-11-15T18:57:13.656325 [MAC    ] [W] [ 2059] UE buffers: Removing old buffer tti=2054, interval=13
+2024-11-15T18:57:13.669354 [MAC    ] [W] [ 2072] Updating user C-RNTI: rnti=0x2a4 already released.
+2024-11-15T18:57:13.744413 [MAC    ] [W] [ 2147] UE buffers: Removing old buffer tti=2142, interval=13
+2024-11-15T18:57:13.745362 [MAC    ] [W] [ 2148] UE buffers: Removing old buffer tti=2143, interval=13
+2024-11-15T18:57:13.746355 [MAC    ] [W] [ 2149] UE buffers: Removing old buffer tti=2144, interval=13
+2024-11-15T18:57:36.059321 [MAC    ] [W] [ 3982] Updating user C-RNTI: rnti=0x2b0 already released.
+2024-11-15T18:57:36.138354 [MAC    ] [W] [ 4061] UE buffers: Removing old buffer tti=4056, interval=13
+2024-11-15T18:57:36.139376 [MAC    ] [W] [ 4062] Updating user C-RNTI: rnti=0x2b0 already released.
+2024-11-15T18:57:36.218302 [MAC    ] [W] [ 4141] UE buffers: Removing old buffer tti=4136, interval=13
+2024-11-15T18:57:36.229378 [MAC    ] [W] [ 4152] Updating user C-RNTI: rnti=0x2b0 already released.
+2024-11-15T18:57:36.301287 [MAC    ] [W] [ 4224] UE buffers: Removing old buffer tti=4219, interval=13
+2024-11-15T18:57:36.319326 [MAC    ] [W] [ 4242] Updating user C-RNTI: rnti=0x2b0 already released.
+2024-11-15T18:57:36.449332 [MAC    ] [W] [ 4372] Updating user C-RNTI: rnti=0x2b0 already released.
+2024-11-15T18:57:36.528307 [MAC    ] [W] [ 4451] UE buffers: Removing old buffer tti=4446, interval=13
+2024-11-15T18:57:36.539449 [MAC    ] [W] [ 4462] Updating user C-RNTI: rnti=0x2b0 already released.
+2024-11-15T18:57:36.629332 [MAC    ] [W] [ 4552] Updating user C-RNTI: rnti=0x2b0 already released.
+2024-11-15T18:57:36.708332 [MAC    ] [W] [ 4631] UE buffers: Removing old buffer tti=4626, interval=13
+2024-11-15T18:57:44.010384 [S1AP   ] [W] UE context for RNTI:0x2af is in zombie state. Releasing...
+2024-11-15T18:57:46.846833 [RRC    ] [W] Unrecognised rnti: 0x299
+2024-11-15T18:57:46.847313 [RRC    ] [W] Ignoring rnti=0x299 command -65534 arg 0. Cause: unknown rnti
+2024-11-15T18:58:15.139333 [MAC    ] [W] [ 2102] Updating user C-RNTI: rnti=0x2bf already released.
+2024-11-15T18:58:15.212339 [MAC    ] [W] [ 2175] UE buffers: Removing old buffer tti=2170, interval=13
+2024-11-15T18:58:15.214337 [MAC    ] [W] [ 2177] UE buffers: Removing old buffer tti=2172, interval=13
+2024-11-15T18:58:15.215294 [MAC    ] [W] [ 2178] UE buffers: Removing old buffer tti=2173, interval=13
+2024-11-15T18:58:15.216295 [MAC    ] [W] [ 2179] UE buffers: Removing old buffer tti=2174, interval=13
+2024-11-15T18:58:15.219403 [MAC    ] [W] [ 2182] Updating user C-RNTI: rnti=0x2bf already released.
+2024-11-15T18:58:15.294330 [MAC    ] [W] [ 2257] UE buffers: Removing old buffer tti=2252, interval=13
+2024-11-15T18:58:15.295289 [MAC    ] [W] [ 2258] UE buffers: Removing old buffer tti=2253, interval=13
+2024-11-15T18:58:15.296285 [MAC    ] [W] [ 2259] UE buffers: Removing old buffer tti=2254, interval=13
+2024-11-15T18:58:15.297267 [MAC    ] [W] [ 2260] UE buffers: Removing old buffer tti=2255, interval=13
+2024-11-15T18:58:15.298287 [MAC    ] [W] [ 2261] UE buffers: Removing old buffer tti=2256, interval=13
+2024-11-15T18:58:15.309344 [MAC    ] [W] [ 2272] Updating user C-RNTI: rnti=0x2bf already released.
+2024-11-15T18:58:15.381317 [MAC    ] [W] [ 2344] UE buffers: Removing old buffer tti=2339, interval=13
+2024-11-15T18:58:15.382345 [MAC    ] [W] [ 2345] UE buffers: Removing old buffer tti=2340, interval=13
+2024-11-15T18:58:15.384307 [MAC    ] [W] [ 2347] UE buffers: Removing old buffer tti=2342, interval=13
+2024-11-15T18:58:15.385285 [MAC    ] [W] [ 2348] UE buffers: Removing old buffer tti=2343, interval=13
+2024-11-15T18:58:15.386254 [MAC    ] [W] [ 2349] UE buffers: Removing old buffer tti=2344, interval=13
+2024-11-15T18:58:15.397307 [MAC    ] [W] [ 2360] SCHED: Could not transmit RAR within the window (RA=2351, Window=[2354, 2364), RAR=2364
+2024-11-15T18:58:15.417276 [MAC    ] [W] [ 2380] SCHED: Could not transmit RAR within the window (RA=2371, Window=[2374, 2384), RAR=2384
+2024-11-15T18:58:15.437284 [MAC    ] [W] [ 2400] SCHED: Could not transmit RAR within the window (RA=2391, Window=[2394, 2404), RAR=2404
+2024-11-15T18:58:15.457307 [MAC    ] [W] [ 2420] SCHED: Could not transmit RAR within the window (RA=2411, Window=[2414, 2424), RAR=2424
+2024-11-15T18:58:15.477332 [MAC    ] [W] [ 2440] SCHED: Could not transmit RAR within the window (RA=2431, Window=[2434, 2444), RAR=2444
+2024-11-15T18:58:15.497291 [MAC    ] [W] [ 2460] SCHED: Could not transmit RAR within the window (RA=2451, Window=[2454, 2464), RAR=2464
+2024-11-15T18:58:21.750315 [S1AP   ] [W] UE context for RNTI:0x2be is in zombie state. Releasing...
+2024-11-15T18:58:28.649303 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T18:58:30.114335 [RRC    ] [E] Expected RRCReconfigurationComplete with transaction ID: 0, got 1
+2024-11-15T18:58:33.463250 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=9
+2024-11-15T18:58:35.658345 [MAC    ] [W] [ 2141] UE buffers: Removing old buffer tti=2136, interval=13
+2024-11-15T18:58:35.660283 [MAC    ] [W] [ 2143] UE buffers: Removing old buffer tti=2138, interval=13
+2024-11-15T18:58:35.714320 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T18:58:35.896330 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T18:58:40.039375 [MAC    ] [W] [ 6522] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.118316 [MAC    ] [W] [ 6601] UE buffers: Removing old buffer tti=6596, interval=13
+2024-11-15T18:58:40.119391 [MAC    ] [W] [ 6602] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.198263 [MAC    ] [W] [ 6681] UE buffers: Removing old buffer tti=6676, interval=13
+2024-11-15T18:58:40.209336 [MAC    ] [W] [ 6692] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.282309 [MAC    ] [W] [ 6765] UE buffers: Removing old buffer tti=6760, interval=13
+2024-11-15T18:58:40.289324 [MAC    ] [W] [ 6772] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.368306 [MAC    ] [W] [ 6851] UE buffers: Removing old buffer tti=6846, interval=13
+2024-11-15T18:58:40.379366 [MAC    ] [W] [ 6862] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.469292 [MAC    ] [W] [ 6952] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.559384 [MAC    ] [W] [ 7042] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.638298 [MAC    ] [W] [ 7121] UE buffers: Removing old buffer tti=7116, interval=13
+2024-11-15T18:58:40.639346 [MAC    ] [W] [ 7122] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.729293 [MAC    ] [W] [ 7212] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:40.808277 [MAC    ] [W] [ 7291] UE buffers: Removing old buffer tti=7286, interval=13
+2024-11-15T18:58:40.819315 [MAC    ] [W] [ 7302] Updating user C-RNTI: rnti=0x2e5 already released.
+2024-11-15T18:58:43.619361 [MAC    ] [W] [10102] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:43.694334 [MAC    ] [W] [10177] UE buffers: Removing old buffer tti=10172, interval=13
+2024-11-15T18:58:43.695295 [MAC    ] [W] [10178] UE buffers: Removing old buffer tti=10173, interval=13
+2024-11-15T18:58:43.696280 [MAC    ] [W] [10179] UE buffers: Removing old buffer tti=10174, interval=13
+2024-11-15T18:58:43.697255 [MAC    ] [W] [10180] UE buffers: Removing old buffer tti=10175, interval=13
+2024-11-15T18:58:43.698286 [MAC    ] [W] [10181] UE buffers: Removing old buffer tti=10176, interval=13
+2024-11-15T18:58:43.709366 [MAC    ] [W] [10192] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:43.781317 [MAC    ] [W] [   24] UE buffers: Removing old buffer tti=19, interval=13
+2024-11-15T18:58:43.782288 [MAC    ] [W] [   25] UE buffers: Removing old buffer tti=20, interval=13
+2024-11-15T18:58:43.784247 [MAC    ] [W] [   27] UE buffers: Removing old buffer tti=22, interval=13
+2024-11-15T18:58:43.785282 [MAC    ] [W] [   28] UE buffers: Removing old buffer tti=23, interval=13
+2024-11-15T18:58:43.786250 [MAC    ] [W] [   29] UE buffers: Removing old buffer tti=24, interval=13
+2024-11-15T18:58:43.799353 [MAC    ] [W] [   42] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:43.872365 [MAC    ] [W] [  115] UE buffers: Removing old buffer tti=110, interval=13
+2024-11-15T18:58:43.874347 [MAC    ] [W] [  117] UE buffers: Removing old buffer tti=112, interval=13
+2024-11-15T18:58:43.875258 [MAC    ] [W] [  118] UE buffers: Removing old buffer tti=113, interval=13
+2024-11-15T18:58:43.876281 [MAC    ] [W] [  119] UE buffers: Removing old buffer tti=114, interval=13
+2024-11-15T18:58:43.889289 [MAC    ] [W] [  132] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:43.964380 [MAC    ] [W] [  207] UE buffers: Removing old buffer tti=202, interval=13
+2024-11-15T18:58:43.965316 [MAC    ] [W] [  208] UE buffers: Removing old buffer tti=203, interval=13
+2024-11-15T18:58:43.966337 [MAC    ] [W] [  209] UE buffers: Removing old buffer tti=204, interval=13
+2024-11-15T18:58:43.967278 [MAC    ] [W] [  210] UE buffers: Removing old buffer tti=205, interval=13
+2024-11-15T18:58:43.968283 [MAC    ] [W] [  211] UE buffers: Removing old buffer tti=206, interval=13
+2024-11-15T18:58:43.979398 [MAC    ] [W] [  222] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:44.052302 [MAC    ] [W] [  295] UE buffers: Removing old buffer tti=290, interval=13
+2024-11-15T18:58:44.054308 [MAC    ] [W] [  297] UE buffers: Removing old buffer tti=292, interval=13
+2024-11-15T18:58:44.055304 [MAC    ] [W] [  298] UE buffers: Removing old buffer tti=293, interval=13
+2024-11-15T18:58:44.056273 [MAC    ] [W] [  299] UE buffers: Removing old buffer tti=294, interval=13
+2024-11-15T18:58:44.069333 [MAC    ] [W] [  312] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:44.144345 [MAC    ] [W] [  387] UE buffers: Removing old buffer tti=382, interval=13
+2024-11-15T18:58:44.145309 [MAC    ] [W] [  388] UE buffers: Removing old buffer tti=383, interval=13
+2024-11-15T18:58:44.146302 [MAC    ] [W] [  389] UE buffers: Removing old buffer tti=384, interval=13
+2024-11-15T18:58:44.147272 [MAC    ] [W] [  390] UE buffers: Removing old buffer tti=385, interval=13
+2024-11-15T18:58:44.148304 [MAC    ] [W] [  391] UE buffers: Removing old buffer tti=386, interval=13
+2024-11-15T18:58:44.159358 [MAC    ] [W] [  402] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:44.232300 [MAC    ] [W] [  475] UE buffers: Removing old buffer tti=470, interval=13
+2024-11-15T18:58:44.234299 [MAC    ] [W] [  477] UE buffers: Removing old buffer tti=472, interval=13
+2024-11-15T18:58:44.235295 [MAC    ] [W] [  478] UE buffers: Removing old buffer tti=473, interval=13
+2024-11-15T18:58:44.236262 [MAC    ] [W] [  479] UE buffers: Removing old buffer tti=474, interval=13
+2024-11-15T18:58:44.249282 [MAC    ] [W] [  492] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:44.324337 [MAC    ] [W] [  567] UE buffers: Removing old buffer tti=562, interval=13
+2024-11-15T18:58:44.325303 [MAC    ] [W] [  568] UE buffers: Removing old buffer tti=563, interval=13
+2024-11-15T18:58:44.326289 [MAC    ] [W] [  569] UE buffers: Removing old buffer tti=564, interval=13
+2024-11-15T18:58:44.339303 [MAC    ] [W] [  582] Updating user C-RNTI: rnti=0x2f1 already released.
+2024-11-15T18:58:44.414298 [MAC    ] [W] [  657] UE buffers: Removing old buffer tti=652, interval=13
+2024-11-15T18:58:44.415332 [MAC    ] [W] [  658] UE buffers: Removing old buffer tti=653, interval=13
+2024-11-15T18:58:44.416292 [MAC    ] [W] [  659] UE buffers: Removing old buffer tti=654, interval=13
+2024-11-15T18:58:44.417295 [MAC    ] [W] [  660] UE buffers: Removing old buffer tti=655, interval=13
+2024-11-15T18:58:44.418261 [MAC    ] [W] [  661] UE buffers: Removing old buffer tti=656, interval=13
+2024-11-15T18:58:56.479309 [MAC    ] [W] [ 2482] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:58:56.639319 [MAC    ] [W] [ 2642] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:58:56.729376 [MAC    ] [W] [ 2732] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:58:56.808276 [MAC    ] [W] [ 2811] UE buffers: Removing old buffer tti=2806, interval=13
+2024-11-15T18:58:56.819314 [MAC    ] [W] [ 2822] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:58:56.909330 [MAC    ] [W] [ 2912] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:58:56.999395 [MAC    ] [W] [ 3002] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:58:57.078299 [MAC    ] [W] [ 3081] UE buffers: Removing old buffer tti=3076, interval=13
+2024-11-15T18:58:57.089325 [MAC    ] [W] [ 3092] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:58:57.161263 [MAC    ] [W] [ 3164] UE buffers: Removing old buffer tti=3159, interval=13
+2024-11-15T18:58:57.179401 [MAC    ] [W] [ 3182] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:58:57.269358 [MAC    ] [W] [ 3272] Updating user C-RNTI: rnti=0x2fb already released.
+2024-11-15T18:59:20.959346 [MAC    ] [W] [ 6482] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.032359 [MAC    ] [W] [ 6555] UE buffers: Removing old buffer tti=6550, interval=13
+2024-11-15T18:59:21.034338 [MAC    ] [W] [ 6557] UE buffers: Removing old buffer tti=6552, interval=13
+2024-11-15T18:59:21.035258 [MAC    ] [W] [ 6558] UE buffers: Removing old buffer tti=6553, interval=13
+2024-11-15T18:59:21.036296 [MAC    ] [W] [ 6559] UE buffers: Removing old buffer tti=6554, interval=13
+2024-11-15T18:59:21.049375 [MAC    ] [W] [ 6572] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.122300 [MAC    ] [W] [ 6645] UE buffers: Removing old buffer tti=6640, interval=13
+2024-11-15T18:59:21.124299 [MAC    ] [W] [ 6647] UE buffers: Removing old buffer tti=6642, interval=13
+2024-11-15T18:59:21.125291 [MAC    ] [W] [ 6648] UE buffers: Removing old buffer tti=6643, interval=13
+2024-11-15T18:59:21.126262 [MAC    ] [W] [ 6649] UE buffers: Removing old buffer tti=6644, interval=13
+2024-11-15T18:59:21.139274 [MAC    ] [W] [ 6662] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.212342 [MAC    ] [W] [ 6735] UE buffers: Removing old buffer tti=6730, interval=13
+2024-11-15T18:59:21.214327 [MAC    ] [W] [ 6737] UE buffers: Removing old buffer tti=6732, interval=13
+2024-11-15T18:59:21.215253 [MAC    ] [W] [ 6738] UE buffers: Removing old buffer tti=6733, interval=13
+2024-11-15T18:59:21.216289 [MAC    ] [W] [ 6739] UE buffers: Removing old buffer tti=6734, interval=13
+2024-11-15T18:59:21.229330 [MAC    ] [W] [ 6752] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.304289 [MAC    ] [W] [ 6827] UE buffers: Removing old buffer tti=6822, interval=13
+2024-11-15T18:59:21.305325 [MAC    ] [W] [ 6828] UE buffers: Removing old buffer tti=6823, interval=13
+2024-11-15T18:59:21.306258 [MAC    ] [W] [ 6829] UE buffers: Removing old buffer tti=6824, interval=13
+2024-11-15T18:59:21.307287 [MAC    ] [W] [ 6830] UE buffers: Removing old buffer tti=6825, interval=13
+2024-11-15T18:59:21.308261 [MAC    ] [W] [ 6831] UE buffers: Removing old buffer tti=6826, interval=13
+2024-11-15T18:59:21.319416 [MAC    ] [W] [ 6842] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.392343 [MAC    ] [W] [ 6915] UE buffers: Removing old buffer tti=6910, interval=13
+2024-11-15T18:59:21.394325 [MAC    ] [W] [ 6917] UE buffers: Removing old buffer tti=6912, interval=13
+2024-11-15T18:59:21.395256 [MAC    ] [W] [ 6918] UE buffers: Removing old buffer tti=6913, interval=13
+2024-11-15T18:59:21.396285 [MAC    ] [W] [ 6919] UE buffers: Removing old buffer tti=6914, interval=13
+2024-11-15T18:59:21.409350 [MAC    ] [W] [ 6932] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.484286 [MAC    ] [W] [ 7007] UE buffers: Removing old buffer tti=7002, interval=13
+2024-11-15T18:59:21.485321 [MAC    ] [W] [ 7008] UE buffers: Removing old buffer tti=7003, interval=13
+2024-11-15T18:59:21.486248 [MAC    ] [W] [ 7009] UE buffers: Removing old buffer tti=7004, interval=13
+2024-11-15T18:59:21.487283 [MAC    ] [W] [ 7010] UE buffers: Removing old buffer tti=7005, interval=13
+2024-11-15T18:59:21.488258 [MAC    ] [W] [ 7011] UE buffers: Removing old buffer tti=7006, interval=13
+2024-11-15T18:59:21.499319 [MAC    ] [W] [ 7022] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.572334 [MAC    ] [W] [ 7095] UE buffers: Removing old buffer tti=7090, interval=13
+2024-11-15T18:59:21.574319 [MAC    ] [W] [ 7097] UE buffers: Removing old buffer tti=7092, interval=13
+2024-11-15T18:59:21.575249 [MAC    ] [W] [ 7098] UE buffers: Removing old buffer tti=7093, interval=13
+2024-11-15T18:59:21.576281 [MAC    ] [W] [ 7099] UE buffers: Removing old buffer tti=7094, interval=13
+2024-11-15T18:59:21.589334 [MAC    ] [W] [ 7112] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.664337 [MAC    ] [W] [ 7187] UE buffers: Removing old buffer tti=7182, interval=13
+2024-11-15T18:59:21.665321 [MAC    ] [W] [ 7188] UE buffers: Removing old buffer tti=7183, interval=13
+2024-11-15T18:59:21.666252 [MAC    ] [W] [ 7189] UE buffers: Removing old buffer tti=7184, interval=13
+2024-11-15T18:59:21.667282 [MAC    ] [W] [ 7190] UE buffers: Removing old buffer tti=7185, interval=13
+2024-11-15T18:59:21.668256 [MAC    ] [W] [ 7191] UE buffers: Removing old buffer tti=7186, interval=13
+2024-11-15T18:59:21.679326 [MAC    ] [W] [ 7202] Updating user C-RNTI: rnti=0x310 already released.
+2024-11-15T18:59:21.752311 [MAC    ] [W] [ 7275] UE buffers: Removing old buffer tti=7270, interval=13
+2024-11-15T18:59:21.754314 [MAC    ] [W] [ 7277] UE buffers: Removing old buffer tti=7272, interval=13
+2024-11-15T18:59:21.755309 [MAC    ] [W] [ 7278] UE buffers: Removing old buffer tti=7273, interval=13
+2024-11-15T18:59:21.756276 [MAC    ] [W] [ 7279] UE buffers: Removing old buffer tti=7274, interval=13
+2024-11-15T18:59:27.570249 [S1AP   ] [W] UE context for RNTI:0x30f is in zombie state. Releasing...
+2024-11-15T18:59:33.819378 [MAC    ] [W] [ 9102] Updating user C-RNTI: rnti=0x31a already released.
+2024-11-15T18:59:33.894295 [MAC    ] [W] [ 9177] UE buffers: Removing old buffer tti=9172, interval=13
+2024-11-15T18:59:33.895327 [MAC    ] [W] [ 9178] UE buffers: Removing old buffer tti=9173, interval=13
+2024-11-15T18:59:33.896294 [MAC    ] [W] [ 9179] UE buffers: Removing old buffer tti=9174, interval=13
+2024-11-15T18:59:33.897291 [MAC    ] [W] [ 9180] UE buffers: Removing old buffer tti=9175, interval=13
+2024-11-15T18:59:33.898265 [MAC    ] [W] [ 9181] UE buffers: Removing old buffer tti=9176, interval=13
+2024-11-15T18:59:33.909325 [MAC    ] [W] [ 9192] Updating user C-RNTI: rnti=0x31a already released.
+2024-11-15T18:59:33.981286 [MAC    ] [W] [ 9264] UE buffers: Removing old buffer tti=9259, interval=13
+2024-11-15T18:59:33.982322 [MAC    ] [W] [ 9265] UE buffers: Removing old buffer tti=9260, interval=13
+2024-11-15T18:59:33.984283 [MAC    ] [W] [ 9267] UE buffers: Removing old buffer tti=9262, interval=13
+2024-11-15T18:59:33.985253 [MAC    ] [W] [ 9268] UE buffers: Removing old buffer tti=9263, interval=13
+2024-11-15T18:59:33.986285 [MAC    ] [W] [ 9269] UE buffers: Removing old buffer tti=9264, interval=13
+2024-11-15T18:59:33.999387 [MAC    ] [W] [ 9282] Updating user C-RNTI: rnti=0x31a already released.
+2024-11-15T18:59:34.072285 [MAC    ] [W] [ 9355] UE buffers: Removing old buffer tti=9350, interval=13
+2024-11-15T18:59:34.074286 [MAC    ] [W] [ 9357] UE buffers: Removing old buffer tti=9352, interval=13
+2024-11-15T18:59:34.075280 [MAC    ] [W] [ 9358] UE buffers: Removing old buffer tti=9353, interval=13
+2024-11-15T18:59:34.076249 [MAC    ] [W] [ 9359] UE buffers: Removing old buffer tti=9354, interval=13
+2024-11-15T18:59:34.089396 [MAC    ] [W] [ 9372] Updating user C-RNTI: rnti=0x31a already released.
+2024-11-15T18:59:34.164326 [MAC    ] [W] [ 9447] UE buffers: Removing old buffer tti=9442, interval=13
+2024-11-15T18:59:34.165288 [MAC    ] [W] [ 9448] UE buffers: Removing old buffer tti=9443, interval=13
+2024-11-15T18:59:34.166282 [MAC    ] [W] [ 9449] UE buffers: Removing old buffer tti=9444, interval=13
+2024-11-15T18:59:34.167248 [MAC    ] [W] [ 9450] UE buffers: Removing old buffer tti=9445, interval=13
+2024-11-15T18:59:34.168284 [MAC    ] [W] [ 9451] UE buffers: Removing old buffer tti=9446, interval=13
+2024-11-15T18:59:34.179339 [MAC    ] [W] [ 9462] Updating user C-RNTI: rnti=0x31a already released.
+2024-11-15T18:59:34.252281 [MAC    ] [W] [ 9535] UE buffers: Removing old buffer tti=9530, interval=13
+2024-11-15T18:59:34.254282 [MAC    ] [W] [ 9537] UE buffers: Removing old buffer tti=9532, interval=13
+2024-11-15T18:59:34.255280 [MAC    ] [W] [ 9538] UE buffers: Removing old buffer tti=9533, interval=13
+2024-11-15T18:59:34.256243 [MAC    ] [W] [ 9539] UE buffers: Removing old buffer tti=9534, interval=13
+2024-11-15T18:59:34.269370 [MAC    ] [W] [ 9552] Updating user C-RNTI: rnti=0x31a already released.
+2024-11-15T18:59:34.344318 [MAC    ] [W] [ 9627] UE buffers: Removing old buffer tti=9622, interval=13
+2024-11-15T18:59:34.345285 [MAC    ] [W] [ 9628] UE buffers: Removing old buffer tti=9623, interval=13
+2024-11-15T18:59:34.346273 [MAC    ] [W] [ 9629] UE buffers: Removing old buffer tti=9624, interval=13
+2024-11-15T18:59:34.359284 [MAC    ] [W] [ 9642] Updating user C-RNTI: rnti=0x31a already released.
+2024-11-15T18:59:34.434341 [MAC    ] [W] [ 9717] UE buffers: Removing old buffer tti=9712, interval=13
+2024-11-15T18:59:34.435309 [MAC    ] [W] [ 9718] UE buffers: Removing old buffer tti=9713, interval=13
+2024-11-15T18:59:34.436246 [MAC    ] [W] [ 9719] UE buffers: Removing old buffer tti=9714, interval=13
+2024-11-15T18:59:34.449334 [MAC    ] [W] [ 9732] Updating user C-RNTI: rnti=0x31a already released.
+2024-11-15T18:59:34.522302 [MAC    ] [W] [ 9805] UE buffers: Removing old buffer tti=9800, interval=13
+2024-11-15T18:59:34.524305 [MAC    ] [W] [ 9807] UE buffers: Removing old buffer tti=9802, interval=13
+2024-11-15T18:59:34.525303 [MAC    ] [W] [ 9808] UE buffers: Removing old buffer tti=9803, interval=13
+2024-11-15T18:59:34.526267 [MAC    ] [W] [ 9809] UE buffers: Removing old buffer tti=9804, interval=13
+2024-11-15T18:59:47.919402 [MAC    ] [W] [ 2722] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:47.992327 [MAC    ] [W] [ 2795] UE buffers: Removing old buffer tti=2790, interval=13
+2024-11-15T18:59:47.994323 [MAC    ] [W] [ 2797] UE buffers: Removing old buffer tti=2792, interval=13
+2024-11-15T18:59:47.995251 [MAC    ] [W] [ 2798] UE buffers: Removing old buffer tti=2793, interval=13
+2024-11-15T18:59:47.996281 [MAC    ] [W] [ 2799] UE buffers: Removing old buffer tti=2794, interval=13
+2024-11-15T18:59:48.009389 [MAC    ] [W] [ 2812] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.082283 [MAC    ] [W] [ 2885] UE buffers: Removing old buffer tti=2880, interval=13
+2024-11-15T18:59:48.084283 [MAC    ] [W] [ 2887] UE buffers: Removing old buffer tti=2882, interval=13
+2024-11-15T18:59:48.085281 [MAC    ] [W] [ 2888] UE buffers: Removing old buffer tti=2883, interval=13
+2024-11-15T18:59:48.086247 [MAC    ] [W] [ 2889] UE buffers: Removing old buffer tti=2884, interval=13
+2024-11-15T18:59:48.099366 [MAC    ] [W] [ 2902] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.174313 [MAC    ] [W] [ 2977] UE buffers: Removing old buffer tti=2972, interval=13
+2024-11-15T18:59:48.175281 [MAC    ] [W] [ 2978] UE buffers: Removing old buffer tti=2973, interval=13
+2024-11-15T18:59:48.176274 [MAC    ] [W] [ 2979] UE buffers: Removing old buffer tti=2974, interval=13
+2024-11-15T18:59:48.189359 [MAC    ] [W] [ 2992] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.264278 [MAC    ] [W] [ 3067] UE buffers: Removing old buffer tti=3062, interval=13
+2024-11-15T18:59:48.265314 [MAC    ] [W] [ 3068] UE buffers: Removing old buffer tti=3063, interval=13
+2024-11-15T18:59:48.266237 [MAC    ] [W] [ 3069] UE buffers: Removing old buffer tti=3064, interval=13
+2024-11-15T18:59:48.279347 [MAC    ] [W] [ 3082] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.354337 [MAC    ] [W] [ 3157] UE buffers: Removing old buffer tti=3152, interval=13
+2024-11-15T18:59:48.355286 [MAC    ] [W] [ 3158] UE buffers: Removing old buffer tti=3153, interval=13
+2024-11-15T18:59:48.356293 [MAC    ] [W] [ 3159] UE buffers: Removing old buffer tti=3154, interval=13
+2024-11-15T18:59:48.369305 [MAC    ] [W] [ 3172] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.444339 [MAC    ] [W] [ 3247] UE buffers: Removing old buffer tti=3242, interval=13
+2024-11-15T18:59:48.445307 [MAC    ] [W] [ 3248] UE buffers: Removing old buffer tti=3243, interval=13
+2024-11-15T18:59:48.446296 [MAC    ] [W] [ 3249] UE buffers: Removing old buffer tti=3244, interval=13
+2024-11-15T18:59:48.459391 [MAC    ] [W] [ 3262] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.534305 [MAC    ] [W] [ 3337] UE buffers: Removing old buffer tti=3332, interval=13
+2024-11-15T18:59:48.535334 [MAC    ] [W] [ 3338] UE buffers: Removing old buffer tti=3333, interval=13
+2024-11-15T18:59:48.536307 [MAC    ] [W] [ 3339] UE buffers: Removing old buffer tti=3334, interval=13
+2024-11-15T18:59:48.537296 [MAC    ] [W] [ 3340] UE buffers: Removing old buffer tti=3335, interval=13
+2024-11-15T18:59:48.538277 [MAC    ] [W] [ 3341] UE buffers: Removing old buffer tti=3336, interval=13
+2024-11-15T18:59:48.549317 [MAC    ] [W] [ 3352] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.621295 [MAC    ] [W] [ 3424] UE buffers: Removing old buffer tti=3419, interval=13
+2024-11-15T18:59:48.622361 [MAC    ] [W] [ 3425] UE buffers: Removing old buffer tti=3420, interval=13
+2024-11-15T18:59:48.624326 [MAC    ] [W] [ 3427] UE buffers: Removing old buffer tti=3422, interval=13
+2024-11-15T18:59:48.625259 [MAC    ] [W] [ 3428] UE buffers: Removing old buffer tti=3423, interval=13
+2024-11-15T18:59:48.626322 [MAC    ] [W] [ 3429] UE buffers: Removing old buffer tti=3424, interval=13
+2024-11-15T18:59:48.639384 [MAC    ] [W] [ 3442] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.714328 [MAC    ] [W] [ 3517] UE buffers: Removing old buffer tti=3512, interval=13
+2024-11-15T18:59:48.715328 [MAC    ] [W] [ 3518] UE buffers: Removing old buffer tti=3513, interval=13
+2024-11-15T18:59:48.716285 [MAC    ] [W] [ 3519] UE buffers: Removing old buffer tti=3514, interval=13
+2024-11-15T18:59:48.717291 [MAC    ] [W] [ 3520] UE buffers: Removing old buffer tti=3515, interval=13
+2024-11-15T18:59:48.718288 [MAC    ] [W] [ 3521] UE buffers: Removing old buffer tti=3516, interval=13
+2024-11-15T18:59:48.729269 [MAC    ] [W] [ 3532] Updating user C-RNTI: rnti=0x323 already released.
+2024-11-15T18:59:48.801288 [MAC    ] [W] [ 3604] UE buffers: Removing old buffer tti=3599, interval=13
+2024-11-15T18:59:48.802353 [MAC    ] [W] [ 3605] UE buffers: Removing old buffer tti=3600, interval=13
+2024-11-15T18:59:48.804312 [MAC    ] [W] [ 3607] UE buffers: Removing old buffer tti=3602, interval=13
+2024-11-15T18:59:48.805255 [MAC    ] [W] [ 3608] UE buffers: Removing old buffer tti=3603, interval=13
+2024-11-15T18:59:48.806315 [MAC    ] [W] [ 3609] UE buffers: Removing old buffer tti=3604, interval=13
+2024-11-15T19:00:00.939384 [MAC    ] [W] [ 5502] Updating user C-RNTI: rnti=0x32e already released.
+2024-11-15T19:00:01.029303 [MAC    ] [W] [ 5592] Updating user C-RNTI: rnti=0x32e already released.
+2024-11-15T19:00:11.341677 [RRC    ] [W] Unrecognised rnti: 0x2e5
+2024-11-15T19:00:11.342256 [RRC    ] [W] Ignoring rnti=0x2e5 command -65534 arg 0. Cause: unknown rnti
+2024-11-15T19:00:12.113313 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=1
+2024-11-15T19:00:26.112317 [S1AP   ] [W] UE context for RNTI:0x339 is in zombie state. Releasing...
+2024-11-15T19:00:49.900274 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=5
+2024-11-15T19:00:52.606318 [MAC    ] [W] [ 5969] UE buffers: Removing old buffer tti=5964, interval=13
+2024-11-15T19:00:52.607324 [MAC    ] [W] [ 5970] UE buffers: Removing old buffer tti=5965, interval=13
+2024-11-15T19:00:52.608283 [MAC    ] [W] [ 5971] UE buffers: Removing old buffer tti=5966, interval=13
+2024-11-15T19:00:52.609319 [MAC    ] [W] [ 5972] UE buffers: Removing old buffer tti=5967, interval=13
+2024-11-15T19:00:52.610286 [MAC    ] [W] [ 5973] UE buffers: Removing old buffer tti=5968, interval=13
+2024-11-15T19:00:54.279356 [MAC    ] [W] [ 7642] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:54.358245 [MAC    ] [W] [ 7721] UE buffers: Removing old buffer tti=7716, interval=13
+2024-11-15T19:00:54.369336 [MAC    ] [W] [ 7732] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:54.441284 [MAC    ] [W] [ 7804] UE buffers: Removing old buffer tti=7799, interval=13
+2024-11-15T19:00:54.459258 [MAC    ] [W] [ 7822] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:54.536283 [MAC    ] [W] [ 7899] UE buffers: Removing old buffer tti=7894, interval=13
+2024-11-15T19:00:54.549319 [MAC    ] [W] [ 7912] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:54.639371 [MAC    ] [W] [ 8002] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:54.718291 [MAC    ] [W] [ 8081] UE buffers: Removing old buffer tti=8076, interval=13
+2024-11-15T19:00:54.729380 [MAC    ] [W] [ 8092] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:54.801302 [MAC    ] [W] [ 8164] UE buffers: Removing old buffer tti=8159, interval=13
+2024-11-15T19:00:54.819365 [MAC    ] [W] [ 8182] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:54.898293 [MAC    ] [W] [ 8261] UE buffers: Removing old buffer tti=8256, interval=13
+2024-11-15T19:00:54.909323 [MAC    ] [W] [ 8272] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:54.999370 [MAC    ] [W] [ 8362] Updating user C-RNTI: rnti=0x348 already released.
+2024-11-15T19:00:59.049228 [S1AP   ] [W] UE context for RNTI:0x33b is in zombie state. Releasing...
+2024-11-15T19:01:07.359321 [MAC    ] [W] [  242] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:07.432326 [MAC    ] [W] [  315] UE buffers: Removing old buffer tti=310, interval=13
+2024-11-15T19:01:07.434322 [MAC    ] [W] [  317] UE buffers: Removing old buffer tti=312, interval=13
+2024-11-15T19:01:07.435256 [MAC    ] [W] [  318] UE buffers: Removing old buffer tti=313, interval=13
+2024-11-15T19:01:07.436230 [MAC    ] [W] [  319] UE buffers: Removing old buffer tti=314, interval=13
+2024-11-15T19:01:07.449354 [MAC    ] [W] [  332] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:07.522287 [MAC    ] [W] [  405] UE buffers: Removing old buffer tti=400, interval=13
+2024-11-15T19:01:07.524287 [MAC    ] [W] [  407] UE buffers: Removing old buffer tti=402, interval=13
+2024-11-15T19:01:07.525283 [MAC    ] [W] [  408] UE buffers: Removing old buffer tti=403, interval=13
+2024-11-15T19:01:07.526251 [MAC    ] [W] [  409] UE buffers: Removing old buffer tti=404, interval=13
+2024-11-15T19:01:07.539256 [MAC    ] [W] [  422] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:07.614323 [MAC    ] [W] [  497] UE buffers: Removing old buffer tti=492, interval=13
+2024-11-15T19:01:07.615287 [MAC    ] [W] [  498] UE buffers: Removing old buffer tti=493, interval=13
+2024-11-15T19:01:07.616282 [MAC    ] [W] [  499] UE buffers: Removing old buffer tti=494, interval=13
+2024-11-15T19:01:07.629324 [MAC    ] [W] [  512] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:07.704286 [MAC    ] [W] [  587] UE buffers: Removing old buffer tti=582, interval=13
+2024-11-15T19:01:07.705314 [MAC    ] [W] [  588] UE buffers: Removing old buffer tti=583, interval=13
+2024-11-15T19:01:07.706246 [MAC    ] [W] [  589] UE buffers: Removing old buffer tti=584, interval=13
+2024-11-15T19:01:07.719273 [MAC    ] [W] [  602] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:07.792312 [MAC    ] [W] [  675] UE buffers: Removing old buffer tti=670, interval=13
+2024-11-15T19:01:07.794316 [MAC    ] [W] [  677] UE buffers: Removing old buffer tti=672, interval=13
+2024-11-15T19:01:07.795243 [MAC    ] [W] [  678] UE buffers: Removing old buffer tti=673, interval=13
+2024-11-15T19:01:07.796276 [MAC    ] [W] [  679] UE buffers: Removing old buffer tti=674, interval=13
+2024-11-15T19:01:07.809278 [MAC    ] [W] [  692] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:07.882277 [MAC    ] [W] [  765] UE buffers: Removing old buffer tti=760, interval=13
+2024-11-15T19:01:07.884274 [MAC    ] [W] [  767] UE buffers: Removing old buffer tti=762, interval=13
+2024-11-15T19:01:07.885272 [MAC    ] [W] [  768] UE buffers: Removing old buffer tti=763, interval=13
+2024-11-15T19:01:07.886237 [MAC    ] [W] [  769] UE buffers: Removing old buffer tti=764, interval=13
+2024-11-15T19:01:07.899357 [MAC    ] [W] [  782] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:07.974304 [MAC    ] [W] [  857] UE buffers: Removing old buffer tti=852, interval=13
+2024-11-15T19:01:07.975274 [MAC    ] [W] [  858] UE buffers: Removing old buffer tti=853, interval=13
+2024-11-15T19:01:07.976266 [MAC    ] [W] [  859] UE buffers: Removing old buffer tti=854, interval=13
+2024-11-15T19:01:07.989274 [MAC    ] [W] [  872] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:08.062266 [MAC    ] [W] [  945] UE buffers: Removing old buffer tti=940, interval=13
+2024-11-15T19:01:08.064268 [MAC    ] [W] [  947] UE buffers: Removing old buffer tti=942, interval=13
+2024-11-15T19:01:08.065266 [MAC    ] [W] [  948] UE buffers: Removing old buffer tti=943, interval=13
+2024-11-15T19:01:08.066230 [MAC    ] [W] [  949] UE buffers: Removing old buffer tti=944, interval=13
+2024-11-15T19:01:08.079340 [MAC    ] [W] [  962] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:08.154299 [MAC    ] [W] [ 1037] UE buffers: Removing old buffer tti=1032, interval=13
+2024-11-15T19:01:08.155268 [MAC    ] [W] [ 1038] UE buffers: Removing old buffer tti=1033, interval=13
+2024-11-15T19:01:08.156263 [MAC    ] [W] [ 1039] UE buffers: Removing old buffer tti=1034, interval=13
+2024-11-15T19:01:08.169277 [MAC    ] [W] [ 1052] Updating user C-RNTI: rnti=0x353 already released.
+2024-11-15T19:01:08.244265 [MAC    ] [W] [ 1127] UE buffers: Removing old buffer tti=1122, interval=13
+2024-11-15T19:01:08.245297 [MAC    ] [W] [ 1128] UE buffers: Removing old buffer tti=1123, interval=13
+2024-11-15T19:01:08.246228 [MAC    ] [W] [ 1129] UE buffers: Removing old buffer tti=1124, interval=13
+2024-11-15T19:01:08.247258 [MAC    ] [W] [ 1130] UE buffers: Removing old buffer tti=1125, interval=13
+2024-11-15T19:01:08.248233 [MAC    ] [W] [ 1131] UE buffers: Removing old buffer tti=1126, interval=13
+2024-11-15T19:01:53.290334 [S1AP   ] [W] UE context for RNTI:0x35e is in zombie state. Releasing...
+2024-11-15T19:01:55.566234 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T19:02:08.654226 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T19:02:09.565271 [S1AP   ] [W] UE context for RNTI:0x36a is in zombie state. Releasing...
+2024-11-15T19:02:22.653311 [S1AP   ] [W] UE context for RNTI:0x377 is in zombie state. Releasing...
+2024-11-15T19:02:22.709280 [MAC    ] [W] [ 3912] UE buffers: Removing old buffer tti=3907, interval=13
+2024-11-15T19:02:22.710244 [MAC    ] [W] [ 3913] UE buffers: Removing old buffer tti=3908, interval=13
+2024-11-15T19:02:22.711275 [MAC    ] [W] [ 3914] UE buffers: Removing old buffer tti=3909, interval=13
+2024-11-15T19:02:22.712205 [MAC    ] [W] [ 3915] UE buffers: Removing old buffer tti=3910, interval=13
+2024-11-15T19:15:57.440436 [STCK   ] [W] Can't deliver SDU for EPS bearer 5. Dropping it.
+2024-11-15T19:15:59.138929 [MAC    ] [W] [ 1142] Updating user C-RNTI: rnti=0x383 already released.
+2024-11-15T19:15:59.228869 [MAC    ] [W] [ 1232] Updating user C-RNTI: rnti=0x383 already released.
+2024-11-15T19:15:59.318834 [MAC    ] [W] [ 1322] Updating user C-RNTI: rnti=0x383 already released.
+2024-11-15T19:15:59.408857 [MAC    ] [W] [ 1412] Updating user C-RNTI: rnti=0x383 already released.
+2024-11-15T19:15:59.481807 [MAC    ] [W] [ 1485] UE buffers: Removing old buffer tti=1480, interval=13
+2024-11-15T19:15:59.498845 [MAC    ] [W] [ 1502] Updating user C-RNTI: rnti=0x383 already released.
+2024-11-15T19:15:59.588788 [MAC    ] [W] [ 1592] Updating user C-RNTI: rnti=0x383 already released.
+2024-11-15T19:15:59.678834 [MAC    ] [W] [ 1682] Updating user C-RNTI: rnti=0x383 already released.
+2024-11-15T19:15:59.768891 [MAC    ] [W] [ 1772] Updating user C-RNTI: rnti=0x383 already released.
+2024-11-15T19:16:02.278856 [MAC    ] [W] [ 4282] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:02.353803 [MAC    ] [W] [ 4357] UE buffers: Removing old buffer tti=4352, interval=13
+2024-11-15T19:16:02.354833 [MAC    ] [W] [ 4358] UE buffers: Removing old buffer tti=4353, interval=13
+2024-11-15T19:16:02.355766 [MAC    ] [W] [ 4359] UE buffers: Removing old buffer tti=4354, interval=13
+2024-11-15T19:16:02.356797 [MAC    ] [W] [ 4360] UE buffers: Removing old buffer tti=4355, interval=13
+2024-11-15T19:16:02.357774 [MAC    ] [W] [ 4361] UE buffers: Removing old buffer tti=4356, interval=13
+2024-11-15T19:16:02.368861 [MAC    ] [W] [ 4372] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:02.440799 [MAC    ] [W] [ 4444] UE buffers: Removing old buffer tti=4439, interval=13
+2024-11-15T19:16:02.441831 [MAC    ] [W] [ 4445] UE buffers: Removing old buffer tti=4440, interval=13
+2024-11-15T19:16:02.443791 [MAC    ] [W] [ 4447] UE buffers: Removing old buffer tti=4442, interval=13
+2024-11-15T19:16:02.444767 [MAC    ] [W] [ 4448] UE buffers: Removing old buffer tti=4443, interval=13
+2024-11-15T19:16:02.445795 [MAC    ] [W] [ 4449] UE buffers: Removing old buffer tti=4444, interval=13
+2024-11-15T19:16:02.458817 [MAC    ] [W] [ 4462] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:02.531795 [MAC    ] [W] [ 4535] UE buffers: Removing old buffer tti=4530, interval=13
+2024-11-15T19:16:02.533816 [MAC    ] [W] [ 4537] UE buffers: Removing old buffer tti=4532, interval=13
+2024-11-15T19:16:02.534794 [MAC    ] [W] [ 4538] UE buffers: Removing old buffer tti=4533, interval=13
+2024-11-15T19:16:02.535766 [MAC    ] [W] [ 4539] UE buffers: Removing old buffer tti=4534, interval=13
+2024-11-15T19:16:02.548890 [MAC    ] [W] [ 4552] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:02.621826 [MAC    ] [W] [ 4625] UE buffers: Removing old buffer tti=4620, interval=13
+2024-11-15T19:16:02.623823 [MAC    ] [W] [ 4627] UE buffers: Removing old buffer tti=4622, interval=13
+2024-11-15T19:16:02.624755 [MAC    ] [W] [ 4628] UE buffers: Removing old buffer tti=4623, interval=13
+2024-11-15T19:16:02.625789 [MAC    ] [W] [ 4629] UE buffers: Removing old buffer tti=4624, interval=13
+2024-11-15T19:16:02.638797 [MAC    ] [W] [ 4642] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:02.711854 [MAC    ] [W] [ 4715] UE buffers: Removing old buffer tti=4710, interval=13
+2024-11-15T19:16:02.713857 [MAC    ] [W] [ 4717] UE buffers: Removing old buffer tti=4712, interval=13
+2024-11-15T19:16:02.714783 [MAC    ] [W] [ 4718] UE buffers: Removing old buffer tti=4713, interval=13
+2024-11-15T19:16:02.715762 [MAC    ] [W] [ 4719] UE buffers: Removing old buffer tti=4714, interval=13
+2024-11-15T19:16:02.728913 [MAC    ] [W] [ 4732] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:02.803817 [MAC    ] [W] [ 4807] UE buffers: Removing old buffer tti=4802, interval=13
+2024-11-15T19:16:02.804849 [MAC    ] [W] [ 4808] UE buffers: Removing old buffer tti=4803, interval=13
+2024-11-15T19:16:02.805781 [MAC    ] [W] [ 4809] UE buffers: Removing old buffer tti=4804, interval=13
+2024-11-15T19:16:02.818790 [MAC    ] [W] [ 4822] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:02.891846 [MAC    ] [W] [ 4895] UE buffers: Removing old buffer tti=4890, interval=13
+2024-11-15T19:16:02.893847 [MAC    ] [W] [ 4897] UE buffers: Removing old buffer tti=4892, interval=13
+2024-11-15T19:16:02.894780 [MAC    ] [W] [ 4898] UE buffers: Removing old buffer tti=4893, interval=13
+2024-11-15T19:16:02.895810 [MAC    ] [W] [ 4899] UE buffers: Removing old buffer tti=4894, interval=13
+2024-11-15T19:16:02.908823 [MAC    ] [W] [ 4912] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:02.981813 [MAC    ] [W] [ 4985] UE buffers: Removing old buffer tti=4980, interval=13
+2024-11-15T19:16:02.983812 [MAC    ] [W] [ 4987] UE buffers: Removing old buffer tti=4982, interval=13
+2024-11-15T19:16:02.984807 [MAC    ] [W] [ 4988] UE buffers: Removing old buffer tti=4983, interval=13
+2024-11-15T19:16:02.985775 [MAC    ] [W] [ 4989] UE buffers: Removing old buffer tti=4984, interval=13
+2024-11-15T19:16:02.998867 [MAC    ] [W] [ 5002] Updating user C-RNTI: rnti=0x38d already released.
+2024-11-15T19:16:03.071872 [MAC    ] [W] [ 5075] UE buffers: Removing old buffer tti=5070, interval=13
+2024-11-15T19:16:03.073874 [MAC    ] [W] [ 5077] UE buffers: Removing old buffer tti=5072, interval=13
+2024-11-15T19:16:03.074772 [MAC    ] [W] [ 5078] UE buffers: Removing old buffer tti=5073, interval=13
+2024-11-15T19:16:03.075829 [MAC    ] [W] [ 5079] UE buffers: Removing old buffer tti=5074, interval=13
+2024-11-15T19:16:25.226029 [RRC    ] [W] Unrecognised rnti: 0x383
+2024-11-15T19:16:25.226821 [RRC    ] [W] Ignoring rnti=0x383 command -65534 arg 0. Cause: unknown rnti
+2024-11-15T19:16:25.248912 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:25.338804 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:25.408849 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T19:16:25.428850 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:25.518849 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:25.608875 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:25.698778 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:25.788807 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:25.878814 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:25.968885 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:26.058821 [RLC    ] [W] LCID 1 doesn't exist. Dropping PDU.
+2024-11-15T19:16:33.689819 [S1AP   ] [W] UE context for RNTI:0x397 is in zombie state. Releasing...
+2024-11-15T19:16:39.407788 [S1AP   ] [W] UE context for RNTI:0x398 is in zombie state. Releasing...
+2024-11-15T19:17:11.179737 [S1AP   ] [W] UE context for RNTI:0x3a5 is in zombie state. Releasing...
+2024-11-15T19:17:26.576693 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T19:17:27.889821 [RLC    ] [W] SRB2: Signaling max number of reTx=4 for SN=0
+2024-11-15T19:17:29.588841 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T19:17:36.189740 [S1AP   ] [W] UE context for RNTI:0x3a7 is in zombie state. Releasing...
+2024-11-15T19:17:40.575712 [S1AP   ] [W] UE context for RNTI:0x3a9 is in zombie state. Releasing...
+2024-11-15T19:30:40.066132 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=779
+2024-11-15T19:34:59.968528 [S1AP   ] [W] UE context for RNTI:0x3b0 is in zombie state. Releasing...
+2024-11-15T19:35:14.995391 [MAC    ] [W] [10120] SCHED: Could not transmit RAR within the window (RA=10111, Window=[10114, 10124), RAR=10124
+2024-11-15T19:35:15.035368 [MAC    ] [W] [10160] SCHED: Could not transmit RAR within the window (RA=10151, Window=[10154, 10164), RAR=10164
+2024-11-15T19:35:15.075409 [MAC    ] [W] [10200] SCHED: Could not transmit RAR within the window (RA=10191, Window=[10194, 10204), RAR=10204
+2024-11-15T19:35:15.095369 [MAC    ] [W] [10220] SCHED: Could not transmit RAR within the window (RA=10211, Window=[10214, 10224), RAR=10224
+2024-11-15T19:35:15.115384 [MAC    ] [W] [    0] SCHED: Could not transmit RAR within the window (RA=10231, Window=[10234, 4), RAR=4
+2024-11-15T19:35:15.135409 [MAC    ] [W] [   20] SCHED: Could not transmit RAR within the window (RA=11, Window=[14, 24), RAR=24
+2024-11-15T19:35:15.595368 [MAC    ] [W] [  480] SCHED: Could not transmit RAR within the window (RA=471, Window=[474, 484), RAR=484
+2024-11-15T19:35:15.615390 [MAC    ] [W] [  500] SCHED: Could not transmit RAR within the window (RA=491, Window=[494, 504), RAR=504
+2024-11-15T19:35:15.635351 [MAC    ] [W] [  520] SCHED: Could not transmit RAR within the window (RA=511, Window=[514, 524), RAR=524
+2024-11-15T19:35:15.655371 [MAC    ] [W] [  540] SCHED: Could not transmit RAR within the window (RA=531, Window=[534, 544), RAR=544
+2024-11-15T19:35:15.675391 [MAC    ] [W] [  560] SCHED: Could not transmit RAR within the window (RA=551, Window=[554, 564), RAR=564
+2024-11-15T19:35:15.695408 [MAC    ] [W] [  580] SCHED: Could not transmit RAR within the window (RA=571, Window=[574, 584), RAR=584
+2024-11-15T19:35:15.715367 [MAC    ] [W] [  600] SCHED: Could not transmit RAR within the window (RA=591, Window=[594, 604), RAR=604
+2024-11-15T19:35:15.735387 [MAC    ] [W] [  620] SCHED: Could not transmit RAR within the window (RA=611, Window=[614, 624), RAR=624
+2024-11-15T19:35:15.755407 [MAC    ] [W] [  640] SCHED: Could not transmit RAR within the window (RA=631, Window=[634, 644), RAR=644
+2024-11-15T19:35:15.775359 [MAC    ] [W] [  660] SCHED: Could not transmit RAR within the window (RA=651, Window=[654, 664), RAR=664
+2024-11-15T19:35:15.795380 [MAC    ] [W] [  680] SCHED: Could not transmit RAR within the window (RA=671, Window=[674, 684), RAR=684
+2024-11-15T19:35:15.835360 [MAC    ] [W] [  720] SCHED: Could not transmit RAR within the window (RA=711, Window=[714, 724), RAR=724
+2024-11-15T19:35:15.855377 [MAC    ] [W] [  740] SCHED: Could not transmit RAR within the window (RA=731, Window=[734, 744), RAR=744
+2024-11-15T19:35:15.875396 [MAC    ] [W] [  760] SCHED: Could not transmit RAR within the window (RA=751, Window=[754, 764), RAR=764
+2024-11-15T19:35:15.895354 [MAC    ] [W] [  780] SCHED: Could not transmit RAR within the window (RA=771, Window=[774, 784), RAR=784
+2024-11-15T19:35:15.935390 [MAC    ] [W] [  820] SCHED: Could not transmit RAR within the window (RA=811, Window=[814, 824), RAR=824
+2024-11-15T19:35:15.955351 [MAC    ] [W] [  840] SCHED: Could not transmit RAR within the window (RA=831, Window=[834, 844), RAR=844
+2024-11-15T19:35:16.015349 [MAC    ] [W] [  900] SCHED: Could not transmit RAR within the window (RA=891, Window=[894, 904), RAR=904
+2024-11-15T19:35:16.035369 [MAC    ] [W] [  920] SCHED: Could not transmit RAR within the window (RA=911, Window=[914, 924), RAR=924
+2024-11-15T19:35:16.075346 [MAC    ] [W] [  960] SCHED: Could not transmit RAR within the window (RA=951, Window=[954, 964), RAR=964
+2024-11-15T19:35:16.095374 [MAC    ] [W] [  980] SCHED: Could not transmit RAR within the window (RA=971, Window=[974, 984), RAR=984
+2024-11-15T19:35:16.115394 [MAC    ] [W] [ 1000] SCHED: Could not transmit RAR within the window (RA=991, Window=[994, 1004), RAR=1004
+2024-11-15T19:35:16.913431 [RLC    ] [W] SRB2: Signaling max number of reTx=4 for SN=0
+2024-11-15T19:35:26.197330 [S1AP   ] [W] UE context for RNTI:0x3b1 is in zombie state. Releasing...
+2024-11-15T19:36:03.228192 [S1AP   ] [W] UE context for RNTI:0x405 is in zombie state. Releasing...
+2024-11-15T19:36:18.255134 [MAC    ] [W] [ 1700] SCHED: Could not transmit RAR within the window (RA=1691, Window=[1694, 1704), RAR=1704
+2024-11-15T19:36:18.295169 [MAC    ] [W] [ 1740] SCHED: Could not transmit RAR within the window (RA=1731, Window=[1734, 1744), RAR=1744
+2024-11-15T19:36:18.315192 [MAC    ] [W] [ 1760] SCHED: Could not transmit RAR within the window (RA=1751, Window=[1754, 1764), RAR=1764
+2024-11-15T19:36:18.355172 [MAC    ] [W] [ 1800] SCHED: Could not transmit RAR within the window (RA=1791, Window=[1794, 1804), RAR=1804
+2024-11-15T19:36:18.375188 [MAC    ] [W] [ 1820] SCHED: Could not transmit RAR within the window (RA=1811, Window=[1814, 1824), RAR=1824
+2024-11-15T19:36:18.415176 [MAC    ] [W] [ 1860] SCHED: Could not transmit RAR within the window (RA=1851, Window=[1854, 1864), RAR=1864
+2024-11-15T19:36:18.455143 [MAC    ] [W] [ 1900] SCHED: Could not transmit RAR within the window (RA=1891, Window=[1894, 1904), RAR=1904
+2024-11-15T19:36:18.475162 [MAC    ] [W] [ 1920] SCHED: Could not transmit RAR within the window (RA=1911, Window=[1914, 1924), RAR=1924
+2024-11-15T19:36:18.515136 [MAC    ] [W] [ 1960] SCHED: Could not transmit RAR within the window (RA=1951, Window=[1954, 1964), RAR=1964
+2024-11-15T19:36:18.535156 [MAC    ] [W] [ 1980] SCHED: Could not transmit RAR within the window (RA=1971, Window=[1974, 1984), RAR=1984
+2024-11-15T19:36:18.555182 [MAC    ] [W] [ 2000] SCHED: Could not transmit RAR within the window (RA=1991, Window=[1994, 2004), RAR=2004
+2024-11-15T19:36:18.595155 [MAC    ] [W] [ 2040] SCHED: Could not transmit RAR within the window (RA=2031, Window=[2034, 2044), RAR=2044
+2024-11-15T19:36:18.635137 [MAC    ] [W] [ 2080] SCHED: Could not transmit RAR within the window (RA=2071, Window=[2074, 2084), RAR=2084
+2024-11-15T19:36:18.655153 [MAC    ] [W] [ 2100] SCHED: Could not transmit RAR within the window (RA=2091, Window=[2094, 2104), RAR=2104
+2024-11-15T19:36:18.675174 [MAC    ] [W] [ 2120] SCHED: Could not transmit RAR within the window (RA=2111, Window=[2114, 2124), RAR=2124
+2024-11-15T19:36:18.755132 [MAC    ] [W] [ 2200] SCHED: Could not transmit RAR within the window (RA=2191, Window=[2194, 2204), RAR=2204
+2024-11-15T19:36:18.775150 [MAC    ] [W] [ 2220] SCHED: Could not transmit RAR within the window (RA=2211, Window=[2214, 2224), RAR=2224
+2024-11-15T19:36:18.795174 [MAC    ] [W] [ 2240] SCHED: Could not transmit RAR within the window (RA=2231, Window=[2234, 2244), RAR=2244
+2024-11-15T19:36:18.815126 [MAC    ] [W] [ 2260] SCHED: Could not transmit RAR within the window (RA=2251, Window=[2254, 2264), RAR=2264
+2024-11-15T19:36:18.835147 [MAC    ] [W] [ 2280] SCHED: Could not transmit RAR within the window (RA=2271, Window=[2274, 2284), RAR=2284
+2024-11-15T19:36:18.855172 [MAC    ] [W] [ 2300] SCHED: Could not transmit RAR within the window (RA=2291, Window=[2294, 2304), RAR=2304
+2024-11-15T19:36:18.875135 [MAC    ] [W] [ 2320] SCHED: Could not transmit RAR within the window (RA=2311, Window=[2314, 2324), RAR=2324
+2024-11-15T19:36:18.895150 [MAC    ] [W] [ 2340] SCHED: Could not transmit RAR within the window (RA=2331, Window=[2334, 2344), RAR=2344
+2024-11-15T19:36:18.915168 [MAC    ] [W] [ 2360] SCHED: Could not transmit RAR within the window (RA=2351, Window=[2354, 2364), RAR=2364
+2024-11-15T19:36:18.935190 [MAC    ] [W] [ 2380] SCHED: Could not transmit RAR within the window (RA=2371, Window=[2374, 2384), RAR=2384
+2024-11-15T19:36:18.955149 [MAC    ] [W] [ 2400] SCHED: Could not transmit RAR within the window (RA=2391, Window=[2394, 2404), RAR=2404
+2024-11-15T19:36:18.975167 [MAC    ] [W] [ 2420] SCHED: Could not transmit RAR within the window (RA=2411, Window=[2414, 2424), RAR=2424
+2024-11-15T19:36:18.995184 [MAC    ] [W] [ 2440] SCHED: Could not transmit RAR within the window (RA=2431, Window=[2434, 2444), RAR=2444
+2024-11-15T19:36:19.035159 [MAC    ] [W] [ 2480] SCHED: Could not transmit RAR within the window (RA=2471, Window=[2474, 2484), RAR=2484
+2024-11-15T19:36:19.075136 [MAC    ] [W] [ 2520] SCHED: Could not transmit RAR within the window (RA=2511, Window=[2514, 2524), RAR=2524
+2024-11-15T19:36:19.115181 [MAC    ] [W] [ 2560] SCHED: Could not transmit RAR within the window (RA=2551, Window=[2554, 2564), RAR=2564
+2024-11-15T19:36:19.135137 [MAC    ] [W] [ 2580] SCHED: Could not transmit RAR within the window (RA=2571, Window=[2574, 2584), RAR=2584
+2024-11-15T19:36:19.155158 [MAC    ] [W] [ 2600] SCHED: Could not transmit RAR within the window (RA=2591, Window=[2594, 2604), RAR=2604
+2024-11-15T19:36:19.175183 [MAC    ] [W] [ 2620] SCHED: Could not transmit RAR within the window (RA=2611, Window=[2614, 2624), RAR=2624
+2024-11-15T19:36:19.215158 [MAC    ] [W] [ 2660] SCHED: Could not transmit RAR within the window (RA=2651, Window=[2654, 2664), RAR=2664
+2024-11-15T19:36:19.235183 [MAC    ] [W] [ 2680] SCHED: Could not transmit RAR within the window (RA=2671, Window=[2674, 2684), RAR=2684
+2024-11-15T19:36:19.255129 [MAC    ] [W] [ 2700] SCHED: Could not transmit RAR within the window (RA=2691, Window=[2694, 2704), RAR=2704
+2024-11-15T19:36:19.315128 [MAC    ] [W] [ 2760] SCHED: Could not transmit RAR within the window (RA=2751, Window=[2754, 2764), RAR=2764
+2024-11-15T19:36:19.335151 [MAC    ] [W] [ 2780] SCHED: Could not transmit RAR within the window (RA=2771, Window=[2774, 2784), RAR=2784
+2024-11-15T19:36:19.355173 [MAC    ] [W] [ 2800] SCHED: Could not transmit RAR within the window (RA=2791, Window=[2794, 2804), RAR=2804
+2024-11-15T19:36:19.375125 [MAC    ] [W] [ 2820] SCHED: Could not transmit RAR within the window (RA=2811, Window=[2814, 2824), RAR=2824
+2024-11-15T19:36:19.395147 [MAC    ] [W] [ 2840] SCHED: Could not transmit RAR within the window (RA=2831, Window=[2834, 2844), RAR=2844
+2024-11-15T19:36:19.415167 [MAC    ] [W] [ 2860] SCHED: Could not transmit RAR within the window (RA=2851, Window=[2854, 2864), RAR=2864
+2024-11-15T19:36:19.435128 [MAC    ] [W] [ 2880] SCHED: Could not transmit RAR within the window (RA=2871, Window=[2874, 2884), RAR=2884
+2024-11-15T19:36:19.455149 [MAC    ] [W] [ 2900] SCHED: Could not transmit RAR within the window (RA=2891, Window=[2894, 2904), RAR=2904
+2024-11-15T19:36:19.475169 [MAC    ] [W] [ 2920] SCHED: Could not transmit RAR within the window (RA=2911, Window=[2914, 2924), RAR=2924
+2024-11-15T19:36:19.495122 [MAC    ] [W] [ 2940] SCHED: Could not transmit RAR within the window (RA=2931, Window=[2934, 2944), RAR=2944
+2024-11-15T19:36:19.535158 [MAC    ] [W] [ 2980] SCHED: Could not transmit RAR within the window (RA=2971, Window=[2974, 2984), RAR=2984
+2024-11-15T19:36:19.555180 [MAC    ] [W] [ 3000] SCHED: Could not transmit RAR within the window (RA=2991, Window=[2994, 3004), RAR=3004
+2024-11-15T19:36:19.635142 [MAC    ] [W] [ 3080] SCHED: Could not transmit RAR within the window (RA=3071, Window=[3074, 3084), RAR=3084
+2024-11-15T19:36:19.655159 [MAC    ] [W] [ 3100] SCHED: Could not transmit RAR within the window (RA=3091, Window=[3094, 3104), RAR=3104
+2024-11-15T19:36:19.675182 [MAC    ] [W] [ 3120] SCHED: Could not transmit RAR within the window (RA=3111, Window=[3114, 3124), RAR=3124
+2024-11-15T19:36:19.695134 [MAC    ] [W] [ 3140] SCHED: Could not transmit RAR within the window (RA=3131, Window=[3134, 3144), RAR=3144
+2024-11-15T19:36:19.715156 [MAC    ] [W] [ 3160] SCHED: Could not transmit RAR within the window (RA=3151, Window=[3154, 3164), RAR=3164
+2024-11-15T19:36:19.735180 [MAC    ] [W] [ 3180] SCHED: Could not transmit RAR within the window (RA=3171, Window=[3174, 3184), RAR=3184
+2024-11-15T19:36:19.755138 [MAC    ] [W] [ 3200] SCHED: Could not transmit RAR within the window (RA=3191, Window=[3194, 3204), RAR=3204
+2024-11-15T19:36:19.775155 [MAC    ] [W] [ 3220] SCHED: Could not transmit RAR within the window (RA=3211, Window=[3214, 3224), RAR=3224
+2024-11-15T19:36:19.795178 [MAC    ] [W] [ 3240] SCHED: Could not transmit RAR within the window (RA=3231, Window=[3234, 3244), RAR=3244
+2024-11-15T19:36:19.815133 [MAC    ] [W] [ 3260] SCHED: Could not transmit RAR within the window (RA=3251, Window=[3254, 3264), RAR=3264
+2024-11-15T19:36:19.855175 [MAC    ] [W] [ 3300] SCHED: Could not transmit RAR within the window (RA=3291, Window=[3294, 3304), RAR=3304
+2024-11-15T19:36:19.875131 [MAC    ] [W] [ 3320] SCHED: Could not transmit RAR within the window (RA=3311, Window=[3314, 3324), RAR=3324
+2024-11-15T19:36:19.895151 [MAC    ] [W] [ 3340] SCHED: Could not transmit RAR within the window (RA=3331, Window=[3334, 3344), RAR=3344
+2024-11-15T19:36:19.915168 [MAC    ] [W] [ 3360] SCHED: Could not transmit RAR within the window (RA=3351, Window=[3354, 3364), RAR=3364
+2024-11-15T19:36:19.935126 [MAC    ] [W] [ 3380] SCHED: Could not transmit RAR within the window (RA=3371, Window=[3374, 3384), RAR=3384
+2024-11-15T19:36:19.955153 [MAC    ] [W] [ 3400] SCHED: Could not transmit RAR within the window (RA=3391, Window=[3394, 3404), RAR=3404
+2024-11-15T19:36:19.995127 [MAC    ] [W] [ 3440] SCHED: Could not transmit RAR within the window (RA=3431, Window=[3434, 3444), RAR=3444
+2024-11-15T19:36:20.015165 [MAC    ] [W] [ 3460] SCHED: Could not transmit RAR within the window (RA=3451, Window=[3454, 3464), RAR=3464
+2024-11-15T19:36:20.035170 [MAC    ] [W] [ 3480] SCHED: Could not transmit RAR within the window (RA=3471, Window=[3474, 3484), RAR=3484
+2024-11-15T19:36:20.055130 [MAC    ] [W] [ 3500] SCHED: Could not transmit RAR within the window (RA=3491, Window=[3494, 3504), RAR=3504
+2024-11-15T19:36:20.075146 [MAC    ] [W] [ 3520] SCHED: Could not transmit RAR within the window (RA=3511, Window=[3514, 3524), RAR=3524
+2024-11-15T19:36:20.095170 [MAC    ] [W] [ 3540] SCHED: Could not transmit RAR within the window (RA=3531, Window=[3534, 3544), RAR=3544
+2024-11-15T19:36:20.115132 [MAC    ] [W] [ 3560] SCHED: Could not transmit RAR within the window (RA=3551, Window=[3554, 3564), RAR=3564
+2024-11-15T19:36:20.135142 [MAC    ] [W] [ 3580] SCHED: Could not transmit RAR within the window (RA=3571, Window=[3574, 3584), RAR=3584
+2024-11-15T19:36:20.155165 [MAC    ] [W] [ 3600] SCHED: Could not transmit RAR within the window (RA=3591, Window=[3594, 3604), RAR=3604
+2024-11-15T19:36:20.175184 [MAC    ] [W] [ 3620] SCHED: Could not transmit RAR within the window (RA=3611, Window=[3614, 3624), RAR=3624
+2024-11-15T19:36:20.195138 [MAC    ] [W] [ 3640] SCHED: Could not transmit RAR within the window (RA=3631, Window=[3634, 3644), RAR=3644
+2024-11-15T19:36:20.215157 [MAC    ] [W] [ 3660] SCHED: Could not transmit RAR within the window (RA=3651, Window=[3654, 3664), RAR=3664
+2024-11-15T19:36:30.895144 [MAC    ] [W] [ 4100] SCHED: Could not transmit RAR within the window (RA=4091, Window=[4094, 4104), RAR=4104
+2024-11-15T19:36:30.915102 [MAC    ] [W] [ 4120] SCHED: Could not transmit RAR within the window (RA=4111, Window=[4114, 4124), RAR=4124
+2024-11-15T19:36:30.935117 [MAC    ] [W] [ 4140] SCHED: Could not transmit RAR within the window (RA=4131, Window=[4134, 4144), RAR=4144
+2024-11-15T19:36:30.955136 [MAC    ] [W] [ 4160] SCHED: Could not transmit RAR within the window (RA=4151, Window=[4154, 4164), RAR=4164
+2024-11-15T19:36:30.975098 [MAC    ] [W] [ 4180] SCHED: Could not transmit RAR within the window (RA=4171, Window=[4174, 4184), RAR=4184
+2024-11-15T19:36:30.995116 [MAC    ] [W] [ 4200] SCHED: Could not transmit RAR within the window (RA=4191, Window=[4194, 4204), RAR=4204
+2024-11-15T19:36:31.035091 [MAC    ] [W] [ 4240] SCHED: Could not transmit RAR within the window (RA=4231, Window=[4234, 4244), RAR=4244
+2024-11-15T19:36:31.075132 [MAC    ] [W] [ 4280] SCHED: Could not transmit RAR within the window (RA=4271, Window=[4274, 4284), RAR=4284
+2024-11-15T19:36:31.095091 [MAC    ] [W] [ 4300] SCHED: Could not transmit RAR within the window (RA=4291, Window=[4294, 4304), RAR=4304
+2024-11-15T19:36:31.155089 [MAC    ] [W] [ 4360] SCHED: Could not transmit RAR within the window (RA=4351, Window=[4354, 4364), RAR=4364
+2024-11-15T19:36:31.255122 [MAC    ] [W] [ 4460] SCHED: Could not transmit RAR within the window (RA=4451, Window=[4454, 4464), RAR=4464
+2024-11-15T19:36:31.275088 [MAC    ] [W] [ 4480] SCHED: Could not transmit RAR within the window (RA=4471, Window=[4474, 4484), RAR=4484
+2024-11-15T19:36:31.335146 [MAC    ] [W] [ 4540] SCHED: Could not transmit RAR within the window (RA=4531, Window=[4534, 4544), RAR=4544
+2024-11-15T19:36:31.415096 [MAC    ] [W] [ 4620] SCHED: Could not transmit RAR within the window (RA=4611, Window=[4614, 4624), RAR=4624
+2024-11-15T19:36:31.475095 [MAC    ] [W] [ 4680] SCHED: Could not transmit RAR within the window (RA=4671, Window=[4674, 4684), RAR=4684
+2024-11-15T19:36:31.535098 [MAC    ] [W] [ 4740] SCHED: Could not transmit RAR within the window (RA=4731, Window=[4734, 4744), RAR=4744
+2024-11-15T19:36:31.555117 [MAC    ] [W] [ 4760] SCHED: Could not transmit RAR within the window (RA=4751, Window=[4754, 4764), RAR=4764
+2024-11-15T19:36:31.595091 [MAC    ] [W] [ 4800] SCHED: Could not transmit RAR within the window (RA=4791, Window=[4794, 4804), RAR=4804
+2024-11-15T19:36:31.615115 [MAC    ] [W] [ 4820] SCHED: Could not transmit RAR within the window (RA=4811, Window=[4814, 4824), RAR=4824
+2024-11-15T19:36:31.635140 [MAC    ] [W] [ 4840] SCHED: Could not transmit RAR within the window (RA=4831, Window=[4834, 4844), RAR=4844
+2024-11-15T19:36:31.655092 [MAC    ] [W] [ 4860] SCHED: Could not transmit RAR within the window (RA=4851, Window=[4854, 4864), RAR=4864
+2024-11-15T19:36:31.715088 [MAC    ] [W] [ 4920] SCHED: Could not transmit RAR within the window (RA=4911, Window=[4914, 4924), RAR=4924
+2024-11-15T19:36:31.735109 [MAC    ] [W] [ 4940] SCHED: Could not transmit RAR within the window (RA=4931, Window=[4934, 4944), RAR=4944
+2024-11-15T19:36:31.775087 [MAC    ] [W] [ 4980] SCHED: Could not transmit RAR within the window (RA=4971, Window=[4974, 4984), RAR=4984
+2024-11-15T19:36:31.795109 [MAC    ] [W] [ 5000] SCHED: Could not transmit RAR within the window (RA=4991, Window=[4994, 5004), RAR=5004
+2024-11-15T19:36:31.815131 [MAC    ] [W] [ 5020] SCHED: Could not transmit RAR within the window (RA=5011, Window=[5014, 5024), RAR=5024
+2024-11-15T19:36:31.855103 [MAC    ] [W] [ 5060] SCHED: Could not transmit RAR within the window (RA=5051, Window=[5054, 5064), RAR=5064
+2024-11-15T19:36:31.875127 [MAC    ] [W] [ 5080] SCHED: Could not transmit RAR within the window (RA=5071, Window=[5074, 5084), RAR=5084
+2024-11-15T19:36:33.297133 [S1AP   ] [W] UE context for RNTI:0x406 is in zombie state. Releasing...
+2024-11-15T19:36:42.385059 [MAC    ] [W] [ 5350] SCHED: Could not transmit RAR within the window (RA=5341, Window=[5344, 5354), RAR=5354
+2024-11-15T19:36:42.945061 [MAC    ] [W] [ 5910] SCHED: Could not transmit RAR within the window (RA=5901, Window=[5904, 5914), RAR=5914
+2024-11-15T19:36:43.005058 [MAC    ] [W] [ 5970] SCHED: Could not transmit RAR within the window (RA=5961, Window=[5964, 5974), RAR=5974
+2024-11-15T19:36:43.025080 [MAC    ] [W] [ 5990] SCHED: Could not transmit RAR within the window (RA=5981, Window=[5984, 5994), RAR=5994
+2024-11-15T19:36:43.185049 [MAC    ] [W] [ 6150] SCHED: Could not transmit RAR within the window (RA=6141, Window=[6144, 6154), RAR=6154
+2024-11-15T19:36:43.305046 [MAC    ] [W] [ 6270] SCHED: Could not transmit RAR within the window (RA=6261, Window=[6264, 6274), RAR=6274
+2024-11-15T19:36:43.345087 [MAC    ] [W] [ 6310] SCHED: Could not transmit RAR within the window (RA=6301, Window=[6304, 6314), RAR=6314
+2024-11-15T19:36:43.365050 [MAC    ] [W] [ 6330] SCHED: Could not transmit RAR within the window (RA=6321, Window=[6324, 6334), RAR=6334
+2024-11-15T19:36:43.425106 [MAC    ] [W] [ 6390] SCHED: Could not transmit RAR within the window (RA=6381, Window=[6384, 6394), RAR=6394
+2024-11-15T19:36:43.445063 [MAC    ] [W] [ 6410] SCHED: Could not transmit RAR within the window (RA=6401, Window=[6404, 6414), RAR=6414
+2024-11-15T19:36:43.625058 [MAC    ] [W] [ 6590] SCHED: Could not transmit RAR within the window (RA=6581, Window=[6584, 6594), RAR=6594
+2024-11-15T19:36:43.645077 [MAC    ] [W] [ 6610] SCHED: Could not transmit RAR within the window (RA=6601, Window=[6604, 6614), RAR=6614
+2024-11-15T19:36:43.665094 [MAC    ] [W] [ 6630] SCHED: Could not transmit RAR within the window (RA=6621, Window=[6624, 6634), RAR=6634
+2024-11-15T19:36:43.725093 [MAC    ] [W] [ 6690] SCHED: Could not transmit RAR within the window (RA=6681, Window=[6684, 6694), RAR=6694
+2024-11-15T19:36:43.845091 [MAC    ] [W] [ 6810] SCHED: Could not transmit RAR within the window (RA=6801, Window=[6804, 6814), RAR=6814
+2024-11-15T19:36:43.885065 [MAC    ] [W] [ 6850] SCHED: Could not transmit RAR within the window (RA=6841, Window=[6844, 6854), RAR=6854
+2024-11-15T19:36:43.945062 [MAC    ] [W] [ 6910] SCHED: Could not transmit RAR within the window (RA=6901, Window=[6904, 6914), RAR=6914
+2024-11-15T19:36:43.985051 [MAC    ] [W] [ 6950] SCHED: Could not transmit RAR within the window (RA=6941, Window=[6944, 6954), RAR=6954
+2024-11-15T19:36:44.065057 [MAC    ] [W] [ 7030] SCHED: Could not transmit RAR within the window (RA=7021, Window=[7024, 7034), RAR=7034
+2024-11-15T19:36:44.125056 [MAC    ] [W] [ 7090] SCHED: Could not transmit RAR within the window (RA=7081, Window=[7084, 7094), RAR=7094
+2024-11-15T19:46:38.116658 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=5
+2024-11-15T19:46:39.407661 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T19:46:39.407663 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T19:46:42.952754 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T19:46:58.579651 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-11-15T19:47:01.034632 [MAC    ] [W] [ 9601] UE buffers: Removing old buffer tti=9596, interval=13
+2024-11-15T19:47:02.395719 [MAC    ] [W] [  722] Updating user C-RNTI: rnti=0x546 already released.
+2024-11-15T19:47:02.475680 [MAC    ] [W] [  802] Updating user C-RNTI: rnti=0x546 already released.
+2024-11-15T19:47:02.548591 [MAC    ] [W] [  875] UE buffers: Removing old buffer tti=870, interval=13
+2024-11-15T19:47:02.555693 [MAC    ] [W] [  882] Updating user C-RNTI: rnti=0x546 already released.
+2024-11-15T19:47:02.645689 [MAC    ] [W] [  972] Updating user C-RNTI: rnti=0x546 already released.
+2024-11-15T19:47:02.724581 [MAC    ] [W] [ 1051] UE buffers: Removing old buffer tti=1046, interval=13
+2024-11-15T19:47:02.735703 [MAC    ] [W] [ 1062] Updating user C-RNTI: rnti=0x546 already released.
+2024-11-15T19:47:02.825681 [MAC    ] [W] [ 1152] Updating user C-RNTI: rnti=0x546 already released.
+2024-11-15T19:47:02.904576 [MAC    ] [W] [ 1231] UE buffers: Removing old buffer tti=1226, interval=13
+2024-11-15T19:47:02.915638 [MAC    ] [W] [ 1242] Updating user C-RNTI: rnti=0x546 already released.
+2024-11-15T19:47:02.988591 [MAC    ] [W] [ 1315] UE buffers: Removing old buffer tti=1310, interval=13
+2024-11-15T19:47:02.995660 [MAC    ] [W] [ 1322] Updating user C-RNTI: rnti=0x546 already released.
+2024-11-15T19:47:03.074624 [MAC    ] [W] [ 1401] UE buffers: Removing old buffer tti=1396, interval=13
+2024-11-15T19:47:13.868646 [RRC    ] [W] Unrecognised rnti: 0x546
+2024-11-15T19:47:13.868704 [RRC    ] [W] Ignoring rnti=0x546 command -65534 arg 0. Cause: unknown rnti
+2024-11-15T19:47:23.666671 [S1AP   ] [W] UE context for RNTI:0x550 is in zombie state. Releasing...
+2024-11-15T19:47:48.665539 [S1AP   ] [W] UE context for RNTI:0x551 is in zombie state. Releasing...
+2024-11-15T20:03:36.019172 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T20:03:44.931216 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:03:50.018150 [S1AP   ] [W] UE context for RNTI:0x553 is in zombie state. Releasing...
+2024-11-15T20:09:29.637900 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=402
+2024-11-15T20:09:37.832911 [MAC    ] [W] [ 4482] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:37.922902 [MAC    ] [W] [ 4572] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:38.012862 [MAC    ] [W] [ 4662] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:38.102900 [MAC    ] [W] [ 4752] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:38.182916 [MAC    ] [W] [ 4832] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:38.272956 [MAC    ] [W] [ 4922] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:38.362986 [MAC    ] [W] [ 5012] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:38.452887 [MAC    ] [W] [ 5102] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:38.542892 [MAC    ] [W] [ 5192] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:38.622919 [MAC    ] [W] [ 5272] Updating user C-RNTI: rnti=0x554 already released.
+2024-11-15T20:09:59.222729 [S1AP   ] [W] UE context for RNTI:0x560 is in zombie state. Releasing...
+2024-11-15T20:10:24.243628 [S1AP   ] [W] UE context for RNTI:0x561 is in zombie state. Releasing...
+2024-11-15T20:13:41.536853 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=215
+2024-11-15T20:16:48.391245 [MAC    ] [W] [ 4962] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:16:48.481168 [MAC    ] [W] [ 5052] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:16:48.571166 [MAC    ] [W] [ 5142] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:16:48.651180 [MAC    ] [W] [ 5222] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:16:48.741221 [MAC    ] [W] [ 5312] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:16:48.831227 [MAC    ] [W] [ 5402] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:16:48.921223 [MAC    ] [W] [ 5492] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:16:49.011268 [MAC    ] [W] [ 5582] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:16:49.101141 [MAC    ] [W] [ 5672] Updating user C-RNTI: rnti=0x562 already released.
+2024-11-15T20:17:03.451217 [MAC    ] [W] [ 9782] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:03.530090 [MAC    ] [W] [ 9861] UE buffers: Removing old buffer tti=9856, interval=13
+2024-11-15T20:17:03.541159 [MAC    ] [W] [ 9872] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:03.631128 [MAC    ] [W] [ 9962] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:03.721147 [MAC    ] [W] [10052] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:03.794101 [MAC    ] [W] [10125] UE buffers: Removing old buffer tti=10120, interval=13
+2024-11-15T20:17:03.811199 [MAC    ] [W] [10142] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:03.901158 [MAC    ] [W] [10232] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:03.991157 [MAC    ] [W] [   82] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:04.081222 [MAC    ] [W] [  172] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:04.154085 [MAC    ] [W] [  245] UE buffers: Removing old buffer tti=240, interval=13
+2024-11-15T20:17:04.171164 [MAC    ] [W] [  262] Updating user C-RNTI: rnti=0x571 already released.
+2024-11-15T20:17:11.441083 [S1AP   ] [W] UE context for RNTI:0x56d is in zombie state. Releasing...
+2024-11-15T20:17:42.712000 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=5
+2024-11-15T20:17:48.581037 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T20:17:49.271019 [S1AP   ] [W] UE context for RNTI:0x57f is in zombie state. Releasing...
+2024-11-15T20:17:50.865983 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-11-15T20:17:50.865989 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:18:08.150948 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-11-15T20:18:08.334900 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=2
+2024-11-15T20:18:09.563930 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-11-15T20:18:09.640934 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-11-15T20:18:13.521025 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:18:37.474770 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=20
+2024-11-15T20:18:39.728839 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:52:40.142320 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:52:47.870272 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=2
+2024-11-15T20:52:52.027262 [MAC    ] [W] [ 7962] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.107278 [MAC    ] [W] [ 8042] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.197265 [MAC    ] [W] [ 8132] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.276247 [MAC    ] [W] [ 8211] UE buffers: Removing old buffer tti=8206, interval=13
+2024-11-15T20:52:52.277278 [MAC    ] [W] [ 8212] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.367333 [MAC    ] [W] [ 8302] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.446231 [MAC    ] [W] [ 8381] UE buffers: Removing old buffer tti=8376, interval=13
+2024-11-15T20:52:52.457227 [MAC    ] [W] [ 8392] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.537295 [MAC    ] [W] [ 8472] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.627366 [MAC    ] [W] [ 8562] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.706244 [MAC    ] [W] [ 8641] UE buffers: Removing old buffer tti=8636, interval=13
+2024-11-15T20:52:52.717285 [MAC    ] [W] [ 8652] Updating user C-RNTI: rnti=0x5ac already released.
+2024-11-15T20:52:52.790196 [MAC    ] [W] [ 8725] UE buffers: Removing old buffer tti=8720, interval=13
+2024-11-15T20:52:53.179682 [RRC    ] [W] Unrecognised rnti: 0x5ac
+2024-11-15T20:52:53.180203 [RRC    ] [W] Ignoring rnti=0x5ac command -65534 arg 0. Cause: unknown rnti
+2024-11-15T20:52:53.421284 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=1
+2024-11-15T20:52:56.327291 [MAC    ] [W] [ 2022] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:52:56.406250 [MAC    ] [W] [ 2101] UE buffers: Removing old buffer tti=2096, interval=13
+2024-11-15T20:52:56.407307 [MAC    ] [W] [ 2102] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:52:56.486239 [MAC    ] [W] [ 2181] UE buffers: Removing old buffer tti=2176, interval=13
+2024-11-15T20:52:56.497295 [MAC    ] [W] [ 2192] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:52:56.569218 [MAC    ] [W] [ 2264] UE buffers: Removing old buffer tti=2259, interval=13
+2024-11-15T20:52:56.587331 [MAC    ] [W] [ 2282] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:52:56.687275 [MAC    ] [W] [ 2382] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:52:56.766206 [MAC    ] [W] [ 2461] UE buffers: Removing old buffer tti=2456, interval=13
+2024-11-15T20:52:56.777328 [MAC    ] [W] [ 2472] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:52:56.867241 [MAC    ] [W] [ 2562] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:52:56.935264 [RRC    ] [W] Ignoring rnti=0x5c1 command -65529 arg 0. Cause: unknown rnti
+2024-11-15T20:52:56.940219 [MAC    ] [W] [ 2635] UE buffers: Removing old buffer tti=2630, interval=13
+2024-11-15T20:52:56.957354 [MAC    ] [W] [ 2652] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:52:57.036236 [MAC    ] [W] [ 2731] UE buffers: Removing old buffer tti=2726, interval=13
+2024-11-15T20:52:57.047266 [MAC    ] [W] [ 2742] Updating user C-RNTI: rnti=0x5b9 already released.
+2024-11-15T20:53:00.046202 [MAC    ] [W] [ 5741] UE buffers: Removing old buffer tti=5736, interval=13
+2024-11-15T20:53:02.267335 [MAC    ] [W] [ 7962] Updating user C-RNTI: rnti=0x5c6 already released.
+2024-11-15T20:53:02.347277 [MAC    ] [W] [ 8042] Updating user C-RNTI: rnti=0x5c6 already released.
+2024-11-15T20:53:03.400309 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:54:59.434106 [RLC    ] [W] DRB1: Resetting ACK_SN and N_nack to initial state
+2024-11-15T20:55:19.329010 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=4
+2024-11-15T20:55:21.625090 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:55:21.806040 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T20:55:23.798034 [MAC    ] [W] [ 6133] UE buffers: Removing old buffer tti=6128, interval=13
+2024-11-15T20:55:23.863095 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:55:24.046037 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T20:55:25.714023 [MAC    ] [W] [ 8049] UE buffers: Removing old buffer tti=8044, interval=13
+2024-11-15T20:55:25.716031 [MAC    ] [W] [ 8051] UE buffers: Removing old buffer tti=8046, interval=13
+2024-11-15T20:55:25.784114 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T20:55:25.969018 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=0
+2024-11-15T20:55:28.204027 [MAC    ] [W] [  299] UE buffers: Removing old buffer tti=294, interval=13
+2024-11-15T20:55:28.205023 [MAC    ] [W] [  300] UE buffers: Removing old buffer tti=295, interval=13
+2024-11-15T20:55:29.547073 [MAC    ] [W] [ 1642] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:29.626031 [MAC    ] [W] [ 1721] UE buffers: Removing old buffer tti=1716, interval=13
+2024-11-15T20:55:29.637112 [MAC    ] [W] [ 1732] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:29.709981 [MAC    ] [W] [ 1805] UE buffers: Removing old buffer tti=1800, interval=13
+2024-11-15T20:55:29.727089 [MAC    ] [W] [ 1822] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:29.817028 [MAC    ] [W] [ 1912] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:29.907086 [MAC    ] [W] [ 2002] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:29.997096 [MAC    ] [W] [ 2092] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:30.070039 [MAC    ] [W] [ 2165] UE buffers: Removing old buffer tti=2160, interval=13
+2024-11-15T20:55:30.087121 [MAC    ] [W] [ 2182] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:30.177100 [MAC    ] [W] [ 2272] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:30.267105 [MAC    ] [W] [ 2362] Updating user C-RNTI: rnti=0x5dc already released.
+2024-11-15T20:55:32.898098 [S1AP   ] [W] Released UE with rnti=0x5e7 not found
+2024-11-15T20:55:34.537342 [RRC    ] [W] Unrecognised rnti: 0x5dc
+2024-11-15T20:55:34.538044 [RRC    ] [W] Ignoring rnti=0x5dc command -65534 arg 0. Cause: unknown rnti
+2024-11-15T20:55:34.813119 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-11-15T21:01:57.897419 [S1AP   ] [W] UE context for RNTI:0x5f0 is in zombie state. Releasing...
+2024-11-15T21:02:24.784406 [MAC    ] [W] [ 7280] SCHED: Could not transmit RAR within the window (RA=7271, Window=[7274, 7284), RAR=7284
+2024-11-15T21:02:24.804422 [MAC    ] [W] [ 7300] SCHED: Could not transmit RAR within the window (RA=7291, Window=[7294, 7304), RAR=7304
+2024-11-15T21:02:24.824449 [MAC    ] [W] [ 7320] SCHED: Could not transmit RAR within the window (RA=7311, Window=[7314, 7324), RAR=7324
+2024-11-15T21:02:24.884444 [MAC    ] [W] [ 7380] SCHED: Could not transmit RAR within the window (RA=7371, Window=[7374, 7384), RAR=7384
+2024-11-15T21:02:24.904406 [MAC    ] [W] [ 7400] SCHED: Could not transmit RAR within the window (RA=7391, Window=[7394, 7404), RAR=7404
+2024-11-15T21:02:24.924425 [MAC    ] [W] [ 7420] SCHED: Could not transmit RAR within the window (RA=7411, Window=[7414, 7424), RAR=7424
+2024-11-15T21:02:24.964402 [MAC    ] [W] [ 7460] SCHED: Could not transmit RAR within the window (RA=7451, Window=[7454, 7464), RAR=7464
+2024-11-15T21:02:25.004445 [MAC    ] [W] [ 7500] SCHED: Could not transmit RAR within the window (RA=7491, Window=[7494, 7504), RAR=7504
+2024-11-15T21:02:25.084397 [MAC    ] [W] [ 7580] SCHED: Could not transmit RAR within the window (RA=7571, Window=[7574, 7584), RAR=7584
+2024-11-15T21:02:25.124439 [MAC    ] [W] [ 7620] SCHED: Could not transmit RAR within the window (RA=7611, Window=[7614, 7624), RAR=7624
+2024-11-15T21:02:25.164413 [MAC    ] [W] [ 7660] SCHED: Could not transmit RAR within the window (RA=7651, Window=[7654, 7664), RAR=7664
+2024-11-15T21:02:25.184433 [MAC    ] [W] [ 7680] SCHED: Could not transmit RAR within the window (RA=7671, Window=[7674, 7684), RAR=7684
+2024-11-15T21:02:25.204409 [MAC    ] [W] [ 7700] SCHED: Could not transmit RAR within the window (RA=7691, Window=[7694, 7704), RAR=7704
+2024-11-15T21:02:25.224428 [MAC    ] [W] [ 7720] SCHED: Could not transmit RAR within the window (RA=7711, Window=[7714, 7724), RAR=7724
+2024-11-15T21:02:25.244437 [MAC    ] [W] [ 7740] SCHED: Could not transmit RAR within the window (RA=7731, Window=[7734, 7744), RAR=7744
+2024-11-15T21:02:25.264409 [MAC    ] [W] [ 7760] SCHED: Could not transmit RAR within the window (RA=7751, Window=[7754, 7764), RAR=7764
+2024-11-15T21:02:25.284428 [MAC    ] [W] [ 7780] SCHED: Could not transmit RAR within the window (RA=7771, Window=[7774, 7784), RAR=7784
+2024-11-15T21:02:25.304433 [MAC    ] [W] [ 7800] SCHED: Could not transmit RAR within the window (RA=7791, Window=[7794, 7804), RAR=7804
+2024-11-15T21:02:25.324396 [MAC    ] [W] [ 7820] SCHED: Could not transmit RAR within the window (RA=7811, Window=[7814, 7824), RAR=7824
+2024-11-15T21:02:25.344431 [MAC    ] [W] [ 7840] SCHED: Could not transmit RAR within the window (RA=7831, Window=[7834, 7844), RAR=7844
+2024-11-15T21:02:25.384451 [MAC    ] [W] [ 7880] SCHED: Could not transmit RAR within the window (RA=7871, Window=[7874, 7884), RAR=7884
+2024-11-15T21:02:25.404407 [MAC    ] [W] [ 7900] SCHED: Could not transmit RAR within the window (RA=7891, Window=[7894, 7904), RAR=7904
+2024-11-15T21:02:25.424428 [MAC    ] [W] [ 7920] SCHED: Could not transmit RAR within the window (RA=7911, Window=[7914, 7924), RAR=7924
+2024-11-15T21:02:25.444450 [MAC    ] [W] [ 7940] SCHED: Could not transmit RAR within the window (RA=7931, Window=[7934, 7944), RAR=7944
+2024-11-15T21:02:25.464407 [MAC    ] [W] [ 7960] SCHED: Could not transmit RAR within the window (RA=7951, Window=[7954, 7964), RAR=7964
+2024-11-15T21:02:25.484429 [MAC    ] [W] [ 7980] SCHED: Could not transmit RAR within the window (RA=7971, Window=[7974, 7984), RAR=7984
+2024-11-15T21:02:25.504447 [MAC    ] [W] [ 8000] SCHED: Could not transmit RAR within the window (RA=7991, Window=[7994, 8004), RAR=8004
+2024-11-15T21:02:25.524407 [MAC    ] [W] [ 8020] SCHED: Could not transmit RAR within the window (RA=8011, Window=[8014, 8024), RAR=8024
+2024-11-15T21:02:25.544425 [MAC    ] [W] [ 8040] SCHED: Could not transmit RAR within the window (RA=8031, Window=[8034, 8044), RAR=8044
+2024-11-15T21:02:25.564445 [MAC    ] [W] [ 8060] SCHED: Could not transmit RAR within the window (RA=8051, Window=[8054, 8064), RAR=8064
+2024-11-15T21:02:25.584404 [MAC    ] [W] [ 8080] SCHED: Could not transmit RAR within the window (RA=8071, Window=[8074, 8084), RAR=8084
+2024-11-15T21:02:25.604423 [MAC    ] [W] [ 8100] SCHED: Could not transmit RAR within the window (RA=8091, Window=[8094, 8104), RAR=8104
+2024-11-15T21:02:25.624443 [MAC    ] [W] [ 8120] SCHED: Could not transmit RAR within the window (RA=8111, Window=[8114, 8124), RAR=8124
+2024-11-15T21:02:25.644401 [MAC    ] [W] [ 8140] SCHED: Could not transmit RAR within the window (RA=8131, Window=[8134, 8144), RAR=8144
+2024-11-15T21:02:25.664421 [MAC    ] [W] [ 8160] SCHED: Could not transmit RAR within the window (RA=8151, Window=[8154, 8164), RAR=8164
+2024-11-15T21:02:25.684441 [MAC    ] [W] [ 8180] SCHED: Could not transmit RAR within the window (RA=8171, Window=[8174, 8184), RAR=8184
+2024-11-15T21:02:25.704399 [MAC    ] [W] [ 8200] SCHED: Could not transmit RAR within the window (RA=8191, Window=[8194, 8204), RAR=8204
+2024-11-15T21:02:25.724418 [MAC    ] [W] [ 8220] SCHED: Could not transmit RAR within the window (RA=8211, Window=[8214, 8224), RAR=8224
+2024-11-15T21:02:25.744438 [MAC    ] [W] [ 8240] SCHED: Could not transmit RAR within the window (RA=8231, Window=[8234, 8244), RAR=8244
+2024-11-15T21:02:25.764405 [MAC    ] [W] [ 8260] SCHED: Could not transmit RAR within the window (RA=8251, Window=[8254, 8264), RAR=8264
+2024-11-15T21:02:25.784415 [MAC    ] [W] [ 8280] SCHED: Could not transmit RAR within the window (RA=8271, Window=[8274, 8284), RAR=8284
+2024-11-15T21:02:25.804438 [MAC    ] [W] [ 8300] SCHED: Could not transmit RAR within the window (RA=8291, Window=[8294, 8304), RAR=8304
+2024-11-15T21:02:25.824395 [MAC    ] [W] [ 8320] SCHED: Could not transmit RAR within the window (RA=8311, Window=[8314, 8324), RAR=8324
+2024-11-15T21:02:25.844423 [MAC    ] [W] [ 8340] SCHED: Could not transmit RAR within the window (RA=8331, Window=[8334, 8344), RAR=8344
+2024-11-15T21:02:25.864440 [MAC    ] [W] [ 8360] SCHED: Could not transmit RAR within the window (RA=8351, Window=[8354, 8364), RAR=8364
+2024-11-15T21:02:25.884393 [MAC    ] [W] [ 8380] SCHED: Could not transmit RAR within the window (RA=8371, Window=[8374, 8384), RAR=8384
+2024-11-15T21:02:25.904413 [MAC    ] [W] [ 8400] SCHED: Could not transmit RAR within the window (RA=8391, Window=[8394, 8404), RAR=8404
+2024-11-15T21:02:25.924433 [MAC    ] [W] [ 8420] SCHED: Could not transmit RAR within the window (RA=8411, Window=[8414, 8424), RAR=8424
+2024-11-15T21:02:25.944414 [MAC    ] [W] [ 8440] SCHED: Could not transmit RAR within the window (RA=8431, Window=[8434, 8444), RAR=8444
+2024-11-15T21:02:25.964410 [MAC    ] [W] [ 8460] SCHED: Could not transmit RAR within the window (RA=8451, Window=[8454, 8464), RAR=8464
+2024-11-15T21:02:25.984432 [MAC    ] [W] [ 8480] SCHED: Could not transmit RAR within the window (RA=8471, Window=[8474, 8484), RAR=8484
+2024-11-15T21:02:26.024408 [MAC    ] [W] [ 8520] SCHED: Could not transmit RAR within the window (RA=8511, Window=[8514, 8524), RAR=8524
+2024-11-15T21:02:26.044430 [MAC    ] [W] [ 8540] SCHED: Could not transmit RAR within the window (RA=8531, Window=[8534, 8544), RAR=8544
+2024-11-15T21:02:26.084401 [MAC    ] [W] [ 8580] SCHED: Could not transmit RAR within the window (RA=8571, Window=[8574, 8584), RAR=8584
+2024-11-15T21:02:26.104428 [MAC    ] [W] [ 8600] SCHED: Could not transmit RAR within the window (RA=8591, Window=[8594, 8604), RAR=8604
+2024-11-15T21:02:26.124442 [MAC    ] [W] [ 8620] SCHED: Could not transmit RAR within the window (RA=8611, Window=[8614, 8624), RAR=8624
+2024-11-15T21:02:26.144403 [MAC    ] [W] [ 8640] SCHED: Could not transmit RAR within the window (RA=8631, Window=[8634, 8644), RAR=8644
+2024-11-15T21:02:26.184444 [MAC    ] [W] [ 8680] SCHED: Could not transmit RAR within the window (RA=8671, Window=[8674, 8684), RAR=8684
+2024-11-15T21:02:26.204400 [MAC    ] [W] [ 8700] SCHED: Could not transmit RAR within the window (RA=8691, Window=[8694, 8704), RAR=8704
+2024-11-15T21:02:26.224416 [MAC    ] [W] [ 8720] SCHED: Could not transmit RAR within the window (RA=8711, Window=[8714, 8724), RAR=8724
+2024-11-15T21:02:26.244441 [MAC    ] [W] [ 8740] SCHED: Could not transmit RAR within the window (RA=8731, Window=[8734, 8744), RAR=8744
+2024-11-15T21:02:26.264417 [MAC    ] [W] [ 8760] SCHED: Could not transmit RAR within the window (RA=8751, Window=[8754, 8764), RAR=8764
+2024-11-15T21:02:26.284418 [MAC    ] [W] [ 8780] SCHED: Could not transmit RAR within the window (RA=8771, Window=[8774, 8784), RAR=8784
+2024-11-15T21:02:26.304438 [MAC    ] [W] [ 8800] SCHED: Could not transmit RAR within the window (RA=8791, Window=[8794, 8804), RAR=8804
+2024-11-15T21:02:26.324421 [MAC    ] [W] [ 8820] SCHED: Could not transmit RAR within the window (RA=8811, Window=[8814, 8824), RAR=8824
+2024-11-15T21:02:26.344416 [MAC    ] [W] [ 8840] SCHED: Could not transmit RAR within the window (RA=8831, Window=[8834, 8844), RAR=8844
+2024-11-15T21:02:26.364438 [MAC    ] [W] [ 8860] SCHED: Could not transmit RAR within the window (RA=8851, Window=[8854, 8864), RAR=8864
+2024-11-15T21:02:26.384408 [MAC    ] [W] [ 8880] SCHED: Could not transmit RAR within the window (RA=8871, Window=[8874, 8884), RAR=8884
+2024-11-15T21:02:26.424435 [MAC    ] [W] [ 8920] SCHED: Could not transmit RAR within the window (RA=8911, Window=[8914, 8924), RAR=8924
+2024-11-15T21:02:26.444391 [MAC    ] [W] [ 8940] SCHED: Could not transmit RAR within the window (RA=8931, Window=[8934, 8944), RAR=8944
+2024-11-15T21:02:26.464410 [MAC    ] [W] [ 8960] SCHED: Could not transmit RAR within the window (RA=8951, Window=[8954, 8964), RAR=8964
+2024-11-15T21:02:26.484434 [MAC    ] [W] [ 8980] SCHED: Could not transmit RAR within the window (RA=8971, Window=[8974, 8984), RAR=8984
+2024-11-15T21:02:26.504403 [MAC    ] [W] [ 9000] SCHED: Could not transmit RAR within the window (RA=8991, Window=[8994, 9004), RAR=9004
+2024-11-15T21:02:26.524409 [MAC    ] [W] [ 9020] SCHED: Could not transmit RAR within the window (RA=9011, Window=[9014, 9024), RAR=9024
+2024-11-15T21:02:26.544433 [MAC    ] [W] [ 9040] SCHED: Could not transmit RAR within the window (RA=9031, Window=[9034, 9044), RAR=9044
+2024-11-15T21:02:26.564398 [MAC    ] [W] [ 9060] SCHED: Could not transmit RAR within the window (RA=9051, Window=[9054, 9064), RAR=9064
+2024-11-15T21:02:26.584414 [MAC    ] [W] [ 9080] SCHED: Could not transmit RAR within the window (RA=9071, Window=[9074, 9084), RAR=9084
+2024-11-15T21:02:26.604430 [MAC    ] [W] [ 9100] SCHED: Could not transmit RAR within the window (RA=9091, Window=[9094, 9104), RAR=9104
+2024-11-15T21:02:26.624452 [MAC    ] [W] [ 9120] SCHED: Could not transmit RAR within the window (RA=9111, Window=[9114, 9124), RAR=9124
+2024-11-15T21:02:26.644407 [MAC    ] [W] [ 9140] SCHED: Could not transmit RAR within the window (RA=9131, Window=[9134, 9144), RAR=9144
+2024-11-15T21:02:26.664428 [MAC    ] [W] [ 9160] SCHED: Could not transmit RAR within the window (RA=9151, Window=[9154, 9164), RAR=9164
+2024-11-15T21:02:26.684496 [MAC    ] [W] [ 9180] SCHED: Could not transmit RAR within the window (RA=9171, Window=[9174, 9184), RAR=9184
+2024-11-15T21:02:26.704408 [MAC    ] [W] [ 9200] SCHED: Could not transmit RAR within the window (RA=9191, Window=[9194, 9204), RAR=9204
+2024-11-15T21:02:26.724426 [MAC    ] [W] [ 9220] SCHED: Could not transmit RAR within the window (RA=9211, Window=[9214, 9224), RAR=9224
+2024-11-15T21:02:26.744447 [MAC    ] [W] [ 9240] SCHED: Could not transmit RAR within the window (RA=9231, Window=[9234, 9244), RAR=9244
+2024-11-15T21:02:34.743460 [S1AP   ] [W] UE context for RNTI:0x5f2 is in zombie state. Releasing...
+2024-11-15T21:02:38.044381 [MAC    ] [W] [   60] SCHED: Could not transmit RAR within the window (RA=51, Window=[54, 64), RAR=64
+2024-11-15T21:02:38.064412 [MAC    ] [W] [   80] SCHED: Could not transmit RAR within the window (RA=71, Window=[74, 84), RAR=84
+2024-11-15T21:02:38.084421 [MAC    ] [W] [  100] SCHED: Could not transmit RAR within the window (RA=91, Window=[94, 104), RAR=104
+2024-11-15T21:02:38.104379 [MAC    ] [W] [  120] SCHED: Could not transmit RAR within the window (RA=111, Window=[114, 124), RAR=124
+2024-11-15T21:02:38.124399 [MAC    ] [W] [  140] SCHED: Could not transmit RAR within the window (RA=131, Window=[134, 144), RAR=144
+2024-11-15T21:02:38.144420 [MAC    ] [W] [  160] SCHED: Could not transmit RAR within the window (RA=151, Window=[154, 164), RAR=164
+2024-11-15T21:02:38.164377 [MAC    ] [W] [  180] SCHED: Could not transmit RAR within the window (RA=171, Window=[174, 184), RAR=184
+2024-11-15T21:02:38.184398 [MAC    ] [W] [  200] SCHED: Could not transmit RAR within the window (RA=191, Window=[194, 204), RAR=204
+2024-11-15T21:02:38.204417 [MAC    ] [W] [  220] SCHED: Could not transmit RAR within the window (RA=211, Window=[214, 224), RAR=224
+2024-11-15T21:02:38.224373 [MAC    ] [W] [  240] SCHED: Could not transmit RAR within the window (RA=231, Window=[234, 244), RAR=244
+2024-11-15T21:02:38.244397 [MAC    ] [W] [  260] SCHED: Could not transmit RAR within the window (RA=251, Window=[254, 264), RAR=264
+2024-11-15T21:02:38.264415 [MAC    ] [W] [  280] SCHED: Could not transmit RAR within the window (RA=271, Window=[274, 284), RAR=284
+2024-11-15T21:02:38.284375 [MAC    ] [W] [  300] SCHED: Could not transmit RAR within the window (RA=291, Window=[294, 304), RAR=304
+2024-11-15T21:02:38.304393 [MAC    ] [W] [  320] SCHED: Could not transmit RAR within the window (RA=311, Window=[314, 324), RAR=324
+2024-11-15T21:09:30.187835 [COMN   ] [D] [    0] RxSockets: Closing rx socket handler thread
+2024-11-15T21:09:30.188881 [COMN   ] [D] [    0] RxSockets: closed.
+2024-11-15T21:09:30.188942 [COMN   ] [D] [    0] Socket=7 was closed.
+2024-11-15T21:09:30.191778 [COMN   ] [D] [    0] Socket=-1 could not be closed.
+2024-11-15T21:09:30.192192 [COMN   ] [D] [    0] Socket=-1 could not be closed.
