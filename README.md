@@ -7,11 +7,15 @@ The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capab
 
 The data collection is done with a quick html locally hosted site. This allows the user to click on a given grid and then log the location and time (in ms). This makes it fairly painless to gather learning data. 
 
-<img width="800" alt="image"
+<img width="900" alt="image"
 src="https://github.com/user-attachments/assets/bc8b6845-049e-4fd5-afab-3eb368ac151b">
 
-<img width="448" alt="image"
-src="https://github.com/user-attachments/assets/7ddd229e-0e5d-41e7-a6da-797bf1611a8c">
+<img width="600" alt="image"
+src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/apt-diagram.png?raw=true)![image](https://github.com/user-attachments/assets/50f322e2-5917-4578-b36d-2a69a2d7c716">
+
+<img width="900" alt="image"
+src="https://github.com/user-attachments/assets/8ab0a6be-e766-4e43-b2d7-999419394f1f">
+
 
 <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true">
 
