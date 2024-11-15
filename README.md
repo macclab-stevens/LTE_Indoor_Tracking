@@ -5,7 +5,7 @@ This is a home project trying to leverage the KPI data from srsran and use machi
 <!-- Insert Picture of B200 and other things -->
 
 <img width="900" alt="image"
-src="https://github.com/user-attachments/assets/bc8b6845-049e-4fd5-afab-3eb368ac151b">
+src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d">
 
 # UE (User Equipment)
 The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capable device, however most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open source networks as they requied GSMA keys to program which are not available. As of this project eSIM devices are not programmable for open source private networks. Therefore this project leverages currently available smart watches that have sim cards. Due to this constraint we leveraged srsRAN 4G. 
@@ -13,7 +13,7 @@ The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capab
 # SuT (Subject Under Test)
 
 <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true">
-Booker is our 4yr old Sheep-a-doodle. He loves long walk, playing bacon ball, and NAPS! Using a dog to collect data is simple enough, because he moves around the apt a lot durring the day but also takes lots of naps. Having low movement is key for this sort of experiment. We don't expect to be able to track the specific movements, like moving from the bedroom to the living room. The goal is to guess where he is napping! This makes for datasets that should be long, and have common KPI data (At least this is the goal anyway!). 
+Booker is our 4yr old Sheep-a-doodle. He loves long walks, playing bacon ball, and NAPS! Using a dog to collect data is simple enough, because he moves around the apt a lot durring the day but also takes lots of naps. Having low movement is key for this sort of experiment. We don't expect to be able to track the specific movements, like moving from the bedroom to the living room. The goal is to guess where he is napping! This makes for datasets that should be long, and have common KPI data (At least this is the goal anyway!). 
 
 # Data Collection
 The data collection is done with a quick html locally hosted site. This allows the user to click on a given grid and then log the location and time (in ms). This makes it fairly painless to gather learning data. 
