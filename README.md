@@ -3,16 +3,16 @@ This is a home project trying to leverage the KPI data from srsran and use machi
 
 # System Under Test
 <p float="left">
-  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/TestSystem.png?raw=true" height="400" />
-  <img src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d" height="400" />
+  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/TestSystem.png?raw=true" height="200" />
+  <img src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d" height="200" />
 </p>
 # UE (User Equipment)
 The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capable device, however most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open source networks as they requied GSMA keys to program which are not available. As of this project eSIM devices are not programmable for open source private networks. Therefore this project leverages currently available smart watches that have sim cards. Due to this constraint we leveraged srsRAN 4G. 
 
 # SuT (Subject Under Test)
 <p float="left">
-  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true" height="400" />
-  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true" height="400" /> 
+  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true" height="200" />
+  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true" height="200" /> 
 </p>
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true">  -->
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true"> -->
@@ -22,7 +22,7 @@ Booker is our 4yr old Sheep-a-doodle. He loves long walks, playing bacon ball, a
 The data collection is done with a quick html locally hosted site. This allows the user to click on a given grid and then log the location and time (in ms). This makes it fairly painless to gather learning data. 
 
 
-<img width="600" alt="image"
+<img width="400" alt="image"
 src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/apt-diagram.png?raw=true)![image](https://github.com/user-attachments/assets/50f322e2-5917-4578-b36d-2a69a2d7c716">
 
 ```csv
