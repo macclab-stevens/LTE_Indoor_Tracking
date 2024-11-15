@@ -19,7 +19,7 @@ def flatten_json(data):
         unix_ms_timestamp = int(entry["timestamp"] * 1000)
         base_info = {
             "type": entry["type"],
-            "timestamp": entry["timestamp"]
+            "timestamp": unix_ms_timestamp
         }
         # print(entry)
         if(base_info['type'] == 'metrics'):
