@@ -3,16 +3,16 @@ This is a home project trying to leverage the KPI data from srsran and use machi
 
 # System Under Test
 <p float="left">
-  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/TestSystem.png?raw=true" height="200" />
-  <img src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d" height="200" />
+  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/TestSystem.png?raw=true" height="300" />
+  <img src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d" height="300" />
 </p>
 # UE (User Equipment)
 The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capable device, however most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open source networks as they requied GSMA keys to program which are not available. As of this project eSIM devices are not programmable for open source private networks. Therefore this project leverages currently available smart watches that have sim cards. Due to this constraint we leveraged srsRAN 4G. 
 
 # PuT (Puppy Under Test)
 <p float="left">
-  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true" height="200" />
-  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true" height="200" /> 
+  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true" height="300" />
+  <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true" height="300" /> 
 </p>
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true">  -->
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true"> -->
@@ -49,7 +49,7 @@ B5,2024-11-13 15:42:25.03
 
 # Data Results:
 
-<img width="900" alt="image"
+<img width="1000" alt="image"
 src="https://github.com/user-attachments/assets/8ab0a6be-e766-4e43-b2d7-999419394f1f">
 
 The eNb metrics collected are generated in a .json file. We run a quick script to convert these to .csv to be able to graph them more easily in graphana. 
