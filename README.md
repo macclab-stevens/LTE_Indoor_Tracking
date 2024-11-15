@@ -9,7 +9,7 @@ This is a home project trying to leverage the KPI data from srsran and use machi
 # UE (User Equipment)
 The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capable device, however most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open source networks as they requied GSMA keys to program which are not available. As of this project eSIM devices are not programmable for open source private networks. Therefore this project leverages currently available smart watches that have sim cards. Due to this constraint we leveraged srsRAN 4G. 
 
-# SuT (Subject Under Test)
+# PuT (Puppy Under Test)
 <p float="left">
   <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true" height="200" />
   <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true" height="200" /> 
