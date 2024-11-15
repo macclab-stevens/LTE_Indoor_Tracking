@@ -1,9 +1,13 @@
 import json
 import pandas as pd
+import os
+
+
 
 # Load the improperly formatted JSON data
-file_path = 'enb_report.json'
-with open(file_path, 'r') as file:
+folder = os.path.join("..","logs","20241112")
+read_file = os.path.join(folder,'enb_report.json')
+with open(read_file, 'r') as file:
     raw_data = file.read()
 
 # Fix the format: Wrap the data in square brackets and add commas between objects
@@ -44,5 +48,7 @@ df = pd.DataFrame(flattened_data)
 print(df)
 
 # Save the DataFrame to a CSV file
-df.to_csv("flattened_json_data.csv", index=False)
-df.to_json("flattened_json_data.json")
+outputName = "flattened_json_data.csv"
+outputFile = os.path.join(folder,outputName)
+df.to_csv(outputFile, index=False)
+# df.to_json("flattened_json_data.json")
