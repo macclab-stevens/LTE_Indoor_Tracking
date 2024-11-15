@@ -1,8 +1,8 @@
 # LTE_Indoor_Tracking
 This is a home project trying to leverage the KPI data from srsran and use machine learning to correlate the location of my dog in my apartment. He is a very lazy boy so periodicly logging the locaion of his naps should be fairly easy. Hopfully with enough learning data and metrics we can guestimate where my dog is napping!
 
-#System Under Test
-//Insert Picture of B200 and other things
+# System Under Test
+<!-- Insert Picture of B200 and other things -->
 
 <img width="900" alt="image"
 src="https://github.com/user-attachments/assets/bc8b6845-049e-4fd5-afab-3eb368ac151b">
