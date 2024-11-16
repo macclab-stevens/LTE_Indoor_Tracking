@@ -1,5 +1,5 @@
 # LTE_Indoor_Tracking
-This is a home project trying to leverage the KPI data from srsran and use machine learning to correlate the location of my dog in my apartment. He is a very lazy boy so periodicly logging the places where he naps should be fairly easy. Hopfully with enough learning data and metrics we can guestimate where my dog is snoozing!
+This is a home project trying to leverage the KPI data from srsran and use machine learning to correlate the location of my dog in my apartment. The goal is to be able to indientify my puppy's napping location based on the KPI data of the LTE smart watch attached to his collar. The LTE eNb generates a lot of metrics from latentecy, signal quality, and data rates. We hope to be able to leverage this data and correlate it to locations realaive to my apt. My dog booker is a lazy boy so periodicly logging the places where he naps should be fairly easy. Hopfully with enough learning data and metrics we can guestimate where my dog is snoozing!
 
 # System Under Test
 <p float="left">
@@ -18,7 +18,7 @@ The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capab
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true"> -->
 Booker is our 4yr old Sheep-a-doodle. He loves long walks, playing bacon ball, and NAPS! Using a dog to collect data is simple enough, because he moves around the apt a lot durring the day but also takes lots of naps. Having low movement is key for this sort of experiment. We don't expect to be able to track the specific movements, like moving from the bedroom to the living room. The goal is to guess where he is napping! This makes for datasets that should be long, and have common KPI data (At least this is the goal anyway!). 
 
-# Data Collection
+# Training Location Data
 The data collection is done with a quick html locally hosted site. This allows the user to click on a given grid and then log the location and time (in ms). This makes it fairly painless to gather learning data. 
 
 
@@ -47,7 +47,7 @@ D7,2024-11-13 15:11:32.08
 B5,2024-11-13 15:42:25.03
 ```
 
-# Data Results:
+# eNb Metrics:
 
 <img width="1000" alt="image"
 src="https://github.com/user-attachments/assets/8ab0a6be-e766-4e43-b2d7-999419394f1f">
