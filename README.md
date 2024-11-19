@@ -1,7 +1,7 @@
 # LTE_Indoor_Tracking
 This is a home project trying to leverage the KPI data from srsran and use machine learning to correlate the location of my dog in my apartment. The goal is to be able to indientify my puppy's napping location based on the KPI data of the LTE smart watch attached to his collar. The LTE eNb generates a lot of metrics from latentecy, signal quality, and data rates. We hope to be able to leverage this data and correlate it to locations realaive to my apt. My dog booker is a lazy boy so periodicly logging the places where he naps should be fairly easy. Hopfully with enough learning data and metrics we can guestimate where my dog is snoozing!
 
-# System Under Test
+# SuT (System Under Test)
 <p float="left">
   <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/TestSystem.png?raw=true" height="300" />
   <img src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d" height="300" />
@@ -63,6 +63,8 @@ metrics,1731590332152,0,1,1,"[{'ue_container': {'ue_rnti': 70, 'dl_cqi': 15.0, '
 metrics,1731590333152,0,1,1,"[{'ue_container': {'ue_rnti': 70, 'dl_cqi': 14.5199995, 'dl_mcs': 9.333333, 'ul_pusch_rssi': -99.395966, 'ul_pucch_rssi': -97.656395, 'ul_pucch_ni': 48.515915, 'ul_pusch_tpc': 0, 'ul_pucch_tpc': 0, 'dl_cqi_offset': 0.020000001, 'ul_snr_offset': 0.091000006, 'dl_bitrate': 888.0, 'dl_bler': 0.0, 'ul_snr': 4.3269286, 'ul_mcs': 0.9583333, 'ul_bitrate': 3664.0, 'ul_bler': 0.0, 'ul_phr': 40.0, 'ul_bsr': 0, 'bearer_list': [{'bearer_container': {'bearer_id': 3, 'qci': 9, 'dl_total_bytes': 336, 'ul_total_bytes': 296, 'dl_latency': 0.031, 'ul_latency': 0.013, 'dl_buffered_bytes': 0, 'ul_buffered_bytes': 0}}]}}]",70,14.5199995,9.333333,-99.395966,-97.656395,48.515915,0,0,0.020000001,0.091000006,888.0,0.0,4.3269286,0.9583333,3664.0,0.0,40.0,0,"[{'bearer_container': {'bearer_id': 3, 'qci': 9, 'dl_total_bytes': 336, 'ul_total_bytes': 296, 'dl_latency': 0.031, 'ul_latency': 0.013, 'dl_buffered_bytes': 0, 'ul_buffered_bytes': 0}}]",3,9,336,296,0.031,0.013,0,0
 metrics,1731590334152,0,1,1,"[{'ue_container': {'ue_rnti': 70, 'dl_cqi': 14.875, 'dl_mcs': 7.6, 'ul_pusch_rssi': -101.39813, 'ul_pucch_rssi': -100.12996, 'ul_pucch_ni': 48.498047, 'ul_pusch_tpc': 0, 'ul_pucch_tpc': 0, 'dl_cqi_offset': 0.0040000025, 'ul_snr_offset': 0.110000044, 'dl_bitrate': 848.0, 'dl_bler': 25.0, 'ul_snr': 3.0760658, 'ul_mcs': 0.0, 'ul_bitrate': 1672.0, 'ul_bler': 0.0, 'ul_phr': 40.0, 'ul_bsr': 0, 'bearer_list': [{'bearer_container': {'bearer_id': 3, 'qci': 9, 'dl_total_bytes': 420, 'ul_total_bytes': 382, 'dl_latency': 0.029, 'ul_latency': 0.012, 'dl_buffered_bytes': 0, 'ul_buffered_bytes': 0}}]}}]",70,14.875,7.6,-101.39813,-100.12996,48.498047,0,0,0.0040000025,0.110000044,848.0,25.0,3.0760658,0.0,1672.0,0.0,40.0,0,"[{'bearer_container': {'bearer_id': 3, 'qci': 9, 'dl_total_bytes': 420, 'ul_total_bytes': 382, 'dl_latency': 0.029, 'ul_latency': 0.012, 'dl_buffered_bytes': 0, 'ul_buffered_bytes': 0}}]",3,9,420,382,0.029,0.012,0,0
 ```
+<img width="1000" alt="image"
+src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/many_metrics_view.png?raw=true">
 
 
 
