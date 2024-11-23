@@ -6,7 +6,8 @@ This is a home project leveraging LTE KPI data from srsran and through the use m
   <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/TestSystem.png?raw=true" height="300" />
   <img src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d" height="300" />
 </p>
-# UE (User Equipment) and Why 4G/LTE?
+
+# UE (User Equipment) and Why 4G LTE?
 The UE is a cheap LTE watch that has a Sim card. I neeed something that was portable,rugged,easily interfaceable, and somehow attachble to my dog. A smart watch fit all this perfectly. Ideally we would use a 5G capable device, however most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open source networks as they requied GSMA keys to program which are not available. As of this project eSIM devices are not programmable for open source private networks. Therefore this project leverages currently available smart watches that have sim cards. Simcsrds can be programmed at home and are much eaiser obtain. Currently on the market smartwatches that utulize sim cards only have LTE compatibility and are available on Alibaba. Due to this LTE constraint of thr Smart Watch Equipment, we leveraged srsRAN 4G. 
 
 # PuT (Puppy Under Test)
