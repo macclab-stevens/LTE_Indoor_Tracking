@@ -1,13 +1,13 @@
 # LTE_Indoor_Tracking
-This is a home project trying to leverage the KPI data from srsran and use machine learning to correlate the location of my dog in my apartment. The goal is to be able to indientify my puppy's napping location based on the KPI data of the LTE smart watch attached to his collar. The LTE eNb generates a lot of metrics from latentecy, signal quality, and data rates. We hope to be able to leverage this data and correlate it to locations realaive to my apt. My dog booker is a lazy boy so periodicly logging the places where he naps should be fairly easy. Hopfully with enough learning data and metrics we can guestimate where my dog is snoozing!
+This is a home project trying to leverage the LTE KPI data from srsran and through the use machine learning, estimate the napping location of my dog in the apartment. The LTE eNb generates metrics from latentecy, signal quality, and data rates. We hope to be able to leverage this alongside some simple training data correlated to a gird layout of thr apt. Our subject (My dog booker), is a lazy boy so periodicly logging the places where he naps should be fairly easy. hes tends to move around randomly, and stay then stay in one spot for an extended period of time.
 
 # SuT (System Under Test)
 <p float="left">
   <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/TestSystem.png?raw=true" height="300" />
   <img src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d" height="300" />
 </p>
-# UE (User Equipment)
-The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capable device, however most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open source networks as they requied GSMA keys to program which are not available. As of this project eSIM devices are not programmable for open source private networks. Therefore this project leverages currently available smart watches that have sim cards. Due to this constraint we leveraged srsRAN 4G. 
+# UE (User Equipment) and Why 4G/LTE?
+The UE is a cheap LTE watch that has a Sim card. I neeed something that was portable,rugged,easily interfaceable, and somehow attachble to my dog. A smart watch fit all this perfectly. Ideally we would use a 5G capable device, however most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open source networks as they requied GSMA keys to program which are not available. As of this project eSIM devices are not programmable for open source private networks. Therefore this project leverages currently available smart watches that have sim cards. Simcsrds can be programmed at home and are much eaiser obtain. Currently on the market smartwatches that utulize sim cards only have LTE compatibility and are available on Alibaba. Due to this LTE constraint of thr Smart Watch Equipment, we leveraged srsRAN 4G. 
 
 # PuT (Puppy Under Test)
 <p float="left">
@@ -16,10 +16,10 @@ The UE is a cheap LTE watch that has a Sim card. Ideally we would use a 5G capab
 </p>
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true">  -->
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true"> -->
-Booker is our 4yr old Sheep-a-doodle. He loves long walks, playing bacon ball, and NAPS! Using a dog to collect data is simple enough, because he moves around the apt a lot durring the day but also takes lots of naps. Having low movement is key for this sort of experiment. We don't expect to be able to track the specific movements, like moving from the bedroom to the living room. The goal is to guess where he is napping! This makes for datasets that should be long, and have common KPI data (At least this is the goal anyway!). 
+Our fabulous subject Booker is my 4yr old Sheep-a-doodle. He loves long walks, playing bacon ball, and NAPS! Using a dog to collect data is simple enough, because he moves around the apt a lot durring the day but also takes lots of naps and staying in a given location for an extended time(see the plots below). Having low movement is key for this sort of experiment. We don't expect to be able to track specific movements, like moving from the bedroom to the living room. The goal instead, is to guess where he is napping! This makes for datasets that should be long, and have common KPI data (At least this is the goal anyway!). 
 
 # Training Location Data
-The data collection is done with a quick html locally hosted site. This allows the user to click on a given grid and then log the location and time (in ms). This makes it fairly painless to gather learning data. 
+The data collection is done with a quick python/html locally hosted website. This allows the user to click on a given grid which then logs the location and time (in ms). This makes it fairly painless to gather learning data throughout the day.  
 
 
 <img width="400" alt="image"
