@@ -1,5 +1,5 @@
 # LTE_Indoor_Tracking
-This is a home project trying to leverage the LTE KPI data from srsran and through the use machine learning, estimate the napping location of my dog in the apartment. The LTE eNb generates metrics from latentecy, signal quality, and data rates. We hope to be able to leverage this alongside some simple training data correlated to a gird layout of thr apt. Our subject (My dog booker), is a lazy boy so periodicly logging the places where he naps should be fairly easy. hes tends to move around randomly, and stay then stay in one spot for an extended period of time.
+This is a home project leveraging LTE KPI data from srsran and through the use machine learning to estimate the napping location of my dog. The LTE eNb generates metrics from latentecy, signal quality, and data rates. The goal is to be able to utulize this alongside some simple training data correlated to a gird layout of the apt. Our subject (My dog booker), is a lazy boy so periodicly logging the places where he naps should be fairly easy. Hes tends to move around randomly throughout the day, and then stay in one spot ("nap") for an extended period of time.
 
 # SuT (System Under Test)
 <p float="left">
