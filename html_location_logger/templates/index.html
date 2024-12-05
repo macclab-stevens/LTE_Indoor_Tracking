@@ -4,8 +4,6 @@
     <title>4x8 Grid Puppy Location Tracking</title>
     <style>
         .container {
-            position: relative;
-            width: 100%;
             max-width: 800px;
             margin: auto;
             display: flex;
@@ -52,6 +50,16 @@
             font-weight: bold;
             margin-top: 5px;
         }
+        .summary-box {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 90%;
+            max-width: 800px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            background-color: #f9f9f9;
+        }
         .click-history {
             margin-top: 20px;
             width: 90%;
@@ -63,32 +71,66 @@
             font-family: Arial, sans-serif;
             font-size: 14px;
         }
+        .log-list {
+            list-style: none;
+            padding: 0;
+        }
+        .log-item {
+            margin-bottom: 5px;
+        }
     </style>
     <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
     <script>
-        // Initialize Socket.IO
         const socket = io();
 
+        // Record the grid cell click
         function recordClick(gridIndex) {
-            // Send click event to the server
             socket.emit('click_event', { gridIndex: gridIndex });
         }
 
-        // Listen for updates from the server
+        // Update click history with most recent clicks at the bottom
         socket.on('update_click_history', function(data) {
+            console.log("Received click history:", data); // Debug log
+
             const historyBox = document.getElementById('click-history');
             const newEntry = document.createElement('div');
-            newEntry.textContent = data.message;
-            historyBox.appendChild(newEntry);
 
-            // Scroll to the bottom of the history box
-            historyBox.scrollTop = historyBox.scrollHeight;
+            // Prepend new entry so the most recent is at the bottom
+            newEntry.textContent = data.message;
+            historyBox.prepend(newEntry); // Use prepend to keep most recent at the bottom
+        });
+
+        // Update click counts for the last 5 dates
+        socket.on('update_click_counts', function(data) {
+            console.log("Received data:", data); // Debug log
+
+            const summaryBox = document.getElementById('click-summary');
+            summaryBox.innerHTML = '<strong>Last 5 Log Counts:</strong>'; // Clear and set header
+
+            const logList = document.createElement('ul');
+            logList.classList.add('log-list');
+
+            // Reverse the data to show oldest at the top, newest at the bottom
+            data.reverse().forEach(log => {
+                const logItem = document.createElement('li');
+                logItem.classList.add('log-item');
+                logItem.textContent = `Date: ${log.date}, Clicks: ${log.count}`;
+                logList.appendChild(logItem);
+            });
+
+            summaryBox.appendChild(logList);
+        });
+
+        // Request click counts on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            socket.emit('request_click_counts');
         });
     </script>
 </head>
 <body>
     <h1 style="text-align: center;">4x8 Grid Puppy Location </h1>
     <div class="container">
+        <!-- Grid Section -->
         <div class="image-wrapper">
             <div class="row-labels">
                 {% for row in rows %}
@@ -112,6 +154,11 @@
                 <div>{{ col }}</div>
             {% endfor %}
         </div>
+        <!-- Summary Box -->
+        <div class="summary-box" id="click-summary">
+            <strong>Last 5 Log Counts:</strong>
+        </div>
+        <!-- Click History -->
         <div class="click-history" id="click-history">
             <strong>Click History:</strong>
         </div>
