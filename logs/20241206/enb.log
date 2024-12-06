@@ -1,0 +1,122 @@
+2024-12-06T14:53:50.958950 [ENB    ] [I] Using binary srsenb with arguments: 
+2024-12-06T14:53:50.999116 [ENB    ] [I] Built in Release mode using commit ec29b0c1f on branch master.
+2024-12-06T14:53:51.053541 [COMN   ] [D] [    0] Opened SCTP socket=7
+2024-12-06T14:53:51.053543 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:2152
+2024-12-06T14:53:51.053547 [COMN   ] [D] [    0] Setting RTO_INFO options on SCTP socket. Association 0, Initial RTO 3000, Minimum RTO 1000, Maximum RTO 6000
+2024-12-06T14:53:51.053549 [COMN   ] [D] [    0] Setting SCTP_INITMSG options on SCTP socket. Max attempts 3, Max init attempts timeout 5000
+2024-12-06T14:53:51.053551 [COMN   ] [D] [    0] RxSockets: socket fd=6 has been registered.
+2024-12-06T14:53:51.053557 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:0
+2024-12-06T14:53:51.056627 [COMN   ] [D] [    0] RxSockets: socket fd=7 has been registered.
+2024-12-06T15:07:16.123123 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T15:14:56.743220 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=479
+2024-12-06T15:19:40.643681 [MAC    ] [W] [ 1262] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:40.723640 [MAC    ] [W] [ 1342] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:40.813657 [MAC    ] [W] [ 1432] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:40.893656 [MAC    ] [W] [ 1512] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:40.983745 [MAC    ] [W] [ 1602] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:41.073703 [MAC    ] [W] [ 1692] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:41.153617 [MAC    ] [W] [ 1772] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:41.243639 [MAC    ] [W] [ 1862] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:41.333660 [MAC    ] [W] [ 1952] Updating user C-RNTI: rnti=0x48 already released.
+2024-12-06T15:19:43.763662 [MAC    ] [W] [ 4382] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:43.842579 [MAC    ] [W] [ 4461] UE buffers: Removing old buffer tti=4456, interval=13
+2024-12-06T15:19:43.853684 [MAC    ] [W] [ 4472] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:43.943614 [MAC    ] [W] [ 4562] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:44.033706 [MAC    ] [W] [ 4652] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:44.112601 [MAC    ] [W] [ 4731] UE buffers: Removing old buffer tti=4726, interval=13
+2024-12-06T15:19:44.123663 [MAC    ] [W] [ 4742] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:44.213648 [MAC    ] [W] [ 4832] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:44.303723 [MAC    ] [W] [ 4922] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:44.376557 [MAC    ] [W] [ 4995] UE buffers: Removing old buffer tti=4990, interval=13
+2024-12-06T15:19:44.393718 [MAC    ] [W] [ 5012] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:44.483679 [MAC    ] [W] [ 5102] Updating user C-RNTI: rnti=0x53 already released.
+2024-12-06T15:19:47.503597 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=1
+2024-12-06T15:19:48.608643 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-12-06T15:19:48.608650 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T15:20:17.758638 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T15:20:43.750471 [MAC    ] [W] [ 2929] UE buffers: Removing old buffer tti=2924, interval=13
+2024-12-06T15:20:43.805524 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-12-06T15:20:43.805533 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T15:20:50.383577 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-12-06T15:20:50.568527 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=2
+2024-12-06T15:20:52.954462 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-12-06T15:20:52.954469 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T15:20:57.583531 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-12-06T15:20:57.765461 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=2
+2024-12-06T15:20:59.015435 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-12-06T15:20:59.015437 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-12-06T15:20:59.113537 [ASN1   ] [E] [    0] The enum of type access_stratum_release_e is not initialized.
+2024-12-06T15:21:02.680543 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T15:21:18.247421 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=3
+2024-12-06T15:33:42.472106 [S1AP   ] [W] UE context for RNTI:0x84 is in zombie state. Releasing...
+2024-12-06T15:33:46.326104 [RLC    ] [W] SRB2: Signaling max number of reTx=4 for SN=0
+2024-12-06T15:33:55.663170 [S1AP   ] [W] UE context for RNTI:0x85 is in zombie state. Releasing...
+2024-12-06T15:34:37.772137 [S1AP   ] [W] UE context for RNTI:0x89 is in zombie state. Releasing...
+2024-12-06T15:35:02.803153 [S1AP   ] [W] UE context for RNTI:0x8a is in zombie state. Releasing...
+2024-12-06T15:37:04.993153 [S1AP   ] [W] UE context for RNTI:0x8d is in zombie state. Releasing...
+2024-12-06T15:37:30.023262 [S1AP   ] [W] UE context for RNTI:0x8e is in zombie state. Releasing...
+2024-12-06T15:38:31.233176 [S1AP   ] [W] UE context for RNTI:0x91 is in zombie state. Releasing...
+2024-12-06T15:38:56.242133 [S1AP   ] [W] UE context for RNTI:0x92 is in zombie state. Releasing...
+2024-12-06T15:42:04.939113 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T15:45:55.777891 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T16:03:54.451257 [S1AP   ] [W] Released UE with rnti=0x9a not found
+2024-12-06T16:03:54.941263 [S1AP   ] [W] Released UE with rnti=0xa4 not found
+2024-12-06T16:03:55.090276 [S1AP   ] [W] Released UE with rnti=0xb8 not found
+2024-12-06T16:03:55.529286 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T16:42:07.124659 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=2
+2024-12-06T16:42:14.828711 [S1AP   ] [W] UE context for RNTI:0xbe is in zombie state. Releasing...
+2024-12-06T16:42:21.123630 [S1AP   ] [W] UE context for RNTI:0xbf is in zombie state. Releasing...
+2024-12-06T16:52:54.019156 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=6
+2024-12-06T16:52:54.733148 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-12-06T16:52:54.733150 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-12-06T16:52:54.733151 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-12-06T16:52:58.778216 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T17:10:54.013832 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T17:44:00.128646 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T18:01:48.441005 [MAC    ] [W] [ 1070] SCHED: Could not transmit RAR within the window (RA=1061, Window=[1064, 1074), RAR=1074
+2024-12-06T18:02:25.272994 [S1AP   ] [W] UE context for RNTI:0xd1 is in zombie state. Releasing...
+2024-12-06T18:02:41.004969 [RLC    ] [W] SRB2: Signaling max number of reTx=4 for SN=1
+2024-12-06T18:02:43.600978 [MAC    ] [W] [ 5030] SCHED: Could not transmit RAR within the window (RA=5021, Window=[5024, 5034), RAR=5034
+2024-12-06T18:02:43.620997 [MAC    ] [W] [ 5050] SCHED: Could not transmit RAR within the window (RA=5041, Window=[5044, 5054), RAR=5054
+2024-12-06T18:02:43.684550 [STCK   ] [W] Can't deliver SDU for EPS bearer 5. Dropping it.
+2024-12-06T18:02:50.283032 [S1AP   ] [W] UE context for RNTI:0xd2 is in zombie state. Releasing...
+2024-12-06T18:23:23.970161 [MAC    ] [W] [ 6360] SCHED: Could not transmit RAR within the window (RA=6351, Window=[6354, 6364), RAR=6364
+2024-12-06T18:23:23.990177 [MAC    ] [W] [ 6380] SCHED: Could not transmit RAR within the window (RA=6371, Window=[6374, 6384), RAR=6384
+2024-12-06T18:23:24.010203 [MAC    ] [W] [ 6400] SCHED: Could not transmit RAR within the window (RA=6391, Window=[6394, 6404), RAR=6404
+2024-12-06T18:23:24.030155 [MAC    ] [W] [ 6420] SCHED: Could not transmit RAR within the window (RA=6411, Window=[6414, 6424), RAR=6424
+2024-12-06T18:23:24.050182 [MAC    ] [W] [ 6440] SCHED: Could not transmit RAR within the window (RA=6431, Window=[6434, 6444), RAR=6444
+2024-12-06T18:23:24.070196 [MAC    ] [W] [ 6460] SCHED: Could not transmit RAR within the window (RA=6451, Window=[6454, 6464), RAR=6464
+2024-12-06T18:23:24.090171 [MAC    ] [W] [ 6480] SCHED: Could not transmit RAR within the window (RA=6471, Window=[6474, 6484), RAR=6484
+2024-12-06T18:23:24.110179 [MAC    ] [W] [ 6500] SCHED: Could not transmit RAR within the window (RA=6491, Window=[6494, 6504), RAR=6504
+2024-12-06T18:23:24.130197 [MAC    ] [W] [ 6520] SCHED: Could not transmit RAR within the window (RA=6511, Window=[6514, 6524), RAR=6524
+2024-12-06T18:23:24.150220 [MAC    ] [W] [ 6540] SCHED: Could not transmit RAR within the window (RA=6531, Window=[6534, 6544), RAR=6544
+2024-12-06T18:23:24.170175 [MAC    ] [W] [ 6560] SCHED: Could not transmit RAR within the window (RA=6551, Window=[6554, 6564), RAR=6564
+2024-12-06T18:23:24.190200 [MAC    ] [W] [ 6580] SCHED: Could not transmit RAR within the window (RA=6571, Window=[6574, 6584), RAR=6584
+2024-12-06T18:23:24.210216 [MAC    ] [W] [ 6600] SCHED: Could not transmit RAR within the window (RA=6591, Window=[6594, 6604), RAR=6604
+2024-12-06T18:23:24.230170 [MAC    ] [W] [ 6620] SCHED: Could not transmit RAR within the window (RA=6611, Window=[6614, 6624), RAR=6624
+2024-12-06T18:23:24.250190 [MAC    ] [W] [ 6640] SCHED: Could not transmit RAR within the window (RA=6631, Window=[6634, 6644), RAR=6644
+2024-12-06T18:23:24.270217 [MAC    ] [W] [ 6660] SCHED: Could not transmit RAR within the window (RA=6651, Window=[6654, 6664), RAR=6664
+2024-12-06T18:23:24.331345 [RRC    ] [W] Unrecognised rnti: 0xdb
+2024-12-06T18:23:24.331389 [RRC    ] [W] Ignoring rnti=0xdb command -65534 arg 0. Cause: unknown rnti
+2024-12-06T18:23:24.399303 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T18:42:52.109179 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T18:47:13.780943 [S1AP   ] [W] UE context for RNTI:0x103 is in zombie state. Releasing...
+2024-12-06T18:47:38.780888 [S1AP   ] [W] UE context for RNTI:0x104 is in zombie state. Releasing...
+2024-12-06T19:11:48.940079 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=441
+2024-12-06T20:11:24.270804 [S1AP   ] [W] UE context for RNTI:0x107 is in zombie state. Releasing...
+2024-12-06T20:11:49.291738 [S1AP   ] [W] UE context for RNTI:0x108 is in zombie state. Releasing...
+2024-12-06T20:35:15.756923 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T20:39:12.874604 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T20:42:32.905501 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T20:45:48.454312 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T20:46:53.718198 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T20:49:08.897082 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T20:49:15.276084 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T20:58:52.553311 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-06T21:02:39.948007 [S1AP   ] [W] UE context for RNTI:0x113 is in zombie state. Releasing...
+2024-12-06T21:02:55.008024 [S1AP   ] [W] UE context for RNTI:0x114 is in zombie state. Releasing...
+2024-12-06T21:26:58.878376 [COMN   ] [D] [    0] RxSockets: Closing rx socket handler thread
+2024-12-06T21:26:58.879450 [COMN   ] [D] [    0] RxSockets: closed.
+2024-12-06T21:26:58.879508 [COMN   ] [D] [    0] Socket=7 was closed.
+2024-12-06T21:26:58.882685 [COMN   ] [D] [    0] Socket=-1 could not be closed.
+2024-12-06T21:26:58.883169 [COMN   ] [D] [    0] Socket=-1 could not be closed.
