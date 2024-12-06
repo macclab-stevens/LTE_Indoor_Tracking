@@ -104,7 +104,7 @@ def get_click_counts():
         else:
             counts[date] = 0  # No file for this date
 
-    print(counts)  # Debug
+    # print(counts)  # Debug
     return [{"date": date, "count": counts[date]} for date in counts]  # Convert to array
 
 # Handle click events
