@@ -1,0 +1,225 @@
+2024-12-20T14:38:16.011818 [ENB    ] [I] Using binary srsenb with arguments: 
+2024-12-20T14:38:16.075612 [ENB    ] [I] Built in Release mode using commit ec29b0c1f on branch master.
+2024-12-20T14:38:16.119299 [COMN   ] [D] [    0] Opened SCTP socket=7
+2024-12-20T14:38:16.119304 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:2152
+2024-12-20T14:38:16.119305 [COMN   ] [D] [    0] Setting RTO_INFO options on SCTP socket. Association 0, Initial RTO 3000, Minimum RTO 1000, Maximum RTO 6000
+2024-12-20T14:38:16.119308 [COMN   ] [D] [    0] Setting SCTP_INITMSG options on SCTP socket. Max attempts 3, Max init attempts timeout 5000
+2024-12-20T14:38:16.119312 [COMN   ] [D] [    0] RxSockets: socket fd=6 has been registered.
+2024-12-20T14:38:16.119315 [COMN   ] [D] [    0] Successfully bound to address 127.0.1.1:0
+2024-12-20T14:38:16.122211 [COMN   ] [D] [    0] RxSockets: socket fd=7 has been registered.
+2024-12-20T14:41:35.679807 [MAC    ] [W] [ 5950] SCHED: Could not transmit RAR within the window (RA=5941, Window=[5944, 5954), RAR=5954
+2024-12-20T14:41:35.699828 [MAC    ] [W] [ 5970] SCHED: Could not transmit RAR within the window (RA=5961, Window=[5964, 5974), RAR=5974
+2024-12-20T14:41:35.759828 [MAC    ] [W] [ 6030] SCHED: Could not transmit RAR within the window (RA=6021, Window=[6024, 6034), RAR=6034
+2024-12-20T14:41:42.079813 [MAC    ] [W] [ 2110] SCHED: Could not transmit RAR within the window (RA=2101, Window=[2104, 2114), RAR=2114
+2024-12-20T14:41:42.198832 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-20T14:42:41.919748 [MAC    ] [W] [  510] SCHED: Could not transmit RAR within the window (RA=501, Window=[504, 514), RAR=514
+2024-12-20T14:42:41.959693 [MAC    ] [W] [  550] SCHED: Could not transmit RAR within the window (RA=541, Window=[544, 554), RAR=554
+2024-12-20T14:42:41.979753 [MAC    ] [W] [  570] SCHED: Could not transmit RAR within the window (RA=561, Window=[564, 574), RAR=574
+2024-12-20T14:42:43.469730 [MAC    ] [W] [ 2060] SCHED: Could not transmit RAR within the window (RA=2051, Window=[2054, 2064), RAR=2064
+2024-12-20T14:42:43.909728 [MAC    ] [W] [ 2500] SCHED: Could not transmit RAR within the window (RA=2491, Window=[2494, 2504), RAR=2504
+2024-12-20T14:42:43.949724 [MAC    ] [W] [ 2540] SCHED: Could not transmit RAR within the window (RA=2531, Window=[2534, 2544), RAR=2544
+2024-12-20T14:42:43.969733 [MAC    ] [W] [ 2560] SCHED: Could not transmit RAR within the window (RA=2551, Window=[2554, 2564), RAR=2564
+2024-12-20T14:42:43.989690 [MAC    ] [W] [ 2580] SCHED: Could not transmit RAR within the window (RA=2571, Window=[2574, 2584), RAR=2584
+2024-12-20T14:42:44.069712 [MAC    ] [W] [ 2660] SCHED: Could not transmit RAR within the window (RA=2651, Window=[2654, 2664), RAR=2664
+2024-12-20T14:42:44.389733 [MAC    ] [W] [ 2980] SCHED: Could not transmit RAR within the window (RA=2971, Window=[2974, 2984), RAR=2984
+2024-12-20T14:42:44.409678 [MAC    ] [W] [ 3000] SCHED: Could not transmit RAR within the window (RA=2991, Window=[2994, 3004), RAR=3004
+2024-12-20T14:42:44.429694 [MAC    ] [W] [ 3020] SCHED: Could not transmit RAR within the window (RA=3011, Window=[3014, 3024), RAR=3024
+2024-12-20T14:42:44.449727 [MAC    ] [W] [ 3040] SCHED: Could not transmit RAR within the window (RA=3031, Window=[3034, 3044), RAR=3044
+2024-12-20T14:42:44.469734 [MAC    ] [W] [ 3060] SCHED: Could not transmit RAR within the window (RA=3051, Window=[3054, 3064), RAR=3064
+2024-12-20T14:42:44.489720 [MAC    ] [W] [ 3080] SCHED: Could not transmit RAR within the window (RA=3071, Window=[3074, 3084), RAR=3084
+2024-12-20T14:42:44.509716 [MAC    ] [W] [ 3100] SCHED: Could not transmit RAR within the window (RA=3091, Window=[3094, 3104), RAR=3104
+2024-12-20T14:42:44.529730 [MAC    ] [W] [ 3120] SCHED: Could not transmit RAR within the window (RA=3111, Window=[3114, 3124), RAR=3124
+2024-12-20T14:42:44.549694 [MAC    ] [W] [ 3140] SCHED: Could not transmit RAR within the window (RA=3131, Window=[3134, 3144), RAR=3144
+2024-12-20T14:42:44.569721 [MAC    ] [W] [ 3160] SCHED: Could not transmit RAR within the window (RA=3151, Window=[3154, 3164), RAR=3164
+2024-12-20T14:42:44.589735 [MAC    ] [W] [ 3180] SCHED: Could not transmit RAR within the window (RA=3171, Window=[3174, 3184), RAR=3184
+2024-12-20T14:42:44.609689 [MAC    ] [W] [ 3200] SCHED: Could not transmit RAR within the window (RA=3191, Window=[3194, 3204), RAR=3204
+2024-12-20T14:42:44.789678 [MAC    ] [W] [ 3380] SCHED: Could not transmit RAR within the window (RA=3371, Window=[3374, 3384), RAR=3384
+2024-12-20T14:42:44.809705 [MAC    ] [W] [ 3400] SCHED: Could not transmit RAR within the window (RA=3391, Window=[3394, 3404), RAR=3404
+2024-12-20T14:42:44.829723 [MAC    ] [W] [ 3420] SCHED: Could not transmit RAR within the window (RA=3411, Window=[3414, 3424), RAR=3424
+2024-12-20T14:42:44.849677 [MAC    ] [W] [ 3440] SCHED: Could not transmit RAR within the window (RA=3431, Window=[3434, 3444), RAR=3444
+2024-12-20T14:42:44.869697 [MAC    ] [W] [ 3460] SCHED: Could not transmit RAR within the window (RA=3451, Window=[3454, 3464), RAR=3464
+2024-12-20T14:42:44.889722 [MAC    ] [W] [ 3480] SCHED: Could not transmit RAR within the window (RA=3471, Window=[3474, 3484), RAR=3484
+2024-12-20T14:42:44.909682 [MAC    ] [W] [ 3500] SCHED: Could not transmit RAR within the window (RA=3491, Window=[3494, 3504), RAR=3504
+2024-12-20T14:42:45.049693 [MAC    ] [W] [ 3640] SCHED: Could not transmit RAR within the window (RA=3631, Window=[3634, 3644), RAR=3644
+2024-12-20T14:42:45.069717 [MAC    ] [W] [ 3660] SCHED: Could not transmit RAR within the window (RA=3651, Window=[3654, 3664), RAR=3664
+2024-12-20T14:42:45.089738 [MAC    ] [W] [ 3680] SCHED: Could not transmit RAR within the window (RA=3671, Window=[3674, 3684), RAR=3684
+2024-12-20T14:42:45.109693 [MAC    ] [W] [ 3700] SCHED: Could not transmit RAR within the window (RA=3691, Window=[3694, 3704), RAR=3704
+2024-12-20T14:42:45.129715 [MAC    ] [W] [ 3720] SCHED: Could not transmit RAR within the window (RA=3711, Window=[3714, 3724), RAR=3724
+2024-12-20T14:42:45.149734 [MAC    ] [W] [ 3740] SCHED: Could not transmit RAR within the window (RA=3731, Window=[3734, 3744), RAR=3744
+2024-12-20T14:42:45.169694 [MAC    ] [W] [ 3760] SCHED: Could not transmit RAR within the window (RA=3751, Window=[3754, 3764), RAR=3764
+2024-12-20T14:42:45.189713 [MAC    ] [W] [ 3780] SCHED: Could not transmit RAR within the window (RA=3771, Window=[3774, 3784), RAR=3784
+2024-12-20T14:42:46.139717 [MAC    ] [W] [ 4730] SCHED: Could not transmit RAR within the window (RA=4721, Window=[4724, 4734), RAR=4734
+2024-12-20T14:42:46.179687 [MAC    ] [W] [ 4770] SCHED: Could not transmit RAR within the window (RA=4761, Window=[4764, 4774), RAR=4774
+2024-12-20T14:42:46.239691 [MAC    ] [W] [ 4830] SCHED: Could not transmit RAR within the window (RA=4821, Window=[4824, 4834), RAR=4834
+2024-12-20T14:42:46.259715 [MAC    ] [W] [ 4850] SCHED: Could not transmit RAR within the window (RA=4841, Window=[4844, 4854), RAR=4854
+2024-12-20T14:42:46.279667 [MAC    ] [W] [ 4870] SCHED: Could not transmit RAR within the window (RA=4861, Window=[4864, 4874), RAR=4874
+2024-12-20T14:42:46.299693 [MAC    ] [W] [ 4890] SCHED: Could not transmit RAR within the window (RA=4881, Window=[4884, 4894), RAR=4894
+2024-12-20T14:42:46.319713 [MAC    ] [W] [ 4910] SCHED: Could not transmit RAR within the window (RA=4901, Window=[4904, 4914), RAR=4914
+2024-12-20T14:42:46.339672 [MAC    ] [W] [ 4930] SCHED: Could not transmit RAR within the window (RA=4921, Window=[4924, 4934), RAR=4934
+2024-12-20T14:42:46.359687 [MAC    ] [W] [ 4950] SCHED: Could not transmit RAR within the window (RA=4941, Window=[4944, 4954), RAR=4954
+2024-12-20T14:42:46.379707 [MAC    ] [W] [ 4970] SCHED: Could not transmit RAR within the window (RA=4961, Window=[4964, 4974), RAR=4974
+2024-12-20T14:42:46.399666 [MAC    ] [W] [ 4990] SCHED: Could not transmit RAR within the window (RA=4981, Window=[4984, 4994), RAR=4994
+2024-12-20T14:42:46.419683 [MAC    ] [W] [ 5010] SCHED: Could not transmit RAR within the window (RA=5001, Window=[5004, 5014), RAR=5014
+2024-12-20T14:42:46.439707 [MAC    ] [W] [ 5030] SCHED: Could not transmit RAR within the window (RA=5021, Window=[5024, 5034), RAR=5034
+2024-12-20T14:42:46.459662 [MAC    ] [W] [ 5050] SCHED: Could not transmit RAR within the window (RA=5041, Window=[5044, 5054), RAR=5054
+2024-12-20T14:42:46.479685 [MAC    ] [W] [ 5070] SCHED: Could not transmit RAR within the window (RA=5061, Window=[5064, 5074), RAR=5074
+2024-12-20T14:42:46.499707 [MAC    ] [W] [ 5090] SCHED: Could not transmit RAR within the window (RA=5081, Window=[5084, 5094), RAR=5094
+2024-12-20T14:42:46.519657 [MAC    ] [W] [ 5110] SCHED: Could not transmit RAR within the window (RA=5101, Window=[5104, 5114), RAR=5114
+2024-12-20T14:42:46.559703 [MAC    ] [W] [ 5150] SCHED: Could not transmit RAR within the window (RA=5141, Window=[5144, 5154), RAR=5154
+2024-12-20T14:42:46.579670 [MAC    ] [W] [ 5170] SCHED: Could not transmit RAR within the window (RA=5161, Window=[5164, 5174), RAR=5174
+2024-12-20T14:42:46.599677 [MAC    ] [W] [ 5190] SCHED: Could not transmit RAR within the window (RA=5181, Window=[5184, 5194), RAR=5194
+2024-12-20T14:42:46.619696 [MAC    ] [W] [ 5210] SCHED: Could not transmit RAR within the window (RA=5201, Window=[5204, 5214), RAR=5214
+2024-12-20T14:42:46.639723 [MAC    ] [W] [ 5230] SCHED: Could not transmit RAR within the window (RA=5221, Window=[5224, 5234), RAR=5234
+2024-12-20T14:42:46.659674 [MAC    ] [W] [ 5250] SCHED: Could not transmit RAR within the window (RA=5241, Window=[5244, 5254), RAR=5254
+2024-12-20T14:42:46.679696 [MAC    ] [W] [ 5270] SCHED: Could not transmit RAR within the window (RA=5261, Window=[5264, 5274), RAR=5274
+2024-12-20T14:42:46.699717 [MAC    ] [W] [ 5290] SCHED: Could not transmit RAR within the window (RA=5281, Window=[5284, 5294), RAR=5294
+2024-12-20T14:42:46.719673 [MAC    ] [W] [ 5310] SCHED: Could not transmit RAR within the window (RA=5301, Window=[5304, 5314), RAR=5314
+2024-12-20T14:42:46.739693 [MAC    ] [W] [ 5330] SCHED: Could not transmit RAR within the window (RA=5321, Window=[5324, 5334), RAR=5334
+2024-12-20T14:42:46.759721 [MAC    ] [W] [ 5350] SCHED: Could not transmit RAR within the window (RA=5341, Window=[5344, 5354), RAR=5354
+2024-12-20T14:42:46.779675 [MAC    ] [W] [ 5370] SCHED: Could not transmit RAR within the window (RA=5361, Window=[5364, 5374), RAR=5374
+2024-12-20T14:42:46.799696 [MAC    ] [W] [ 5390] SCHED: Could not transmit RAR within the window (RA=5381, Window=[5384, 5394), RAR=5394
+2024-12-20T14:42:46.819716 [MAC    ] [W] [ 5410] SCHED: Could not transmit RAR within the window (RA=5401, Window=[5404, 5414), RAR=5414
+2024-12-20T14:42:46.839667 [MAC    ] [W] [ 5430] SCHED: Could not transmit RAR within the window (RA=5421, Window=[5424, 5434), RAR=5434
+2024-12-20T14:42:46.859690 [MAC    ] [W] [ 5450] SCHED: Could not transmit RAR within the window (RA=5441, Window=[5444, 5454), RAR=5454
+2024-12-20T14:42:46.879709 [MAC    ] [W] [ 5470] SCHED: Could not transmit RAR within the window (RA=5461, Window=[5464, 5474), RAR=5474
+2024-12-20T14:42:46.899668 [MAC    ] [W] [ 5490] SCHED: Could not transmit RAR within the window (RA=5481, Window=[5484, 5494), RAR=5494
+2024-12-20T14:42:46.919688 [MAC    ] [W] [ 5510] SCHED: Could not transmit RAR within the window (RA=5501, Window=[5504, 5514), RAR=5514
+2024-12-20T14:42:46.939717 [MAC    ] [W] [ 5530] SCHED: Could not transmit RAR within the window (RA=5521, Window=[5524, 5534), RAR=5534
+2024-12-20T14:42:46.959669 [MAC    ] [W] [ 5550] SCHED: Could not transmit RAR within the window (RA=5541, Window=[5544, 5554), RAR=5554
+2024-12-20T14:42:46.979691 [MAC    ] [W] [ 5570] SCHED: Could not transmit RAR within the window (RA=5561, Window=[5564, 5574), RAR=5574
+2024-12-20T14:42:46.999711 [MAC    ] [W] [ 5590] SCHED: Could not transmit RAR within the window (RA=5581, Window=[5584, 5594), RAR=5594
+2024-12-20T14:42:47.019666 [MAC    ] [W] [ 5610] SCHED: Could not transmit RAR within the window (RA=5601, Window=[5604, 5614), RAR=5614
+2024-12-20T14:42:47.039683 [MAC    ] [W] [ 5630] SCHED: Could not transmit RAR within the window (RA=5621, Window=[5624, 5634), RAR=5634
+2024-12-20T14:42:47.059703 [MAC    ] [W] [ 5650] SCHED: Could not transmit RAR within the window (RA=5641, Window=[5644, 5654), RAR=5654
+2024-12-20T14:42:47.079660 [MAC    ] [W] [ 5670] SCHED: Could not transmit RAR within the window (RA=5661, Window=[5664, 5674), RAR=5674
+2024-12-20T14:42:47.099681 [MAC    ] [W] [ 5690] SCHED: Could not transmit RAR within the window (RA=5681, Window=[5684, 5694), RAR=5694
+2024-12-20T14:42:47.119710 [MAC    ] [W] [ 5710] SCHED: Could not transmit RAR within the window (RA=5701, Window=[5704, 5714), RAR=5714
+2024-12-20T14:42:47.139663 [MAC    ] [W] [ 5730] SCHED: Could not transmit RAR within the window (RA=5721, Window=[5724, 5734), RAR=5734
+2024-12-20T14:42:47.159714 [MAC    ] [W] [ 5750] SCHED: Could not transmit RAR within the window (RA=5741, Window=[5744, 5754), RAR=5754
+2024-12-20T14:42:47.179708 [MAC    ] [W] [ 5770] SCHED: Could not transmit RAR within the window (RA=5761, Window=[5764, 5774), RAR=5774
+2024-12-20T14:42:47.219677 [MAC    ] [W] [ 5810] SCHED: Could not transmit RAR within the window (RA=5801, Window=[5804, 5814), RAR=5814
+2024-12-20T14:42:47.399668 [MAC    ] [W] [ 5990] SCHED: Could not transmit RAR within the window (RA=5981, Window=[5984, 5994), RAR=5994
+2024-12-20T14:42:47.419687 [MAC    ] [W] [ 6010] SCHED: Could not transmit RAR within the window (RA=6001, Window=[6004, 6014), RAR=6014
+2024-12-20T14:42:47.439708 [MAC    ] [W] [ 6030] SCHED: Could not transmit RAR within the window (RA=6021, Window=[6024, 6034), RAR=6034
+2024-12-20T14:42:47.459665 [MAC    ] [W] [ 6050] SCHED: Could not transmit RAR within the window (RA=6041, Window=[6044, 6054), RAR=6054
+2024-12-20T14:42:47.479689 [MAC    ] [W] [ 6070] SCHED: Could not transmit RAR within the window (RA=6061, Window=[6064, 6074), RAR=6074
+2024-12-20T14:42:47.499709 [MAC    ] [W] [ 6090] SCHED: Could not transmit RAR within the window (RA=6081, Window=[6084, 6094), RAR=6094
+2024-12-20T14:42:47.519665 [MAC    ] [W] [ 6110] SCHED: Could not transmit RAR within the window (RA=6101, Window=[6104, 6114), RAR=6114
+2024-12-20T14:42:47.539686 [MAC    ] [W] [ 6130] SCHED: Could not transmit RAR within the window (RA=6121, Window=[6124, 6134), RAR=6134
+2024-12-20T14:42:47.659709 [MAC    ] [W] [ 6250] SCHED: Could not transmit RAR within the window (RA=6241, Window=[6244, 6254), RAR=6254
+2024-12-20T14:42:47.679728 [MAC    ] [W] [ 6270] SCHED: Could not transmit RAR within the window (RA=6261, Window=[6264, 6274), RAR=6274
+2024-12-20T14:42:47.699663 [MAC    ] [W] [ 6290] SCHED: Could not transmit RAR within the window (RA=6281, Window=[6284, 6294), RAR=6294
+2024-12-20T14:42:47.719683 [MAC    ] [W] [ 6310] SCHED: Could not transmit RAR within the window (RA=6301, Window=[6304, 6314), RAR=6314
+2024-12-20T14:42:47.739702 [MAC    ] [W] [ 6330] SCHED: Could not transmit RAR within the window (RA=6321, Window=[6324, 6334), RAR=6334
+2024-12-20T14:42:47.759659 [MAC    ] [W] [ 6350] SCHED: Could not transmit RAR within the window (RA=6341, Window=[6344, 6354), RAR=6354
+2024-12-20T14:42:47.779680 [MAC    ] [W] [ 6370] SCHED: Could not transmit RAR within the window (RA=6361, Window=[6364, 6374), RAR=6374
+2024-12-20T14:42:47.799705 [MAC    ] [W] [ 6390] SCHED: Could not transmit RAR within the window (RA=6381, Window=[6384, 6394), RAR=6394
+2024-12-20T14:42:47.819668 [MAC    ] [W] [ 6410] SCHED: Could not transmit RAR within the window (RA=6401, Window=[6404, 6414), RAR=6414
+2024-12-20T14:42:47.939716 [MAC    ] [W] [ 6530] SCHED: Could not transmit RAR within the window (RA=6521, Window=[6524, 6534), RAR=6534
+2024-12-20T14:42:47.959672 [MAC    ] [W] [ 6550] SCHED: Could not transmit RAR within the window (RA=6541, Window=[6544, 6554), RAR=6554
+2024-12-20T14:42:47.979694 [MAC    ] [W] [ 6570] SCHED: Could not transmit RAR within the window (RA=6561, Window=[6564, 6574), RAR=6574
+2024-12-20T14:42:47.999718 [MAC    ] [W] [ 6590] SCHED: Could not transmit RAR within the window (RA=6581, Window=[6584, 6594), RAR=6594
+2024-12-20T14:42:48.019672 [MAC    ] [W] [ 6610] SCHED: Could not transmit RAR within the window (RA=6601, Window=[6604, 6614), RAR=6614
+2024-12-20T14:42:48.059744 [MAC    ] [W] [ 6650] SCHED: Could not transmit RAR within the window (RA=6641, Window=[6644, 6654), RAR=6654
+2024-12-20T14:42:48.079675 [MAC    ] [W] [ 6670] SCHED: Could not transmit RAR within the window (RA=6661, Window=[6664, 6674), RAR=6674
+2024-12-20T14:42:48.099699 [MAC    ] [W] [ 6690] SCHED: Could not transmit RAR within the window (RA=6681, Window=[6684, 6694), RAR=6694
+2024-12-20T14:42:50.119659 [MAC    ] [W] [ 8710] SCHED: Could not transmit RAR within the window (RA=8701, Window=[8704, 8714), RAR=8714
+2024-12-20T14:42:50.139681 [MAC    ] [W] [ 8730] SCHED: Could not transmit RAR within the window (RA=8721, Window=[8724, 8734), RAR=8734
+2024-12-20T14:42:50.159702 [MAC    ] [W] [ 8750] SCHED: Could not transmit RAR within the window (RA=8741, Window=[8744, 8754), RAR=8754
+2024-12-20T14:42:50.179657 [MAC    ] [W] [ 8770] SCHED: Could not transmit RAR within the window (RA=8761, Window=[8764, 8774), RAR=8774
+2024-12-20T14:42:50.199682 [MAC    ] [W] [ 8790] SCHED: Could not transmit RAR within the window (RA=8781, Window=[8784, 8794), RAR=8794
+2024-12-20T14:42:50.219698 [MAC    ] [W] [ 8810] SCHED: Could not transmit RAR within the window (RA=8801, Window=[8804, 8814), RAR=8814
+2024-12-20T14:42:50.239655 [MAC    ] [W] [ 8830] SCHED: Could not transmit RAR within the window (RA=8821, Window=[8824, 8834), RAR=8834
+2024-12-20T14:42:50.259676 [MAC    ] [W] [ 8850] SCHED: Could not transmit RAR within the window (RA=8841, Window=[8844, 8854), RAR=8854
+2024-12-20T14:42:50.279721 [MAC    ] [W] [ 8870] SCHED: Could not transmit RAR within the window (RA=8861, Window=[8864, 8874), RAR=8874
+2024-12-20T14:42:50.299661 [MAC    ] [W] [ 8890] SCHED: Could not transmit RAR within the window (RA=8881, Window=[8884, 8894), RAR=8894
+2024-12-20T14:42:50.319674 [MAC    ] [W] [ 8910] SCHED: Could not transmit RAR within the window (RA=8901, Window=[8904, 8914), RAR=8914
+2024-12-20T14:42:50.359715 [MAC    ] [W] [ 8950] SCHED: Could not transmit RAR within the window (RA=8941, Window=[8944, 8954), RAR=8954
+2024-12-20T14:42:50.379670 [MAC    ] [W] [ 8970] SCHED: Could not transmit RAR within the window (RA=8961, Window=[8964, 8974), RAR=8974
+2024-12-20T14:42:50.399690 [MAC    ] [W] [ 8990] SCHED: Could not transmit RAR within the window (RA=8981, Window=[8984, 8994), RAR=8994
+2024-12-20T14:42:50.419712 [MAC    ] [W] [ 9010] SCHED: Could not transmit RAR within the window (RA=9001, Window=[9004, 9014), RAR=9014
+2024-12-20T14:42:50.439670 [MAC    ] [W] [ 9030] SCHED: Could not transmit RAR within the window (RA=9021, Window=[9024, 9034), RAR=9034
+2024-12-20T14:42:50.459688 [MAC    ] [W] [ 9050] SCHED: Could not transmit RAR within the window (RA=9041, Window=[9044, 9054), RAR=9054
+2024-12-20T14:42:50.479709 [MAC    ] [W] [ 9070] SCHED: Could not transmit RAR within the window (RA=9061, Window=[9064, 9074), RAR=9074
+2024-12-20T14:42:50.499667 [MAC    ] [W] [ 9090] SCHED: Could not transmit RAR within the window (RA=9081, Window=[9084, 9094), RAR=9094
+2024-12-20T14:42:50.519686 [MAC    ] [W] [ 9110] SCHED: Could not transmit RAR within the window (RA=9101, Window=[9104, 9114), RAR=9114
+2024-12-20T14:42:50.539707 [MAC    ] [W] [ 9130] SCHED: Could not transmit RAR within the window (RA=9121, Window=[9124, 9134), RAR=9134
+2024-12-20T14:42:50.559663 [MAC    ] [W] [ 9150] SCHED: Could not transmit RAR within the window (RA=9141, Window=[9144, 9154), RAR=9154
+2024-12-20T14:42:50.579685 [MAC    ] [W] [ 9170] SCHED: Could not transmit RAR within the window (RA=9161, Window=[9164, 9174), RAR=9174
+2024-12-20T14:42:50.599704 [MAC    ] [W] [ 9190] SCHED: Could not transmit RAR within the window (RA=9181, Window=[9184, 9194), RAR=9194
+2024-12-20T14:42:51.039705 [MAC    ] [W] [ 9630] SCHED: Could not transmit RAR within the window (RA=9621, Window=[9624, 9634), RAR=9634
+2024-12-20T14:42:51.079680 [MAC    ] [W] [ 9670] SCHED: Could not transmit RAR within the window (RA=9661, Window=[9664, 9674), RAR=9674
+2024-12-20T14:42:51.099702 [MAC    ] [W] [ 9690] SCHED: Could not transmit RAR within the window (RA=9681, Window=[9684, 9694), RAR=9694
+2024-12-20T14:42:51.119659 [MAC    ] [W] [ 9710] SCHED: Could not transmit RAR within the window (RA=9701, Window=[9704, 9714), RAR=9714
+2024-12-20T14:42:51.139680 [MAC    ] [W] [ 9730] SCHED: Could not transmit RAR within the window (RA=9721, Window=[9724, 9734), RAR=9734
+2024-12-20T14:42:51.159701 [MAC    ] [W] [ 9750] SCHED: Could not transmit RAR within the window (RA=9741, Window=[9744, 9754), RAR=9754
+2024-12-20T14:42:51.179677 [MAC    ] [W] [ 9770] SCHED: Could not transmit RAR within the window (RA=9761, Window=[9764, 9774), RAR=9774
+2024-12-20T14:42:51.199682 [MAC    ] [W] [ 9790] SCHED: Could not transmit RAR within the window (RA=9781, Window=[9784, 9794), RAR=9794
+2024-12-20T14:42:51.219705 [MAC    ] [W] [ 9810] SCHED: Could not transmit RAR within the window (RA=9801, Window=[9804, 9814), RAR=9814
+2024-12-20T14:42:51.239653 [MAC    ] [W] [ 9830] SCHED: Could not transmit RAR within the window (RA=9821, Window=[9824, 9834), RAR=9834
+2024-12-20T14:42:51.259681 [MAC    ] [W] [ 9850] SCHED: Could not transmit RAR within the window (RA=9841, Window=[9844, 9854), RAR=9854
+2024-12-20T14:42:51.279703 [MAC    ] [W] [ 9870] SCHED: Could not transmit RAR within the window (RA=9861, Window=[9864, 9874), RAR=9874
+2024-12-20T14:42:51.299659 [MAC    ] [W] [ 9890] SCHED: Could not transmit RAR within the window (RA=9881, Window=[9884, 9894), RAR=9894
+2024-12-20T14:42:51.319682 [MAC    ] [W] [ 9910] SCHED: Could not transmit RAR within the window (RA=9901, Window=[9904, 9914), RAR=9914
+2024-12-20T14:42:51.339702 [MAC    ] [W] [ 9930] SCHED: Could not transmit RAR within the window (RA=9921, Window=[9924, 9934), RAR=9934
+2024-12-20T14:42:51.359658 [MAC    ] [W] [ 9950] SCHED: Could not transmit RAR within the window (RA=9941, Window=[9944, 9954), RAR=9954
+2024-12-20T14:42:51.379681 [MAC    ] [W] [ 9970] SCHED: Could not transmit RAR within the window (RA=9961, Window=[9964, 9974), RAR=9974
+2024-12-20T14:42:51.399699 [MAC    ] [W] [ 9990] SCHED: Could not transmit RAR within the window (RA=9981, Window=[9984, 9994), RAR=9994
+2024-12-20T14:42:51.419658 [MAC    ] [W] [10010] SCHED: Could not transmit RAR within the window (RA=10001, Window=[10004, 10014), RAR=10014
+2024-12-20T14:42:51.439677 [MAC    ] [W] [10030] SCHED: Could not transmit RAR within the window (RA=10021, Window=[10024, 10034), RAR=10034
+2024-12-20T14:42:51.459700 [MAC    ] [W] [10050] SCHED: Could not transmit RAR within the window (RA=10041, Window=[10044, 10054), RAR=10054
+2024-12-20T14:42:51.479677 [MAC    ] [W] [10070] SCHED: Could not transmit RAR within the window (RA=10061, Window=[10064, 10074), RAR=10074
+2024-12-20T14:42:51.499676 [MAC    ] [W] [10090] SCHED: Could not transmit RAR within the window (RA=10081, Window=[10084, 10094), RAR=10094
+2024-12-20T14:42:51.519719 [MAC    ] [W] [10110] SCHED: Could not transmit RAR within the window (RA=10101, Window=[10104, 10114), RAR=10114
+2024-12-20T14:42:51.539686 [MAC    ] [W] [10130] SCHED: Could not transmit RAR within the window (RA=10121, Window=[10124, 10134), RAR=10134
+2024-12-20T14:42:51.559675 [MAC    ] [W] [10150] SCHED: Could not transmit RAR within the window (RA=10141, Window=[10144, 10154), RAR=10154
+2024-12-20T14:42:51.579694 [MAC    ] [W] [10170] SCHED: Could not transmit RAR within the window (RA=10161, Window=[10164, 10174), RAR=10174
+2024-12-20T14:42:51.599713 [MAC    ] [W] [10190] SCHED: Could not transmit RAR within the window (RA=10181, Window=[10184, 10194), RAR=10194
+2024-12-20T14:42:51.619673 [MAC    ] [W] [10210] SCHED: Could not transmit RAR within the window (RA=10201, Window=[10204, 10214), RAR=10214
+2024-12-20T14:42:51.639690 [MAC    ] [W] [10230] SCHED: Could not transmit RAR within the window (RA=10221, Window=[10224, 10234), RAR=10234
+2024-12-20T14:42:51.659711 [MAC    ] [W] [   10] SCHED: Could not transmit RAR within the window (RA=1, Window=[4, 14), RAR=14
+2024-12-20T14:42:51.679703 [MAC    ] [W] [   30] SCHED: Could not transmit RAR within the window (RA=21, Window=[24, 34), RAR=34
+2024-12-20T14:42:51.699693 [MAC    ] [W] [   50] SCHED: Could not transmit RAR within the window (RA=41, Window=[44, 54), RAR=54
+2024-12-20T14:42:51.739668 [MAC    ] [W] [   90] SCHED: Could not transmit RAR within the window (RA=81, Window=[84, 94), RAR=94
+2024-12-20T14:42:52.079697 [MAC    ] [W] [  430] SCHED: Could not transmit RAR within the window (RA=421, Window=[424, 434), RAR=434
+2024-12-20T14:50:02.648918 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-20T15:01:58.124376 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-20T15:04:59.250971 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=2
+2024-12-20T15:05:00.541863 [RLC    ] [E] DRB1: Generated empty RLC PDU.
+2024-12-20T15:05:04.235933 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-20T17:28:34.760185 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-20T18:02:04.718137 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=798
+2024-12-20T18:10:27.376147 [MAC    ] [W] [ 3902] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:27.456052 [MAC    ] [W] [ 3982] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:27.546116 [MAC    ] [W] [ 4072] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:27.635995 [MAC    ] [W] [ 4162] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:27.726053 [MAC    ] [W] [ 4252] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:27.806086 [MAC    ] [W] [ 4332] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:27.896092 [MAC    ] [W] [ 4422] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:27.976101 [MAC    ] [W] [ 4502] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:28.066096 [MAC    ] [W] [ 4592] Updating user C-RNTI: rnti=0x23f already released.
+2024-12-20T18:10:48.687025 [S1AP   ] [W] UE context for RNTI:0x24a is in zombie state. Releasing...
+2024-12-20T18:11:13.647156 [S1AP   ] [W] UE context for RNTI:0x24b is in zombie state. Releasing...
+2024-12-20T20:02:51.716813 [S1AP   ] [W] UE context for RNTI:0x253 is in zombie state. Releasing...
+2024-12-20T20:03:16.726775 [S1AP   ] [W] UE context for RNTI:0x254 is in zombie state. Releasing...
+2024-12-20T20:03:41.671715 [RLC    ] [W] SRB1: Signaling max number of reTx=4 for SN=7
+2024-12-20T20:03:46.743757 [RRC    ] [W] Not adding NAS message to connection reconfiguration. E-RAB id 5
+2024-12-20T20:06:28.046438 [RLC    ] [W] DRB1: Signaling max number of reTx=32 for SN=174
+2024-12-20T21:32:01.102507 [MAC    ] [W] [ 4200] SCHED: Could not transmit RAR within the window (RA=4191, Window=[4194, 4204), RAR=4204
+2024-12-20T21:32:01.122523 [MAC    ] [W] [ 4220] SCHED: Could not transmit RAR within the window (RA=4211, Window=[4214, 4224), RAR=4224
+2024-12-20T21:32:01.152561 [MAC    ] [W] [ 4250] SCHED: Could not transmit RAR within the window (RA=4241, Window=[4244, 4254), RAR=4254
+2024-12-20T21:32:01.172517 [MAC    ] [W] [ 4270] SCHED: Could not transmit RAR within the window (RA=4261, Window=[4264, 4274), RAR=4274
+2024-12-20T21:32:01.192539 [MAC    ] [W] [ 4290] SCHED: Could not transmit RAR within the window (RA=4281, Window=[4284, 4294), RAR=4294
+2024-12-20T21:32:01.212554 [MAC    ] [W] [ 4310] SCHED: Could not transmit RAR within the window (RA=4301, Window=[4304, 4314), RAR=4314
+2024-12-20T21:32:01.232516 [MAC    ] [W] [ 4330] SCHED: Could not transmit RAR within the window (RA=4321, Window=[4324, 4334), RAR=4334
+2024-12-20T21:32:01.252531 [MAC    ] [W] [ 4350] SCHED: Could not transmit RAR within the window (RA=4341, Window=[4344, 4354), RAR=4354
+2024-12-20T21:32:01.272558 [MAC    ] [W] [ 4370] SCHED: Could not transmit RAR within the window (RA=4361, Window=[4364, 4374), RAR=4374
+2024-12-20T21:32:01.292512 [MAC    ] [W] [ 4390] SCHED: Could not transmit RAR within the window (RA=4381, Window=[4384, 4394), RAR=4394
+2024-12-20T21:32:21.794282 [S1AP   ] [W] UE context for RNTI:0x276 is in zombie state. Releasing...
+2024-12-20T21:32:36.792115 [MAC    ] [W] [ 9170] SCHED: Could not transmit RAR within the window (RA=9161, Window=[9164, 9174), RAR=9174
+2024-12-20T21:32:46.813965 [S1AP   ] [W] UE context for RNTI:0x277 is in zombie state. Releasing...
+2024-12-21T02:10:48.176671 [COMN   ] [D] [    0] RxSockets: Closing rx socket handler thread
+2024-12-21T02:10:48.177680 [COMN   ] [D] [    0] RxSockets: closed.
+2024-12-21T02:10:48.177729 [COMN   ] [D] [    0] Socket=7 was closed.
+2024-12-21T02:10:48.180882 [COMN   ] [D] [    0] Socket=-1 could not be closed.
+2024-12-21T02:10:48.181317 [COMN   ] [D] [    0] Socket=-1 could not be closed.
