@@ -1,5 +1,9 @@
 # LTE_Indoor_Tracking
-This is a home project leveraging LTE KPI data from srsran and through the use machine learning to estimate the napping location of my dog. The LTE eNb generates metrics from latentecy, signal quality, and data rates. The goal is to be able to utulize this alongside some simple training data correlated to a gird layout of the apt. Our subject (My dog booker), is a lazy boy so periodicly logging the places where he naps should be fairly easy. Hes tends to move around randomly throughout the day, and then stay in one spot ("nap") for an extended period of time.
+This is a home project leveraging LTE KPI data from srsRAN and using machine learning to estimate the napping location of my dog. The LTE eNB generates metrics from latency, signal quality, and data rates. The goal is to utilize this data alongside simple training data correlated to a grid layout of the apartment. 
+
+Our subject, Booker (my dog), is a lazy boy, so periodically logging the places where he naps should be fairly easy. He tends to move around randomly throughout the day and then stays in one spot ("nap") for an extended period.
+
+---
 
 # SuT (System Under Test)
 <p float="left">
@@ -8,7 +12,13 @@ This is a home project leveraging LTE KPI data from srsran and through the use m
 </p>
 
 # UE (User Equipment) and Why 4G LTE?
-The UE is a cheap LTE watch that has a Sim card. I neeed something that was portable,rugged,easily interfaceable, and somehow attachble to my dog. A smart watch fit all this perfectly. Ideally we would use a 5G capable device, however most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open source networks as they requied GSMA keys to program which are not available. As of this project eSIM devices are not programmable for open source private networks. Therefore this project leverages currently available smart watches that have sim cards. Simcsrds can be programmed at home and are much eaiser obtain. Currently on the market smartwatches that utulize sim cards only have LTE compatibility and are available on Alibaba. Due to this LTE constraint of thr Smart Watch Equipment, we leveraged srsRAN 4G. 
+The UE is a cheap LTE smartwatch with a SIM card. I needed something portable, rugged, easily interfaceable, and attachable to my dog. A smartwatch fit these requirements perfectly. 
+
+Ideally, we would use a 5G-capable device; however, most 5G IoT/SmartWatches leverage eSIM. eSIM is not friendly for open-source networks as they require GSMA keys, which are not publicly available. Therefore, this project leverages currently available LTE-compatible smartwatches with physical SIM cards, which are programmable at home and easier to obtain. 
+
+Due to the LTE constraint of the smartwatch, we leveraged srsRAN 4G.
+
+---
 
 # PuT (Puppy Under Test)
 <p float="left">
@@ -17,10 +27,14 @@ The UE is a cheap LTE watch that has a Sim card. I neeed something that was port
 </p>
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/Booker_cropped.png?raw=true">  -->
 <!-- <img width="448" alt="image" src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/SubjectSleeping.png?raw=true"> -->
-Our fabulous subject Booker is my 4yr old Sheep-a-doodle. He loves long walks, playing bacon ball, and NAPS! Using a dog to collect data is simple enough, because he moves around the apt a lot durring the day but also takes lots of naps and staying in a given location for an extended time(see the plots below). Having low movement is key for this sort of experiment. We don't expect to be able to track specific movements, like moving from the bedroom to the living room. The goal instead, is to guess where he is napping! This makes for datasets that should be long, and have common KPI data (At least this is the goal anyway!). 
+Our fabulous subject, Booker, is my 4-year-old Sheep-a-Doodle. He loves long walks, playing bacon ball, and NAPS! Using a dog to collect data is simple enough because he moves around the apartment a lot during the day but also takes frequent naps in fixed locations (see the plots below). 
 
+Having low movement is key for this experiment. We don't expect to track specific movements, like walking from the bedroom to the living room. Instead, the goal is to predict where he's napping! This should result in datasets with consistent and measurable KPI data.
+
+---
 # Training Location Data
-The data collection is done with a quick python/html locally hosted website. This allows the user to click on a given grid which then logs the location and time (in ms). This makes it fairly painless to gather learning data throughout the day.  
+The data collection is done with a quick Python/HTML locally hosted website. This allows the user to click on a grid layout, logging the location and time (in ms). This setup makes it fairly painless to gather training data throughout the day.
+ 
 
 
 <img width="400" alt="image"
@@ -53,8 +67,7 @@ B5,2024-11-13 15:42:25.03
 <img width="1000" alt="image"
 src="https://github.com/user-attachments/assets/8ab0a6be-e766-4e43-b2d7-999419394f1f">
 
-The eNb metrics collected are generated in a .json file. We run a quick script to convert these to .csv to be able to graph them more easily in graphana. 
-
+The eNB metrics collected are generated in a .json file. A quick script converts these files into .csv format to make them easier to visualize in Grafana.
 ```csv
 type,timestamp,carrier_id,pci,nof_rach,ue_list,ue_rnti,dl_cqi,dl_mcs,ul_pusch_rssi,ul_pucch_rssi,ul_pucch_ni,ul_pusch_tpc,ul_pucch_tpc,dl_cqi_offset,ul_snr_offset,dl_bitrate,dl_bler,ul_snr,ul_mcs,ul_bitrate,ul_bler,ul_phr,ul_bsr,bearer_list,bearer_id,qci,dl_total_bytes,ul_total_bytes,dl_latency,ul_latency,dl_buffered_bytes,ul_buffered_bytes
 metrics,1731590329152,0,1,1,"[{'ue_container': {'ue_rnti': 70, 'dl_cqi': 14.759999, 'dl_mcs': 12.388889, 'ul_pusch_rssi': -98.91316, 'ul_pucch_rssi': -96.947395, 'ul_pucch_ni': 48.44835, 'ul_pusch_tpc': 0, 'ul_pucch_tpc': 0, 'dl_cqi_offset': 0.013000001, 'ul_snr_offset': 0.04399998, 'dl_bitrate': 2080.0, 'dl_bler': 0.0, 'ul_snr': 5.5352015, 'ul_mcs': 2.877193, 'ul_bitrate': 4528.0, 'ul_bler': 0.0, 'ul_phr': 40.0, 'ul_bsr': 0, 'bearer_list': [{'bearer_container': {'bearer_id': 3, 'qci': 9, 'dl_total_bytes': 0, 'ul_total_bytes': 0, 'dl_latency': 0.0, 'ul_latency': 0.0, 'dl_buffered_bytes': 0, 'ul_buffered_bytes': 0}}]}}]",70,14.759999,12.388889,-98.91316,-96.947395,48.44835,0,0,0.013000001,0.04399998,2080.0,0.0,5.5352015,2.877193,4528.0,0.0,40.0,0,"[{'bearer_container': {'bearer_id': 3, 'qci': 9, 'dl_total_bytes': 0, 'ul_total_bytes': 0, 'dl_latency': 0.0, 'ul_latency': 0.0, 'dl_buffered_bytes': 0, 'ul_buffered_bytes': 0}}]",3,9,0,0,0.0,0.0,0,0
