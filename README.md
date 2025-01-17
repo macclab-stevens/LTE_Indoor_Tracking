@@ -5,6 +5,9 @@ Our subject, Booker (my dog), is a lazy boy, so periodically logging the places 
 
 ---
 
+# Research Question(s)
+Can we correlate user locations based on KPI data from an LTE eNb?
+
 # SuT (System Under Test)
 <p float="left">
   <img src="https://github.com/macclab-stevens/LTE_Indoor_Tracking/blob/main/images/TestSystem.png?raw=true" height="300" />
