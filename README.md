@@ -14,6 +14,8 @@ Can we correlate user locations based on KPI data from an LTE eNb?
   <img src="https://github.com/user-attachments/assets/5d9c67b4-93e6-48d3-bb97-c820e55a118d" height="300" />
 </p>
 
+Insert image of Data flow 
+
 # UE (User Equipment) and Why 4G LTE?
 The UE is a cheap LTE smartwatch with a SIM card. I needed something portable, rugged, easily interfaceable, and attachable to my dog. A smartwatch fit these requirements perfectly. 
 
